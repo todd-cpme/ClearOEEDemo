@@ -1,0 +1,129 @@
+# Machine event catalog — correlates Loki events with metric downtimes.
+# Sequences are generated relative to each down block:
+#   precursors: emitted BEFORE the down starts (negative offsets, seconds)
+#   start:      emitted at down start (the fault/trigger event)
+#   during:     emitted inside the down window at fractional positions
+#   end:        emitted at down end / shortly after (restart sequence)
+# {line} {factory} {dur} {sku} placeholders are filled by the simulator.
+
+reasons:
+  changeover:
+    display: "Change Over - Line clearance"
+    planned: true
+    duration_min: [25, 90]
+    weight: 3
+    precursors:
+      - {offset: [-900, -300], level: info,  src: MES, msg: "Recipe change queued: {sku_from} -> {sku_to}"}
+    start:
+      -   {level: info,  src: MES, msg: "Change over started - line clearance in progress"}
+      -   {level: info,  src: PLC, msg: "Guard door opened - operator station 1"}
+    during:
+      - {at: 0.2, level: info, src: MES, msg: "Line clearance checklist item complete: infeed cleared"}
+      - {at: 0.5, level: info, src: MES, msg: "Line clearance checklist item complete: reject bin verified empty"}
+      - {at: 0.8, level: info, src: PLC, msg: "Recipe {sku_to} downloaded to PLC - parameters verified"}
+    end:
+      - {offset: 0,   level: info, src: PLC, msg: "Master reset - line restart"}
+      - {offset: 150, level: info, src: PLC, msg: "Ramp to rate complete ({rate} uph)"}
+
+  scheduled:
+    display: "Scheduled Downtime"
+    planned: true
+    duration_min: [60, 240]
+    weight: 1
+    precursors:
+      - {offset: [-1800, -600], level: info, src: MES, msg: "PM work order {wo} scheduled - line will stop at end of current lot"}
+    start:
+      - {level: info, src: MES, msg: "Scheduled downtime started - PM work order {wo}"}
+      - {level: warn, src: PLC, msg: "LOTO applied - energy isolation verified"}
+    during:
+      - {at: 0.5, level: info, src: MES, msg: "PM task complete: lubrication / inspection checklist"}
+    end:
+      - {offset: -120, level: info, src: PLC, msg: "LOTO removed"}
+      - {offset: 0,    level: info, src: PLC, msg: "Master reset - line restart"}
+
+  jam:
+    display: "Jam"
+    planned: false
+    duration_min: [4, 25]
+    weight: 6
+    precursors:
+      - {offset: [-420, -60], level: warn, src: PLC, msg: "Infeed backlog high - accumulation table at 85%"}
+      - {offset: [-240, -30], level: warn, src: PLC, msg: "Torque limit warning - infeed screw drive"}
+    start:
+      - {level: error, src: PLC, msg: "E201 INFEED JAM - line stopped by PLC interlock"}
+    during:
+      - {at: 0.15, level: info, src: HMI, msg: "Alarm E201 acknowledged by operator"}
+      - {at: 0.8,  level: info, src: HMI, msg: "Jam cleared - guards closed"}
+    end:
+      - {offset: 0,   level: info, src: PLC, msg: "Fault reset - line restart"}
+      - {offset: 120, level: info, src: PLC, msg: "Ramp to rate complete ({rate} uph)"}
+
+  starved:
+    display: "Starved - Upstream"
+    planned: false
+    duration_min: [5, 20]
+    weight: 4
+    precursors:
+      - {offset: [-300, -60], level: warn, src: PLC, msg: "Infeed conveyor low - upstream supply degraded"}
+    start:
+      - {level: error, src: PLC, msg: "E310 STARVED - no product at infeed photo-eye for 60s"}
+    during:
+      - {at: 0.2, level: info, src: HMI, msg: "Alarm E310 acknowledged by operator"}
+    end:
+      - {offset: 0, level: info, src: PLC, msg: "Product present at infeed - auto restart"}
+
+  blocked:
+    display: "Blocked - Downstream"
+    planned: false
+    duration_min: [4, 15]
+    weight: 3
+    precursors:
+      - {offset: [-300, -60], level: warn, src: PLC, msg: "Discharge back-pressure rising - downstream accumulation at 90%"}
+    start:
+      - {level: error, src: PLC, msg: "E311 BLOCKED - discharge full, line paused"}
+    end:
+      - {offset: 0, level: info, src: PLC, msg: "Downstream cleared - auto restart"}
+
+  quality_hold:
+    display: "Quality Hold"
+    planned: false
+    duration_min: [15, 45]
+    weight: 2
+    precursors:
+      - {offset: [-600, -120], level: warn, src: VIS, msg: "Vision reject rate high: rolling 15 min at {rej}% (limit 3.0%)"}
+      - {offset: [-300, -60],  level: warn, src: VIS, msg: "Camera 2 calibration drift detected - contrast margin low"}
+    start:
+      - {level: error, src: MES, msg: "QUALITY HOLD - lot paused pending QA disposition"}
+    during:
+      - {at: 0.5, level: info, src: MES, msg: "QA sampling in progress - 32 pc AQL pull"}
+    end:
+      - {offset: 0, level: info, src: MES, msg: "QA disposition: RELEASE - hold lifted, line restart"}
+
+  no_operator:
+    display: "No Operator"
+    planned: false
+    duration_min: [8, 30]
+    weight: 2
+    start:
+      - {level: warn, src: HMI, msg: "Operator sign-in timeout - line paused (break / shift relief)"}
+    end:
+      - {offset: 0, level: info, src: HMI, msg: "Operator {op} signed in - line restart"}
+
+  estop:
+    display: "E-Stop"
+    planned: false
+    duration_min: [3, 12]
+    weight: 1
+    start:
+      - {level: error, src: PLC, msg: "E001 E-STOP PRESSED - operator station 2 - safety circuit open"}
+    during:
+      - {at: 0.5, level: info, src: HMI, msg: "E-stop reset - safety circuit closed"}
+    end:
+      - {offset: 0, level: info, src: PLC, msg: "Safety reset complete - master reset - line restart"}
+
+# Background chatter while RUNNING (kept sparse; makes logs look real).
+running_chatter:
+  - {per_hour: 1.0,  level: info, src: MES, msg: "Hourly production: pass={pass_hr} fail={fail_hr} yield={yield_hr}%"}
+  - {per_hour: 0.25, level: warn, src: VIS, msg: "Vision reject burst: {rej_n} consecutive rejects - self-cleared"}
+  - {per_hour: 0.15, level: warn, src: PLC, msg: "Servo temperature high warning - capper axis (78 C)"}
+  - {per_hour: 0.1,  level: info, src: MES, msg: "Operator {op} signed in at station 1"}

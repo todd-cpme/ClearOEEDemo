@@ -1,0 +1,67 @@
+name: feed
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Run the ONE-TIME backfill (must happen before any cron push)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Guard - cron only runs after backfill
+        if: github.event_name == 'schedule'
+        run: |
+          if [ ! -f .backfilled ]; then
+            echo "Backfill has not run yet; skipping cron push so the past stays writable."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: env.SKIP != '1'
+        with: {python-version: "3.12"}
+
+      - name: Install deps
+        if: env.SKIP != '1'
+        run: pip install requests pyyaml
+
+      - name: Push
+        if: env.SKIP != '1'
+        env:
+          MIMIR_INFLUX_URL: ${{ secrets.MIMIR_INFLUX_URL }}
+          MIMIR_USER: ${{ secrets.MIMIR_USER }}
+          LOKI_URL: ${{ secrets.LOKI_URL }}
+          LOKI_USER: ${{ secrets.LOKI_USER }}
+          GC_TOKEN: ${{ secrets.GC_TOKEN }}
+        run: |
+          if [ "${{ inputs.backfill }}" = "true" ]; then
+            python feeder/run.py --backfill
+          else
+            python feeder/run.py
+          fi
+
+      - name: Commit backfill marker (also serves as monthly keepalive)
+        if: inputs.backfill == true || github.run_number == 1
+        run: |
+          date -u +%FT%TZ > .backfilled
+          git config user.name feeder-bot && git config user.email bot@cpme-usa.com
+          git add .backfilled && git commit -m "backfill complete" && git push
+
+      # GitHub disables schedules after 60 days without repo activity.
+      - name: Monthly keepalive commit
+        if: env.SKIP != '1' && github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%d%H%M)" \< "010030" ]; then
+            date -u +%FT%TZ > .heartbeat
+            git config user.name feeder-bot && git config user.email bot@cpme-usa.com
+            git add .heartbeat && git commit -m "heartbeat" && git push || true
+          fi
