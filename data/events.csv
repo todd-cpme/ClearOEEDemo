@@ -1,14 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-05T19:52:22Z,Kitting,KIT08,info,MES,Hourly production: pass=2352 fail=62 yield=91.1%
-2026-08-05T19:52:45Z,Packaging,PKG05,info,MES,Hourly production: pass=3125 fail=48 yield=94.5%
-2026-08-05T19:53:03Z,Kitting,KIT03,info,HMI,Alarm E201 acknowledged by operator
-2026-08-05T19:54:09Z,Packaging,PKG06,info,MES,QA sampling in progress - 32 pc AQL pull
-2026-08-05T19:54:19Z,Assembly,ASM02,info,PLC,Product present at infeed - auto restart
-2026-08-05T19:54:59Z,Coating,COT03,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-05T19:55:42Z,Molding,MLD04,info,PLC,Product present at infeed - auto restart
-2026-08-05T19:56:27Z,Packaging,PKG07,info,MES,Change over started - line clearance in progress
-2026-08-05T19:56:27Z,Packaging,PKG07,info,PLC,Guard door opened - operator station 1
-2026-08-05T19:57:08Z,Kitting,KIT03,info,HMI,Jam cleared - guards closed
 2026-08-05T19:57:37Z,Coating,COT03,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
 2026-08-05T19:57:45Z,Molding,MLD07,info,MES,PM work order WO-49017 scheduled - line will stop at end of current lot
 2026-08-05T19:58:17Z,Kitting,KIT07,warn,PLC,Infeed backlog high - accumulation table at 85%
@@ -75,7 +65,7 @@ ts,factory,line,level,src,message
 2026-08-05T20:46:54Z,Molding,MLD05,info,MES,Recipe change queued: SKU-1042 -> SKU-2044
 2026-08-05T20:47:23Z,Packaging,PKG05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-08-05T20:47:28Z,Coating,COT02,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-05T20:47:34Z,Packaging,PKG07,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
+2026-08-05T20:47:34Z,Packaging,PKG07,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
 2026-08-05T20:51:06Z,Assembly,ASM05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-08-05T20:51:15Z,Molding,MLD05,info,MES,Hourly production: pass=1793 fail=261 yield=90.3%
 2026-08-05T20:51:20Z,Molding,MLD04,warn,PLC,Infeed backlog high - accumulation table at 85%
