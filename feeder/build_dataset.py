@@ -92,9 +92,10 @@ def build_hourly(sim: Simulator, start, end) -> list[list]:
 def build_state(sim: Simulator, start, end) -> list[list]:
     """One row per state transition. The state-timeline panel holds each value
     until the next row, so transitions alone draw the full timeline."""
-    rows = []
-    for fac, fcfg in sim.plant["factories"].items():
-        for line in fcfg["lines"]:
+    rows, order = [], {}
+    for fi, (fac, fcfg) in enumerate(sim.plant["factories"].items()):
+        for li, line in enumerate(fcfg["lines"]):
+            order[line] = (fi, li)
             for b in sim.schedule(fac, line, end):
                 if b.end < start or b.start > end:
                     continue
@@ -106,7 +107,18 @@ def build_state(sim: Simulator, start, end) -> list[list]:
                 rows.append([iso(b.start), fac, line,
                              "Running" if b.state == "running" else "Down",
                              reason, dur if b.state == "down" else 0])
-    rows.sort(key=lambda r: r[0])
+            # Close every production day explicitly. A state timeline holds the
+            # last value until the next row, so without this the final in-shift
+            # state runs green straight through the night and the weekend.
+            t = start.replace(minute=0, second=0, microsecond=0)
+            while t <= end:
+                if sim.in_production(t) and not sim.in_production(t + timedelta(hours=1)):
+                    rows.append([iso(t + timedelta(hours=1)), fac, line, "Down",
+                                 "Outside production hours", 0])
+                t += timedelta(hours=1)
+    # grouped by factory then line, time ascending within a line: partitionByValues
+    # keeps this encounter order, which is what orders the timeline rows
+    rows.sort(key=lambda r: (order[r[2]], r[0]))
     return rows
 
 

@@ -139,8 +139,7 @@ def factory_table(fac, fcfg, x, y):
                                 {"id": "thresholds", "value": oee_thr(fcfg["oee_target"])}]},
                 STATUS_OVERRIDE,
                 {"matcher": {"id": "byName", "options": "Reason"},
-                 "properties": [{"id": "custom.align", "value": "left"},
-                                {"id": "custom.width", "value": 175}]},
+                 "properties": [{"id": "custom.align", "value": "left"}]},
                 # eight columns in a half-width panel: without explicit widths the
                 # last two get pushed out of view behind a scrollbar
                 {"matcher": {"id": "byName", "options": "Line"},
@@ -262,6 +261,7 @@ def trends():
          "options": {"mergeValues": True, "showValue": "never", "rowHeight": 0.9,
                      "legend": {"showLegend": False}},
          "fieldConfig": {"defaults": {"custom": {"fillOpacity": 90, "lineWidth": 0},
+                                       "displayName": "${__field.labels.line}",
                                        "mappings": [{"type": "value", "options": {
                                            "Running": {"color": "green", "index": 0},
                                            "Down": {"color": "red", "index": 1}}}]},
@@ -292,6 +292,7 @@ def trends():
          "options": {"legend": {"showLegend": True, "placement": "bottom", "displayMode": "list"}},
          "fieldConfig": {"defaults": {"custom": {"lineWidth": 2, "fillOpacity": 5,
                                                   "spanNulls": True},
+                                       "displayName": "${__field.labels.factory}",
                                        "unit": "percent", "min": 80, "max": 100,
                                        "decimals": 2}, "overrides": []}},
 
