@@ -1,20 +1,28 @@
+# Regenerates the CSVs the dashboards read. There is no metrics ingestion here:
+# this stack rejects samples older than ~1 h (measured), so the 14-day history
+# is served as files from the repo instead. See README.
 name: feed
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"    # live files: today / events / status / rollups
+    - cron: "20 5 * * *"      # full window: hourly + state, slides the 21-day window
   workflow_dispatch:
     inputs:
-      backfill:
-        description: "Run the ONE-TIME backfill (must happen before any cron push)"
+      full:
+        description: "Regenerate the whole 21-day window, not just the live files"
         type: boolean
         default: false
-      probe:
-        description: "Diagnose write limits only (throwaway series, safe to re-run)"
+      push_dashboards:
+        description: "Also build and push the dashboards to Grafana"
         type: boolean
         default: false
 
 permissions:
   contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
 
 jobs:
   feed:
@@ -22,55 +30,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Guard - cron only runs after backfill
-        if: github.event_name == 'schedule'
-        run: |
-          if [ ! -f .backfilled ]; then
-            echo "Backfill has not run yet; skipping cron push so the past stays writable."
-            echo "SKIP=1" >> "$GITHUB_ENV"
-          fi
-
       - uses: actions/setup-python@v5
-        if: env.SKIP != '1'
         with: {python-version: "3.12"}
 
       - name: Install deps
-        if: env.SKIP != '1'
-        run: pip install requests pyyaml
+        run: pip install pyyaml
 
-      - name: Push
-        if: env.SKIP != '1'
-        env:
-          MIMIR_INFLUX_URL: ${{ secrets.MIMIR_INFLUX_URL }}
-          MIMIR_USER: ${{ secrets.MIMIR_USER }}
-          LOKI_URL: ${{ secrets.LOKI_URL }}
-          LOKI_USER: ${{ secrets.LOKI_USER }}
-          GC_TOKEN: ${{ secrets.GC_TOKEN }}
+      - name: Regenerate dataset
         run: |
-          if [ "${{ inputs.probe }}" = "true" ]; then
-            python feeder/run.py --probe
-          elif [ "${{ inputs.backfill }}" = "true" ]; then
-            python feeder/run.py --backfill
+          if [ "${{ inputs.full }}" = "true" ] || [ "${{ github.event.schedule }}" = "20 5 * * *" ]; then
+            python feeder/build_dataset.py
           else
-            python feeder/run.py
+            python feeder/build_dataset.py --live
           fi
 
-      # Only a real, successful backfill dispatch may write this marker. A cron
-      # run that skipped (no marker yet) must NOT create it, or the next cron
-      # would push "now" and permanently close the backfill window.
-      - name: Commit backfill marker
-        if: github.event_name == 'workflow_dispatch' && inputs.backfill == true && inputs.probe != true
+      - name: Commit if changed
         run: |
-          date -u +%FT%TZ > .backfilled
-          git config user.name feeder-bot && git config user.email bot@cpme-usa.com
-          git add .backfilled && git commit -m "backfill complete" && git push
-
-      # GitHub disables schedules after 60 days without repo activity.
-      - name: Monthly keepalive commit
-        if: env.SKIP != '1' && github.event_name == 'schedule'
-        run: |
-          if [ "$(date -u +%d%H%M)" \< "010030" ]; then
-            date -u +%FT%TZ > .heartbeat
-            git config user.name feeder-bot && git config user.email bot@cpme-usa.com
-            git add .heartbeat && git commit -m "heartbeat" && git push || true
+          git config user.name feeder-bot
+          git config user.email bot@cpme-usa.com
+          git add data
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "data: refresh $(date -u +%FT%TZ)"
+            git pull --rebase --autostash origin main || true
+            git push
           fi
+
+      # Dashboards are pushed from the runner so the large JSON never needs to
+      # leave the repo. Requires GRAFANA_URL, GRAFANA_SA_TOKEN, INFINITY_UID.
+      - name: Push dashboards to Grafana
+        if: inputs.push_dashboards == true
+        env:
+          GRAFANA_URL: ${{ secrets.GRAFANA_URL }}
+          GRAFANA_SA_TOKEN: ${{ secrets.GRAFANA_SA_TOKEN }}
+          INFINITY_UID: ${{ secrets.INFINITY_UID }}
+          DATA_BASE: ${{ vars.DATA_BASE || format('https://raw.githubusercontent.com/{0}/main/data', github.repository) }}
+        run: |
+          pip install requests
+          python dashboards/build_dashboards.py --push
