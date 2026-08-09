@@ -1,4 +1,4 @@
-"""Deterministic plant simulator for the ClearTrend Flex demo.
+"""Deterministic plant simulator for the ClearTrend demo.
 
 Everything derives from (plant.yaml, events.yaml, requested time interval).
 Same inputs -> identical samples and events, so overlapping pushes are

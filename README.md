@@ -1,4 +1,4 @@
-# ClearTrend Flex demo - Grafana vs SSRS
+# ClearTrend demo - Grafana vs SSRS
 
 Synthetic factory (5 factories / 21 lines, modeled on the client's SSRS captures)
 rendered as live Grafana dashboards and shared by public link.

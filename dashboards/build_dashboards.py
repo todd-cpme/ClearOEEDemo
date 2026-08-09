@@ -89,7 +89,7 @@ STATUS_OVERRIDE = {
 def footer(y):
     return {"id": pid(), "type": "text", "gridPos": {"x": 0, "y": y, "w": 24, "h": 3},
             "options": {"mode": "markdown", "content":
-                        "**Demo data - synthetic.** ClearTrend Flex by CPME USA. "
+                        "**Demo data - synthetic.** ClearTrend by CPME USA. "
                         "Live feed, page refreshes every minute; underlying data regenerates "
                         "every 10 minutes. Production calendar Mon-Sat 06:00-22:00, so lines "
                         "read Down outside those hours."}}
@@ -130,7 +130,7 @@ def nav(active):
     return {"id": pid(), "type": "text", "transparent": True,
             "gridPos": {"x": 0, "y": 0, "w": 24, "h": NAV_H},
             "options": {"mode": "markdown", "content":
-                        "## ClearTrend Flex &nbsp;&nbsp; plant demo\n\n" +
+                        "## ClearTrend &nbsp;&nbsp; plant demo\n\n" +
                         " &nbsp;|&nbsp; ".join(parts)}}
 
 
@@ -365,7 +365,7 @@ def trends():
                          ]}},
         footer(33),
     ]
-    return dash("cleartrend-trends", "Plant Trends and Machine Events - ClearTrend Flex",
+    return dash("cleartrend-trends", "Plant Trends and Machine Events - ClearTrend",
                 panels, time_from="now-3d")
 
 
