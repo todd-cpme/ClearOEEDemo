@@ -1,10 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-05T19:48:37Z,Kitting,KIT04,info,MES,Line clearance checklist item complete: reject bin verified empty
-2026-08-05T19:50:09Z,Kitting,KIT03,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-05T19:50:46Z,Assembly,ASM05,info,HMI,Operator T.Nguyen signed in - line restart
-2026-08-05T19:51:12Z,Kitting,KIT03,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-05T19:51:52Z,Assembly,ASM01,info,MES,Hourly production: pass=2502 fail=25 yield=95.0%
-2026-08-05T19:52:07Z,Kitting,KIT03,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
 2026-08-05T19:52:22Z,Kitting,KIT08,info,MES,Hourly production: pass=2352 fail=62 yield=91.1%
 2026-08-05T19:52:45Z,Packaging,PKG05,info,MES,Hourly production: pass=3125 fail=48 yield=94.5%
 2026-08-05T19:53:03Z,Kitting,KIT03,info,HMI,Alarm E201 acknowledged by operator
@@ -45,7 +39,7 @@ ts,factory,line,level,src,message
 2026-08-05T20:11:53Z,Kitting,KIT07,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-08-05T20:12:53Z,Molding,MLD07,info,MES,Operator T.Nguyen signed in at station 1
 2026-08-05T20:13:57Z,Coating,COT03,info,PLC,Product present at infeed - auto restart
-2026-08-05T20:14:21Z,Kitting,KIT04,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-05T20:14:21Z,Kitting,KIT04,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
 2026-08-05T20:14:53Z,Kitting,KIT08,warn,PLC,Infeed conveyor low - upstream supply degraded
 2026-08-05T20:15:34Z,Molding,MLD05,info,HMI,Jam cleared - guards closed
 2026-08-05T20:16:07Z,Kitting,KIT08,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
