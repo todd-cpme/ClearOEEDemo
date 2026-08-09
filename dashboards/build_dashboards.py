@@ -271,7 +271,7 @@ def trends():
          "datasource": INF, "gridPos": {"x": 0, "y": 11, "w": 9, "h": 10},
          "targets": [q("state.csv", [col("reason", "Reason"), col("state", "state"),
                                      col("duration_min", "Minutes", "number")],
-                       filt='state == "Down"')],
+                       filt='state == "Down" && Minutes > 0')],
          "transformations": [
              {"id": "groupBy", "options": {"fields": {
                  "Reason": {"aggregations": [], "operation": "groupby"},
