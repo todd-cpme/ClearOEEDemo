@@ -1,10 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-05T19:57:37Z,Coating,COT03,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-05T19:57:45Z,Molding,MLD07,info,MES,PM work order WO-49017 scheduled - line will stop at end of current lot
-2026-08-05T19:58:17Z,Kitting,KIT07,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-05T19:58:23Z,Kitting,KIT03,info,PLC,Fault reset - line restart
-2026-08-05T19:59:18Z,Kitting,KIT07,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-05T20:00:23Z,Kitting,KIT03,info,PLC,Ramp to rate complete (3000 uph)
 2026-08-05T20:00:53Z,Coating,COT03,info,HMI,Alarm E310 acknowledged by operator
 2026-08-05T20:01:25Z,Kitting,KIT07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
 2026-08-05T20:01:58Z,Molding,MLD05,warn,PLC,Torque limit warning - infeed screw drive
@@ -43,7 +37,7 @@ ts,factory,line,level,src,message
 2026-08-05T20:23:40Z,Kitting,KIT05,error,PLC,E001 E-STOP PRESSED - operator station 2 - safety circuit open
 2026-08-05T20:23:58Z,Kitting,KIT08,info,PLC,Product present at infeed - auto restart
 2026-08-05T20:24:11Z,Molding,MLD03,info,MES,Hourly production: pass=2832 fail=283 yield=90.1%
-2026-08-05T20:25:40Z,Molding,MLD07,info,MES,Scheduled downtime started - PM work order WO-40682
+2026-08-05T20:25:40Z,Molding,MLD07,info,MES,Scheduled downtime started - PM work order WO-49017
 2026-08-05T20:25:40Z,Molding,MLD07,warn,PLC,LOTO applied - energy isolation verified
 2026-08-05T20:25:50Z,Coating,COT01,warn,PLC,Torque limit warning - infeed screw drive
 2026-08-05T20:26:22Z,Packaging,PKG06,warn,VIS,Vision reject burst: 5 consecutive rejects - self-cleared
