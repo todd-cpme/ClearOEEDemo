@@ -1,29 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-05T19:35:46Z,Molding,MLD05,info,MES,Hourly production: pass=2911 fail=138 yield=92.2%
-2026-08-05T19:36:18Z,Packaging,PKG06,warn,VIS,Vision reject rate high: rolling 15 min at 4.7% (limit 3.0%)
-2026-08-05T19:36:50Z,Coating,COT01,info,MES,Hourly production: pass=1754 fail=173 yield=89.3%
-2026-08-05T19:36:52Z,Packaging,PKG06,warn,VIS,Camera 2 calibration drift detected - contrast margin low
-2026-08-05T19:37:47Z,Coating,COT02,info,PLC,Product present at infeed - auto restart
-2026-08-05T19:38:28Z,Kitting,KIT05,info,PLC,Master reset - line restart
-2026-08-05T19:38:57Z,Packaging,PKG07,info,MES,Hourly production: pass=2370 fail=269 yield=96.8%
-2026-08-05T19:39:01Z,Packaging,PKG08,info,HMI,Jam cleared - guards closed
-2026-08-05T19:39:24Z,Packaging,PKG06,error,MES,QUALITY HOLD - lot paused pending QA disposition
-2026-08-05T19:40:03Z,Molding,MLD04,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-05T19:40:58Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
-2026-08-05T19:41:36Z,Packaging,PKG08,info,PLC,Fault reset - line restart
-2026-08-05T19:41:42Z,Assembly,ASM02,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-05T19:42:38Z,Assembly,ASM05,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-05T19:43:25Z,Molding,MLD04,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-05T19:43:36Z,Packaging,PKG08,info,PLC,Ramp to rate complete (3200 uph)
-2026-08-05T19:43:58Z,Assembly,ASM02,info,MES,Hourly production: pass=3019 fail=135 yield=95.9%
-2026-08-05T19:44:18Z,Assembly,ASM02,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-05T19:45:05Z,Assembly,ASM01,info,PLC,Product present at infeed - auto restart
-2026-08-05T19:45:52Z,Molding,MLD04,info,HMI,Alarm E310 acknowledged by operator
-2026-08-05T19:46:06Z,Molding,MLD06,info,MES,PM task complete: lubrication / inspection checklist
-2026-08-05T19:46:12Z,Coating,COT02,info,MES,Hourly production: pass=2631 fail=120 yield=95.0%
-2026-08-05T19:46:19Z,Assembly,ASM02,info,HMI,Alarm E310 acknowledged by operator
-2026-08-05T19:46:37Z,Packaging,PKG07,info,MES,Recipe change queued: SKU-1179 -> SKU-1179
-2026-08-05T19:48:02Z,Kitting,KIT05,info,MES,Hourly production: pass=2054 fail=37 yield=88.0%
 2026-08-05T19:48:37Z,Kitting,KIT04,info,MES,Line clearance checklist item complete: reject bin verified empty
 2026-08-05T19:50:09Z,Kitting,KIT03,warn,PLC,Infeed backlog high - accumulation table at 85%
 2026-08-05T19:50:46Z,Assembly,ASM05,info,HMI,Operator T.Nguyen signed in - line restart
