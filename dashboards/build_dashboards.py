@@ -194,7 +194,7 @@ def hourly(fac, fcfg):
     for line in fcfg["lines"]:
         panels.append({
             "id": pid(), "type": "table", "title": f"{line} - hourly",
-            "datasource": INF, "gridPos": {"x": 0, "y": y, "w": 14, "h": 8},
+            "datasource": INF, "gridPos": {"x": 0, "y": y, "w": 14, "h": 12},
             "targets": [q("today.csv", [
                 col("line", "line"),
                 col("ts", "Hour", "timestamp"), col("pass", "Pass", "number"),
@@ -228,7 +228,7 @@ def hourly(fac, fcfg):
         })
         panels.append({
             "id": pid(), "type": "state-timeline", "title": f"{line} - state",
-            "datasource": INF, "gridPos": {"x": 14, "y": y, "w": 10, "h": 8},
+            "datasource": INF, "gridPos": {"x": 14, "y": y, "w": 10, "h": 12},
             "targets": [q("state.csv", [col("ts", "Time", "timestamp"),
                                         col("line", "line"),
                                         col("state", "State")], filt=f'line == "{line}"')],
@@ -242,7 +242,7 @@ def hourly(fac, fcfg):
                                               "Down": {"color": "red", "index": 1}}}]},
                             "overrides": []},
         })
-        y += 8
+        y += 12
     panels.append(footer(y))
     return dash(f"cleartrend-daily-{fac.lower()}", f"Daily {fcfg['display']} OEE", panels)
 
