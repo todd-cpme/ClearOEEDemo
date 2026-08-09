@@ -1,12 +1,5 @@
 ts,factory,line,level,src,message
-2026-08-05T20:08:08Z,Kitting,KIT07,info,HMI,Jam cleared - guards closed
-2026-08-05T20:08:53Z,Molding,MLD03,info,PLC,Master reset - line restart
-2026-08-05T20:08:54Z,Packaging,PKG06,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
-2026-08-05T20:09:14Z,Packaging,PKG07,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-05T20:09:40Z,Coating,COT02,info,MES,Hourly production: pass=2400 fail=154 yield=94.5%
-2026-08-05T20:09:49Z,Kitting,KIT07,info,PLC,Fault reset - line restart
 2026-08-05T20:10:02Z,Kitting,KIT03,info,MES,Hourly production: pass=1965 fail=171 yield=95.3%
-2026-08-05T20:11:49Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
 2026-08-05T20:11:53Z,Kitting,KIT07,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-08-05T20:12:53Z,Molding,MLD07,info,MES,Operator T.Nguyen signed in at station 1
 2026-08-05T20:13:57Z,Coating,COT03,info,PLC,Product present at infeed - auto restart
@@ -46,7 +39,7 @@ ts,factory,line,level,src,message
 2026-08-05T20:46:54Z,Molding,MLD05,info,MES,Recipe change queued: SKU-1042 -> SKU-2044
 2026-08-05T20:47:23Z,Packaging,PKG05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-08-05T20:47:28Z,Coating,COT02,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-05T20:47:34Z,Packaging,PKG07,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-05T20:47:34Z,Packaging,PKG07,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-05T20:51:06Z,Assembly,ASM05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-08-05T20:51:15Z,Molding,MLD05,info,MES,Hourly production: pass=1793 fail=261 yield=90.3%
 2026-08-05T20:51:20Z,Molding,MLD04,warn,PLC,Infeed backlog high - accumulation table at 85%
