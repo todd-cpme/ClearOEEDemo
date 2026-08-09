@@ -95,7 +95,49 @@ def footer(y):
                         "read Down outside those hours."}}
 
 
+TAB_ORDER = [
+    ("cleartrend-overview", "Plant overview"),
+    ("cleartrend-daily-assembly", "Assembly"),
+    ("cleartrend-daily-molding", "Molding"),
+    ("cleartrend-daily-coating", "Coating"),
+    ("cleartrend-daily-packaging", "Packaging"),
+    ("cleartrend-daily-kitting", "Kitting"),
+    ("cleartrend-trends", "Trends & events"),
+]
+LINKS_FILE = ROOT / "dashboards" / "public_links.json"
+LINKS = json.loads(LINKS_FILE.read_text()) if LINKS_FILE.exists() else {}
+PUBLIC_BASE = os.environ.get(
+    "GRAFANA_URL", "https://cpmeusa.grafana.net").rstrip("/") + "/public-dashboards"
+NAV_H = 3
+
+
+def nav(active):
+    """Tab bar across the seven dashboards.
+
+    Native dashboard links are unreliable on externally shared dashboards, but a
+    text panel is just a panel and always renders, so the tabs are markdown
+    links pointing at each dashboard's public URL. Tokens live in
+    public_links.json; regenerating a share link means updating that file.
+    """
+    parts = []
+    for uid, label in TAB_ORDER:
+        if uid == active:
+            parts.append(f"**{label}**")
+        elif uid in LINKS:
+            parts.append(f"[{label}]({PUBLIC_BASE}/{LINKS[uid]})")
+        else:
+            parts.append(label)
+    return {"id": pid(), "type": "text", "transparent": True,
+            "gridPos": {"x": 0, "y": 0, "w": 24, "h": NAV_H},
+            "options": {"mode": "markdown", "content":
+                        "## ClearTrend Flex &nbsp;&nbsp; plant demo\n\n" +
+                        " &nbsp;|&nbsp; ".join(parts)}}
+
+
 def dash(uid, title, panels, time_from="now-24h"):
+    for p in panels:                      # make room for the tab bar at the top
+        p["gridPos"]["y"] += NAV_H
+    panels = [nav(uid)] + panels
     return {"dashboard": {
         "uid": uid, "title": title, "panels": panels, "schemaVersion": 39,
         "time": {"from": time_from, "to": "now"}, "refresh": "1m",
