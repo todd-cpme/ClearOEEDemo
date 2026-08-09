@@ -49,8 +49,11 @@ jobs:
             python feeder/run.py
           fi
 
-      - name: Commit backfill marker (also serves as monthly keepalive)
-        if: inputs.backfill == true || github.run_number == 1
+      # Only a real, successful backfill dispatch may write this marker. A cron
+      # run that skipped (no marker yet) must NOT create it, or the next cron
+      # would push "now" and permanently close the backfill window.
+      - name: Commit backfill marker
+        if: github.event_name == 'workflow_dispatch' && inputs.backfill == true
         run: |
           date -u +%FT%TZ > .backfilled
           git config user.name feeder-bot && git config user.email bot@cpme-usa.com
