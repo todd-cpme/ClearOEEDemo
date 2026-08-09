@@ -1,8 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-05T20:05:52Z,Molding,MLD05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-05T20:06:53Z,Molding,MLD03,info,PLC,LOTO removed
-2026-08-05T20:07:17Z,Packaging,PKG08,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-05T20:07:41Z,Molding,MLD05,info,HMI,Alarm E201 acknowledged by operator
 2026-08-05T20:08:08Z,Kitting,KIT07,info,HMI,Jam cleared - guards closed
 2026-08-05T20:08:53Z,Molding,MLD03,info,PLC,Master reset - line restart
 2026-08-05T20:08:54Z,Packaging,PKG06,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
@@ -42,7 +38,7 @@ ts,factory,line,level,src,message
 2026-08-05T20:34:01Z,Kitting,KIT04,info,PLC,Ramp to rate complete (3300 uph)
 2026-08-05T20:35:14Z,Kitting,KIT07,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
 2026-08-05T20:35:15Z,Assembly,ASM01,info,MES,Hourly production: pass=2305 fail=157 yield=98.3%
-2026-08-05T20:35:55Z,Packaging,PKG08,info,HMI,Operator K.Simmons signed in - line restart
+2026-08-05T20:35:55Z,Packaging,PKG08,info,HMI,Operator M.Chen signed in - line restart
 2026-08-05T20:37:06Z,Packaging,PKG06,info,MES,Hourly production: pass=2491 fail=177 yield=92.3%
 2026-08-05T20:40:19Z,Molding,MLD04,info,MES,Hourly production: pass=2678 fail=223 yield=98.4%
 2026-08-05T20:41:48Z,Packaging,PKG04,info,HMI,Operator D.Okafor signed in - line restart
