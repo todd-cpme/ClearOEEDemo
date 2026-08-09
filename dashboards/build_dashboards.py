@@ -112,11 +112,18 @@ def factory_table(fac, fcfg, x, y):
         "title": f'{fcfg["display"]}   [ Yield target {fcfg["yield_target"]}% · OEE target {fcfg["oee_target"]}% ]',
         "datasource": INF, "gridPos": {"x": x, "y": y, "w": 12, "h": 9},
         "targets": [q("rollup_line.csv", [
-            col("line", "Line"), col("pass", "Pass", "number"),
+            col("factory", "factory"), col("line", "Line"), col("pass", "Pass", "number"),
             col("fail", "Fail", "number"), col("yield_pct", "Yield%", "number"),
             col("oee_pct", "OEE%", "number"), col("state", "Status"),
             col("duration_min", "Duration", "number"), col("reason", "Reason"),
         ], filt=f'factory == "{fac}"')],
+        # Infinity can only filter on a column it selected, and it returns fields
+        # in alphabetical order, so the filter column rides along and gets hidden
+        # here while indexByName restores the client's column order.
+        "transformations": [{"id": "organize", "options": {
+            "excludeByName": {"factory": True}, "renameByName": {},
+            "indexByName": {"Line": 0, "Pass": 1, "Fail": 2, "Yield%": 3, "OEE%": 4,
+                             "Status": 5, "Duration": 6, "Reason": 7}}}],
         "fieldConfig": {
             "defaults": {"custom": {"align": "center", "cellOptions": {"type": "auto"},
                                      "filterable": False}, "decimals": 0},
@@ -148,6 +155,10 @@ def overview():
             col("fail", "Fail", "number"), col("yield_pct", "Yield%", "number"),
             col("oee_pct", "OEE%", "number"), col("yield_target", "Yield tgt", "number"),
             col("oee_target", "OEE tgt", "number")])],
+        "transformations": [{"id": "organize", "options": {
+            "excludeByName": {}, "renameByName": {},
+            "indexByName": {"Factory": 0, "Pass": 1, "Fail": 2, "Yield%": 3,
+                             "OEE%": 4, "Yield tgt": 5, "OEE tgt": 6}}}],
         "fieldConfig": {"defaults": {"custom": {"align": "center"}, "decimals": 2},
                         "overrides": [
                             {"matcher": {"id": "byName", "options": "Pass"},
@@ -171,10 +182,15 @@ def hourly(fac, fcfg):
             "id": pid(), "type": "table", "title": f"{line} - hourly",
             "datasource": INF, "gridPos": {"x": 0, "y": y, "w": 14, "h": 8},
             "targets": [q("today.csv", [
+                col("line", "line"),
                 col("ts", "Hour", "timestamp"), col("pass", "Pass", "number"),
                 col("fail", "Fail", "number"), col("yield_pct", "Yield%", "number"),
                 col("avail_pct", "Avail%", "number"), col("perform_pct", "Perform%", "number"),
                 col("oee_pct", "OEE%", "number")], filt=f'line == "{line}"')],
+            "transformations": [{"id": "organize", "options": {
+                "excludeByName": {"line": True}, "renameByName": {},
+                "indexByName": {"Hour": 0, "Pass": 1, "Fail": 2, "Yield%": 3,
+                                 "Avail%": 4, "Perform%": 5, "OEE%": 6}}}],
             "fieldConfig": {
                 "defaults": {"custom": {"align": "center"}, "decimals": 2},
                 "overrides": [
@@ -200,7 +216,10 @@ def hourly(fac, fcfg):
             "id": pid(), "type": "state-timeline", "title": f"{line} - state",
             "datasource": INF, "gridPos": {"x": 14, "y": y, "w": 10, "h": 8},
             "targets": [q("state.csv", [col("ts", "Time", "timestamp"),
+                                        col("line", "line"),
                                         col("state", "State")], filt=f'line == "{line}"')],
+            "transformations": [{"id": "organize", "options": {
+                "excludeByName": {"line": True}, "renameByName": {}, "indexByName": {}}}],
             "options": {"mergeValues": True, "showValue": "never", "rowHeight": 0.9,
                         "legend": {"showLegend": False}},
             "fieldConfig": {"defaults": {"custom": {"fillOpacity": 90, "lineWidth": 0},
@@ -233,9 +252,9 @@ def trends():
                                            "Down": {"color": "red", "index": 1}}}]},
                          "overrides": []}},
 
-        {"id": pid(), "type": "barchart", "title": "Downtime by reason (minutes, selected range)",
+        {"id": pid(), "type": "barchart", "title": "Downtime by reason - minutes, full 21-day window",
          "datasource": INF, "gridPos": {"x": 0, "y": 11, "w": 9, "h": 10},
-         "targets": [q("state.csv", [col("reason", "Reason"),
+         "targets": [q("state.csv", [col("reason", "Reason"), col("state", "state"),
                                      col("duration_min", "Minutes", "number")],
                        filt='state == "Down"')],
          "transformations": [
@@ -262,7 +281,7 @@ def trends():
                                        "decimals": 2}, "overrides": []}},
 
         {"id": pid(), "type": "table",
-         "title": "Machine events - every downtime above has its sequence here",
+         "title": "Machine events - last 4 days, newest first",
          "datasource": INF, "gridPos": {"x": 0, "y": 21, "w": 24, "h": 12},
          "targets": [q("events.csv", [
              col("ts", "Time", "timestamp"), col("factory", "Factory"),
