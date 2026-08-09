@@ -8,6 +8,10 @@ on:
         description: "Run the ONE-TIME backfill (must happen before any cron push)"
         type: boolean
         default: false
+      probe:
+        description: "Diagnose write limits only (throwaway series, safe to re-run)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,7 +47,9 @@ jobs:
           LOKI_USER: ${{ secrets.LOKI_USER }}
           GC_TOKEN: ${{ secrets.GC_TOKEN }}
         run: |
-          if [ "${{ inputs.backfill }}" = "true" ]; then
+          if [ "${{ inputs.probe }}" = "true" ]; then
+            python feeder/run.py --probe
+          elif [ "${{ inputs.backfill }}" = "true" ]; then
             python feeder/run.py --backfill
           else
             python feeder/run.py
@@ -53,7 +59,7 @@ jobs:
       # run that skipped (no marker yet) must NOT create it, or the next cron
       # would push "now" and permanently close the backfill window.
       - name: Commit backfill marker
-        if: github.event_name == 'workflow_dispatch' && inputs.backfill == true
+        if: github.event_name == 'workflow_dispatch' && inputs.backfill == true && inputs.probe != true
         run: |
           date -u +%FT%TZ > .backfilled
           git config user.name feeder-bot && git config user.email bot@cpme-usa.com
