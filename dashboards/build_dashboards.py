@@ -135,13 +135,28 @@ def factory_table(fac, fcfg, x, y):
                                 {"id": "thresholds", "value": yield_thr(fcfg["yield_target"])}]},
                 {"matcher": {"id": "byName", "options": "OEE%"},
                  "properties": [{"id": "decimals", "value": 2},
-                                {"id": "custom.cellOptions",
-                                 "value": {"type": "color-background", "mode": "basic"}},
+                                {"id": "custom.cellOptions", "value": {"type": "color-text"}},
                                 {"id": "thresholds", "value": oee_thr(fcfg["oee_target"])}]},
                 STATUS_OVERRIDE,
                 {"matcher": {"id": "byName", "options": "Reason"},
                  "properties": [{"id": "custom.align", "value": "left"},
-                                {"id": "custom.width", "value": 210}]},
+                                {"id": "custom.width", "value": 175}]},
+                # eight columns in a half-width panel: without explicit widths the
+                # last two get pushed out of view behind a scrollbar
+                {"matcher": {"id": "byName", "options": "Line"},
+                 "properties": [{"id": "custom.width", "value": 78}]},
+                {"matcher": {"id": "byName", "options": "Pass"},
+                 "properties": [{"id": "custom.width", "value": 78}]},
+                {"matcher": {"id": "byName", "options": "Fail"},
+                 "properties": [{"id": "custom.width", "value": 68}]},
+                {"matcher": {"id": "byName", "options": "Yield%"},
+                 "properties": [{"id": "custom.width", "value": 80}]},
+                {"matcher": {"id": "byName", "options": "OEE%"},
+                 "properties": [{"id": "custom.width", "value": 78}]},
+                {"matcher": {"id": "byName", "options": "Status"},
+                 "properties": [{"id": "custom.width", "value": 86}]},
+                {"matcher": {"id": "byName", "options": "Duration"},
+                 "properties": [{"id": "custom.width", "value": 78}]},
             ]},
     }
 
@@ -149,7 +164,7 @@ def factory_table(fac, fcfg, x, y):
 def overview():
     panels = [{
         "id": pid(), "type": "table", "title": "Plant rollup - current production day",
-        "datasource": INF, "gridPos": {"x": 5, "y": 0, "w": 14, "h": 7},
+        "datasource": INF, "gridPos": {"x": 5, "y": 0, "w": 14, "h": 8},
         "targets": [q("rollup_factory.csv", [
             col("factory_display", "Factory"), col("pass", "Pass", "number"),
             col("fail", "Fail", "number"), col("yield_pct", "Yield%", "number"),
