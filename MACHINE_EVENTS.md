@@ -16,7 +16,7 @@ at the end. Machine sources: PLC (controller), HMI (operator panel), MES
 - during: clearance checklist items (infeed cleared, reject bin verified empty); PLC "Recipe downloaded - parameters verified"
 - restart: PLC "Master reset - line restart"; "Ramp to rate complete (xxxx uph)"
 
-**Scheduled Downtime** (planned, 1-4 h; matches their LIB01 reason)
+**Scheduled Downtime** (planned, 1-4 h; matches their COT01 reason)
 - before: MES "PM work order WO-4xxxx scheduled - line will stop at end of current lot"
 - at stop: MES "Scheduled downtime started"; PLC warn "LOTO applied - energy isolation verified"
 - during: PM checklist completion
@@ -73,5 +73,5 @@ and the story holds.
 ## Tuning
 
 Reason mix, durations, and message text all live in `events.yaml` (weights per
-reason; AAL05 is changeover-heavy, ABW07 is prone to multi-hour downs, both per
+reason; PKG05 is changeover-heavy, MLD07 is prone to multi-hour downs, both per
 the client captures). Edit and re-run; no code changes needed.

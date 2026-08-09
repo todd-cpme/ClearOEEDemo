@@ -97,7 +97,7 @@ class Simulator:
             lo, hi = reasons[rk]["duration_min"]
             dur = rng.uniform(lo, hi)
             if cfg.get("long_down_prone") and rng.random() < 0.06:
-                dur = rng.uniform(180, 300)   # the ABW07 pattern
+                dur = rng.uniform(180, 300)   # the MLD07 pattern
             t_down_end = t_run_end + timedelta(minutes=dur)
             blocks.append(Block(t_run_end, t_down_end, "down", rk))
             t = t_down_end

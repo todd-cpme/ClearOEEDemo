@@ -64,7 +64,7 @@ so every table panel is a straight render of a CSV.
 ## Tuning
 
 `plant.yaml` holds the entire plant: factories, lines, targets, rates, and the
-per-line personalities (AAL05 is changeover-heavy, ABW07 takes multi-hour downs),
+per-line personalities (PKG05 is changeover-heavy, MLD07 takes multi-hour downs),
 all lifted from the client's screens. `events.yaml` holds the machine event
 catalog; see `MACHINE_EVENTS.md`. Rebuilding this demo for another prospect is
 an edit to those two files plus a workflow run.

@@ -159,7 +159,7 @@ def overview():
                                    [(0, 7), (12, 7), (0, 16), (12, 16), (0, 25)]):
         panels.append(factory_table(fac, fcfg, x, y))
     panels.append(footer(34))
-    return dash("cleartrend-overview", "Libre Yield and OEE Dashboard", panels)
+    return dash("cleartrend-overview", "Plant Yield and OEE Dashboard", panels)
 
 
 # ------------------------------------------------------------ daily detail
