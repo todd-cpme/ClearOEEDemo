@@ -1,33 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-05T20:46:26Z,Coating,COT01,info,HMI,Jam cleared - guards closed
-2026-08-05T20:46:54Z,Molding,MLD05,info,MES,Recipe change queued: SKU-1042 -> SKU-2044
-2026-08-05T20:47:23Z,Packaging,PKG05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-05T20:47:28Z,Coating,COT02,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-05T20:47:34Z,Packaging,PKG07,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
-2026-08-05T20:51:06Z,Assembly,ASM05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-05T20:51:15Z,Molding,MLD05,info,MES,Hourly production: pass=1793 fail=261 yield=90.3%
-2026-08-05T20:51:20Z,Molding,MLD04,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-05T20:51:23Z,Coating,COT01,info,PLC,Fault reset - line restart
-2026-08-05T20:51:44Z,Packaging,PKG05,info,MES,Hourly production: pass=2150 fail=287 yield=90.8%
-2026-08-05T20:52:01Z,Packaging,PKG05,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-05T20:52:35Z,Coating,COT03,info,MES,Hourly production: pass=2470 fail=59 yield=90.8%
-2026-08-05T20:52:44Z,Molding,MLD05,info,MES,Operator D.Okafor signed in at station 1
-2026-08-05T20:52:48Z,Molding,MLD04,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-05T20:52:53Z,Assembly,ASM05,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-05T20:53:23Z,Coating,COT01,info,PLC,Ramp to rate complete (2400 uph)
-2026-08-05T20:54:58Z,Coating,COT03,info,MES,PM work order WO-46272 scheduled - line will stop at end of current lot
-2026-08-05T20:55:17Z,Molding,MLD04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-05T20:55:17Z,Kitting,KIT07,info,HMI,Operator K.Simmons signed in - line restart
-2026-08-05T20:55:37Z,Molding,MLD05,info,MES,Change over started - line clearance in progress
-2026-08-05T20:55:37Z,Molding,MLD05,info,PLC,Guard door opened - operator station 1
-2026-08-05T20:56:49Z,Molding,MLD04,info,HMI,Alarm E201 acknowledged by operator
-2026-08-05T20:57:19Z,Assembly,ASM02,warn,VIS,Vision reject rate high: rolling 15 min at 4.1% (limit 3.0%)
-2026-08-05T21:00:16Z,Assembly,ASM05,info,PLC,Downstream cleared - auto restart
-2026-08-05T21:00:21Z,Packaging,PKG07,info,PLC,Master reset - line restart
-2026-08-05T21:00:54Z,Assembly,ASM02,warn,VIS,Camera 2 calibration drift detected - contrast margin low
-2026-08-05T21:02:51Z,Packaging,PKG07,info,PLC,Ramp to rate complete (2400 uph)
-2026-08-05T21:03:27Z,Coating,COT02,info,HMI,Operator M.Chen signed in - line restart
-2026-08-05T21:03:32Z,Molding,MLD04,info,HMI,Jam cleared - guards closed
 2026-08-05T21:04:51Z,Assembly,ASM02,error,MES,QUALITY HOLD - lot paused pending QA disposition
 2026-08-05T21:05:36Z,Molding,MLD04,info,PLC,Fault reset - line restart
 2026-08-05T21:05:51Z,Packaging,PKG05,info,PLC,Downstream cleared - auto restart
@@ -38,7 +9,7 @@ ts,factory,line,level,src,message
 2026-08-05T21:10:41Z,Coating,COT02,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-08-05T21:11:02Z,Molding,MLD06,info,PLC,LOTO removed
 2026-08-05T21:11:07Z,Molding,MLD05,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-05T21:11:41Z,Coating,COT03,info,MES,Scheduled downtime started - PM work order WO-47976
+2026-08-05T21:11:41Z,Coating,COT03,info,MES,Scheduled downtime started - PM work order WO-46272
 2026-08-05T21:11:41Z,Coating,COT03,warn,PLC,LOTO applied - energy isolation verified
 2026-08-05T21:13:02Z,Assembly,ASM01,warn,PLC,Torque limit warning - infeed screw drive
 2026-08-05T21:13:02Z,Molding,MLD06,info,PLC,Master reset - line restart
@@ -107,7 +78,7 @@ ts,factory,line,level,src,message
 2026-08-05T21:57:22Z,Packaging,PKG04,warn,VIS,Vision reject rate high: rolling 15 min at 4.7% (limit 3.0%)
 2026-08-05T21:57:30Z,Packaging,PKG08,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
 2026-08-05T21:57:37Z,Coating,COT01,error,PLC,E001 E-STOP PRESSED - operator station 2 - safety circuit open
-2026-08-05T21:57:37Z,Molding,MLD05,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-08-05T21:57:37Z,Molding,MLD05,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-05T21:58:06Z,Kitting,KIT07,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
 2026-08-05T21:58:43Z,Coating,COT03,info,MES,PM task complete: lubrication / inspection checklist
 2026-08-05T21:59:41Z,Packaging,PKG04,warn,VIS,Camera 2 calibration drift detected - contrast margin low
