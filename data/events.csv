@@ -1,14 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-08T03:15:23Z,Coating,COT03,info,HMI,Jam cleared - guards closed
-2026-08-08T03:17:10Z,Packaging,PKG08,info,MES,Line clearance checklist item complete: reject bin verified empty
-2026-08-08T03:19:49Z,Coating,COT03,info,PLC,Fault reset - line restart
-2026-08-08T03:21:49Z,Coating,COT03,info,PLC,Ramp to rate complete (3000 uph)
-2026-08-08T03:39:11Z,Packaging,PKG08,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
-2026-08-08T03:52:39Z,Kitting,KIT05,info,MES,PM task complete: lubrication / inspection checklist
-2026-08-08T03:53:52Z,Packaging,PKG08,info,PLC,Master reset - line restart
-2026-08-08T03:56:22Z,Packaging,PKG08,info,PLC,Ramp to rate complete (3200 uph)
-2026-08-08T04:54:43Z,Kitting,KIT05,info,PLC,LOTO removed
-2026-08-08T04:56:43Z,Kitting,KIT05,info,PLC,Master reset - line restart
 2026-08-08T10:56:13Z,Molding,MLD07,warn,VIS,Vision reject rate high: rolling 15 min at 6.1% (limit 3.0%)
 2026-08-08T10:58:33Z,Coating,COT03,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-08-08T10:59:32Z,Molding,MLD07,warn,VIS,Camera 2 calibration drift detected - contrast margin low
@@ -4840,3 +4830,11 @@ ts,factory,line,level,src,message
 2026-08-12T03:08:07Z,Molding,MLD06,info,PLC,LOTO removed
 2026-08-12T03:09:58Z,Packaging,PKG07,info,PLC,Ramp to rate complete (2400 uph)
 2026-08-12T03:10:07Z,Molding,MLD06,info,PLC,Master reset - line restart
+2026-08-12T03:19:08Z,Assembly,ASM05,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
+2026-08-12T03:23:12Z,Kitting,KIT07,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-08-12T03:29:05Z,Assembly,ASM05,info,PLC,Master reset - line restart
+2026-08-12T03:31:35Z,Assembly,ASM05,info,PLC,Ramp to rate complete (3200 uph)
+2026-08-12T03:37:42Z,Kitting,KIT07,info,PLC,Master reset - line restart
+2026-08-12T03:40:12Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
+2026-08-12T04:17:06Z,Packaging,PKG05,info,PLC,LOTO removed
+2026-08-12T04:19:06Z,Packaging,PKG05,info,PLC,Master reset - line restart
