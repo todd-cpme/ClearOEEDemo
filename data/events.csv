@@ -4712,3 +4712,29 @@ ts,factory,line,level,src,message
 2026-08-13T04:43:24Z,Packaging,PKG06,info,MES,PM task complete: lubrication / inspection checklist
 2026-08-13T06:29:44Z,Packaging,PKG06,info,PLC,LOTO removed
 2026-08-13T06:31:44Z,Packaging,PKG06,info,PLC,Master reset - line restart
+2026-08-13T10:54:42Z,Coating,COT03,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-13T10:55:06Z,Assembly,ASM05,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-13T10:56:33Z,Assembly,ASM05,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-13T10:58:05Z,Coating,COT03,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-13T10:59:05Z,Assembly,ASM02,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-13T11:00:15Z,Assembly,ASM05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-13T11:01:07Z,Assembly,ASM02,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-13T11:01:09Z,Packaging,PKG05,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-13T11:01:24Z,Coating,COT03,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-13T11:02:22Z,Kitting,KIT08,info,MES,Hourly production: pass=1657 fail=38 yield=95.8%
+2026-08-13T11:02:42Z,Kitting,KIT04,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-13T11:02:49Z,Kitting,KIT05,info,MES,Operator M.Chen signed in at station 1
+2026-08-13T11:03:13Z,Assembly,ASM05,info,HMI,Alarm E201 acknowledged by operator
+2026-08-13T11:03:33Z,Coating,COT03,info,HMI,Alarm E201 acknowledged by operator
+2026-08-13T11:04:09Z,Assembly,ASM02,info,HMI,Alarm E310 acknowledged by operator
+2026-08-13T11:04:35Z,Packaging,PKG06,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-13T11:04:53Z,Packaging,PKG05,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-13T11:05:21Z,Packaging,PKG06,info,MES,Hourly production: pass=1842 fail=139 yield=92.0%
+2026-08-13T11:05:52Z,Molding,MLD05,warn,VIS,Vision reject burst: 5 consecutive rejects - self-cleared
+2026-08-13T11:06:10Z,Kitting,KIT04,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-13T11:06:24Z,Packaging,PKG06,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-13T11:08:05Z,Kitting,KIT04,info,HMI,Alarm E310 acknowledged by operator
+2026-08-13T11:08:05Z,Packaging,PKG05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-13T11:09:02Z,Packaging,PKG06,info,HMI,Alarm E310 acknowledged by operator
+2026-08-13T11:09:47Z,Packaging,PKG05,info,HMI,Alarm E201 acknowledged by operator
+2026-08-13T11:12:53Z,Coating,COT03,info,HMI,Jam cleared - guards closed
