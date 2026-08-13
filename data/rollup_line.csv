@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,12208,358,97.15,71.81,Down,Blocked - Downstream,4
-Assembly,ASM02,8796,348,96.19,58.64,Running,,0
-Assembly,ASM05,6865,179,97.46,53.62,Running,,0
-Molding,MLD03,6385,144,97.79,45.61,Running,,0
-Molding,MLD04,10497,134,98.74,63.62,Running,,0
-Molding,MLD05,6031,357,94.41,41.59,Running,,0
-Molding,MLD06,6647,330,95.27,49.23,Running,,0
-Molding,MLD07,5783,228,96.21,44.48,Down,Jam,7
-Coating,COT01,4500,135,97.09,46.87,Running,,0
-Coating,COT02,4726,132,97.28,36.93,Running,,0
-Coating,COT03,7554,145,98.12,50.36,Running,,0
-Packaging,PKG04,7101,410,94.54,47.35,Running,,0
-Packaging,PKG05,3890,576,87.1,29.92,Running,,0
-Packaging,PKG06,4845,428,91.88,39.08,Down,Quality Hold,22
-Packaging,PKG07,3989,404,90.8,33.24,Running,,0
-Packaging,PKG08,7995,880,90.08,49.97,Running,,0
-Kitting,KIT03,9577,83,99.14,63.84,Running,,0
-Kitting,KIT04,9331,66,99.3,56.55,Running,,0
-Kitting,KIT05,8217,184,97.81,56.66,Running,,0
-Kitting,KIT07,8822,94,98.95,58.81,Running,,0
-Kitting,KIT08,7193,96,98.68,46.4,Running,,0
+Assembly,ASM01,15176,469,97.0,74.39,Running,,0
+Assembly,ASM02,10288,394,96.31,57.16,Running,,0
+Assembly,ASM05,9308,210,97.79,58.17,Running,,0
+Molding,MLD03,8075,183,97.78,48.06,Running,,0
+Molding,MLD04,12750,156,98.79,64.4,Running,,0
+Molding,MLD05,7063,428,94.29,40.59,Running,,0
+Molding,MLD06,7698,371,95.4,47.51,Down,Jam,4
+Molding,MLD07,7479,293,96.23,47.94,Running,,0
+Coating,COT01,5564,171,97.02,46.36,Running,,0
+Coating,COT02,6257,193,97.01,39.11,Running,,0
+Coating,COT03,9225,181,98.08,51.25,Running,,0
+Packaging,PKG04,8925,504,94.65,49.59,Down,E-Stop,2
+Packaging,PKG05,4543,681,86.96,29.12,Down,Quality Hold,23
+Packaging,PKG06,7179,611,92.16,46.32,Running,,0
+Packaging,PKG07,4378,449,90.7,30.4,Down,Change Over - Line clearance,20
+Packaging,PKG08,9442,1039,90.09,49.18,Down,Jam,15
+Kitting,KIT03,11853,124,98.96,65.85,Running,,0
+Kitting,KIT04,11634,77,99.34,58.76,Running,,0
+Kitting,KIT05,8950,203,97.78,51.43,Down,Change Over - Line clearance,38
+Kitting,KIT07,10645,102,99.05,59.14,Running,,0
+Kitting,KIT08,8580,109,98.75,46.12,Running,,0
