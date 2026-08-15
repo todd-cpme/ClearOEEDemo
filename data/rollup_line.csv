@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
 Assembly,ASM01,25232,698,97.31,57.08,Running,,0
-Assembly,ASM02,19490,810,96.01,49.97,Running,,0
+Assembly,ASM02,19490,810,96.01,49.97,Down,No Operator,3
 Assembly,ASM05,21937,558,97.52,62.32,Running,,0
 Molding,MLD03,18057,459,97.52,49.61,Running,,0
-Molding,MLD04,20845,505,97.63,57.42,Running,,0
+Molding,MLD04,20845,505,97.63,57.42,Down,Change Over - Line clearance,5
 Molding,MLD05,16414,967,94.44,43.54,Running,,0
-Molding,MLD06,13417,750,94.71,38.23,Running,,0
+Molding,MLD06,13417,750,94.71,38.23,Down,Change Over - Line clearance,18
 Molding,MLD07,10342,443,95.89,44.2,Running,,0
 Coating,COT01,13933,430,97.01,48.38,Running,,0
 Coating,COT02,20601,800,96.26,53.65,Running,,0
 Coating,COT03,19566,467,97.67,50.17,Running,,0
 Packaging,PKG04,18385,1155,94.09,47.14,Running,,0
-Packaging,PKG05,9294,1412,86.81,29.79,Running,,0
-Packaging,PKG06,19695,1598,92.5,48.87,Down,Change Over - Line clearance,26
+Packaging,PKG05,9294,1412,86.81,29.79,Down,Change Over - Line clearance,16
+Packaging,PKG06,19695,1598,92.5,48.87,Down,Change Over - Line clearance,48
 Packaging,PKG07,11307,1155,90.73,36.24,Running,,0
-Packaging,PKG08,16205,1775,90.13,38.95,Running,,0
-Kitting,KIT03,17059,169,99.02,56.86,Down,Scheduled Downtime,35
-Kitting,KIT04,25406,454,98.24,59.22,Running,,0
-Kitting,KIT05,17027,383,97.8,48.93,Down,Scheduled Downtime,32
+Packaging,PKG08,16205,1775,90.13,38.95,Down,Scheduled Downtime,9
+Kitting,KIT03,17059,169,99.02,56.86,Down,Scheduled Downtime,57
+Kitting,KIT04,25406,454,98.24,59.22,Down,Quality Hold,10
+Kitting,KIT05,17027,383,97.8,48.93,Down,Scheduled Downtime,54
 Kitting,KIT07,20955,317,98.51,58.21,Running,,0
-Kitting,KIT08,17223,246,98.59,46.3,Down,Scheduled Downtime,53
+Kitting,KIT08,17223,246,98.59,46.3,Down,Scheduled Downtime,75
