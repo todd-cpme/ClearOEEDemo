@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,6641,198,97.1,65.11,Running,,0
-Assembly,ASM02,4348,162,96.41,48.31,Down,Change Over - Line clearance,21
-Assembly,ASM05,5995,157,97.45,62.45,Down,Jam,3
-Molding,MLD03,3367,77,97.76,40.08,Running,,0
-Molding,MLD04,5752,57,99.02,58.1,Running,,0
-Molding,MLD05,4357,263,94.31,50.08,Down,Jam,12
-Molding,MLD06,3341,155,95.57,41.25,Down,No Operator,21
-Molding,MLD07,1834,56,97.04,35.27,Running,,0
-Coating,COT01,3895,137,96.6,54.1,Running,,0
-Coating,COT02,5267,155,97.14,54.87,Running,,0
-Coating,COT03,4137,96,97.73,45.97,Down,Change Over - Line clearance,18
-Packaging,PKG04,4754,307,93.93,52.82,Running,,0
-Packaging,PKG05,2630,416,86.34,33.73,Running,,0
-Packaging,PKG06,3596,288,92.58,38.67,Running,,0
-Packaging,PKG07,1761,175,90.96,24.47,Down,Change Over - Line clearance,46
-Packaging,PKG08,3974,408,90.69,41.39,Running,,0
-Kitting,KIT03,2359,5,99.79,78.65,Running,,0
-Kitting,KIT04,4122,71,98.31,41.63,Running,,0
-Kitting,KIT05,1904,24,98.76,21.89,Down,Scheduled Downtime,97
-Kitting,KIT07,1996,19,99.06,33.27,Down,Scheduled Downtime,98
-Kitting,KIT08,3640,36,99.02,39.14,Down,Change Over - Line clearance,38
+Assembly,ASM01,9165,280,97.04,67.39,Running,,0
+Assembly,ASM02,4670,177,96.35,38.92,Down,Change Over - Line clearance,37
+Assembly,ASM05,8627,234,97.36,67.4,Running,,0
+Molding,MLD03,5265,126,97.66,47.01,Running,,0
+Molding,MLD04,8068,114,98.61,61.12,Down,Blocked - Downstream,10
+Molding,MLD05,5346,315,94.44,46.09,Running,,0
+Molding,MLD06,5056,218,95.87,46.82,Running,,0
+Molding,MLD07,2985,106,96.57,38.27,Running,,0
+Coating,COT01,5216,179,96.68,54.34,Running,,0
+Coating,COT02,7001,217,96.99,54.7,Running,,0
+Coating,COT03,4404,103,97.71,36.71,Down,Change Over - Line clearance,34
+Packaging,PKG04,5261,343,93.88,43.84,Running,,0
+Packaging,PKG05,3483,537,86.64,33.5,Running,,0
+Packaging,PKG06,5939,466,92.72,47.9,Running,,0
+Packaging,PKG07,2843,291,90.71,29.62,Running,,0
+Packaging,PKG08,5608,611,90.18,43.8,Down,Starved - Upstream,2
+Kitting,KIT03,2784,16,99.43,46.4,Down,Change Over - Line clearance,5
+Kitting,KIT04,5533,105,98.14,41.91,Down,Starved - Upstream,8
+Kitting,KIT05,3813,67,98.27,32.87,Running,,0
+Kitting,KIT07,2202,19,99.14,24.47,Down,Scheduled Downtime,115
+Kitting,KIT08,4505,39,99.14,36.34,Down,Change Over - Line clearance,54
