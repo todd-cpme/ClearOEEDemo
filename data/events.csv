@@ -1,31 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-12T20:42:42Z,Kitting,KIT04,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T20:42:49Z,Packaging,PKG05,info,HMI,Jam cleared - guards closed
-2026-08-12T20:43:15Z,Kitting,KIT08,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-12T20:43:51Z,Kitting,KIT04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-12T20:44:32Z,Packaging,PKG05,info,PLC,Fault reset - line restart
-2026-08-12T20:44:36Z,Kitting,KIT03,warn,PLC,Servo temperature high warning - capper axis (78 C)
-2026-08-12T20:44:57Z,Packaging,PKG06,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
-2026-08-12T20:45:46Z,Packaging,PKG04,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
-2026-08-12T20:46:09Z,Packaging,PKG07,info,PLC,Master reset - line restart
-2026-08-12T20:46:25Z,Kitting,KIT08,info,HMI,Alarm E310 acknowledged by operator
-2026-08-12T20:46:32Z,Packaging,PKG05,info,PLC,Ramp to rate complete (2600 uph)
-2026-08-12T20:46:42Z,Molding,MLD06,info,MES,Operator T.Nguyen signed in at station 1
-2026-08-12T20:47:28Z,Kitting,KIT04,info,HMI,Alarm E201 acknowledged by operator
-2026-08-12T20:47:41Z,Assembly,ASM02,warn,PLC,Servo temperature high warning - capper axis (78 C)
-2026-08-12T20:48:39Z,Packaging,PKG07,info,PLC,Ramp to rate complete (2400 uph)
-2026-08-12T20:50:46Z,Kitting,KIT05,info,MES,Hourly production: pass=1583 fail=139 yield=97.1%
-2026-08-12T20:53:08Z,Molding,MLD05,info,MES,QA sampling in progress - 32 pc AQL pull
-2026-08-12T20:53:42Z,Assembly,ASM02,info,MES,Hourly production: pass=1650 fail=90 yield=94.7%
-2026-08-12T20:53:46Z,Molding,MLD07,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
-2026-08-12T20:55:57Z,Molding,MLD03,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-12T20:56:28Z,Coating,COT01,info,MES,Hourly production: pass=1548 fail=244 yield=97.7%
-2026-08-12T20:56:39Z,Kitting,KIT07,info,MES,Scheduled downtime started - PM work order WO-48670
-2026-08-12T20:56:39Z,Kitting,KIT07,warn,PLC,LOTO applied - energy isolation verified
-2026-08-12T20:58:17Z,Kitting,KIT03,info,MES,Hourly production: pass=2616 fail=54 yield=95.7%
-2026-08-12T20:59:05Z,Kitting,KIT08,info,PLC,Product present at infeed - auto restart
-2026-08-12T21:00:21Z,Packaging,PKG06,info,PLC,Master reset - line restart
-2026-08-12T21:02:51Z,Packaging,PKG06,info,PLC,Ramp to rate complete (3100 uph)
 2026-08-12T21:02:54Z,Molding,MLD07,info,PLC,Master reset - line restart
 2026-08-12T21:02:55Z,Packaging,PKG08,warn,VIS,Vision reject burst: 4 consecutive rejects - self-cleared
 2026-08-12T21:03:08Z,Kitting,KIT04,info,HMI,Jam cleared - guards closed
@@ -94,7 +67,7 @@ ts,factory,line,level,src,message
 2026-08-12T21:45:11Z,Assembly,ASM02,info,MES,Hourly production: pass=1922 fail=251 yield=92.9%
 2026-08-12T21:46:24Z,Packaging,PKG04,info,MES,QA sampling in progress - 32 pc AQL pull
 2026-08-12T21:46:31Z,Molding,MLD06,warn,PLC,Servo temperature high warning - capper axis (78 C)
-2026-08-12T21:48:15Z,Molding,MLD03,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-12T21:48:15Z,Molding,MLD03,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
 2026-08-12T21:48:37Z,Assembly,ASM05,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
 2026-08-12T21:48:45Z,Coating,COT02,info,MES,Line clearance checklist item complete: reject bin verified empty
 2026-08-12T21:49:14Z,Kitting,KIT05,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
