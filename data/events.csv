@@ -1,38 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-12T14:19:15Z,Assembly,ASM05,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
-2026-08-12T14:19:25Z,Kitting,KIT04,info,MES,QA sampling in progress - 32 pc AQL pull
-2026-08-12T14:20:54Z,Molding,MLD03,info,MES,Line clearance checklist item complete: reject bin verified empty
-2026-08-12T14:21:12Z,Molding,MLD07,info,MES,Hourly production: pass=2664 fail=188 yield=88.3%
-2026-08-12T14:21:30Z,Molding,MLD04,warn,VIS,Vision reject burst: 11 consecutive rejects - self-cleared
-2026-08-12T14:22:28Z,Kitting,KIT07,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T14:22:47Z,Kitting,KIT07,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-12T14:23:04Z,Kitting,KIT05,info,MES,Hourly production: pass=2330 fail=154 yield=96.7%
-2026-08-12T14:23:11Z,Kitting,KIT07,warn,PLC,Servo temperature high warning - capper axis (78 C)
-2026-08-12T14:23:46Z,Packaging,PKG06,info,PLC,Product present at infeed - auto restart
-2026-08-12T14:24:18Z,Coating,COT01,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T14:24:47Z,Kitting,KIT07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-12T14:25:44Z,Kitting,KIT07,info,HMI,Alarm E201 acknowledged by operator
-2026-08-12T14:26:31Z,Coating,COT01,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-12T14:27:46Z,Coating,COT01,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-12T14:29:17Z,Packaging,PKG08,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-12T14:29:51Z,Kitting,KIT07,info,HMI,Jam cleared - guards closed
-2026-08-12T14:30:44Z,Coating,COT01,info,HMI,Alarm E201 acknowledged by operator
-2026-08-12T14:31:07Z,Kitting,KIT07,info,PLC,Fault reset - line restart
-2026-08-12T14:31:29Z,Kitting,KIT04,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
-2026-08-12T14:32:45Z,Assembly,ASM01,warn,VIS,Vision reject burst: 4 consecutive rejects - self-cleared
-2026-08-12T14:32:54Z,Molding,MLD06,warn,VIS,Vision reject burst: 8 consecutive rejects - self-cleared
-2026-08-12T14:33:07Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
-2026-08-12T14:34:26Z,Assembly,ASM02,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
-2026-08-12T14:35:15Z,Assembly,ASM05,info,PLC,Master reset - line restart
-2026-08-12T14:37:45Z,Assembly,ASM05,info,PLC,Ramp to rate complete (3200 uph)
-2026-08-12T14:38:03Z,Coating,COT03,info,MES,PM task complete: lubrication / inspection checklist
-2026-08-12T14:40:13Z,Molding,MLD04,info,MES,Hourly production: pass=1658 fail=154 yield=94.5%
-2026-08-12T14:40:50Z,Packaging,PKG06,info,MES,Hourly production: pass=3231 fail=196 yield=96.2%
-2026-08-12T14:42:35Z,Packaging,PKG06,warn,VIS,Vision reject burst: 8 consecutive rejects - self-cleared
-2026-08-12T14:42:43Z,Assembly,ASM02,info,MES,Hourly production: pass=3050 fail=112 yield=98.6%
-2026-08-12T14:43:05Z,Molding,MLD05,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
-2026-08-12T14:43:33Z,Coating,COT01,info,HMI,Jam cleared - guards closed
-2026-08-12T14:43:48Z,Kitting,KIT07,info,MES,Hourly production: pass=2098 fail=70 yield=90.0%
 2026-08-12T14:45:10Z,Molding,MLD03,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-12T14:45:21Z,Molding,MLD07,warn,PLC,Torque limit warning - infeed screw drive
 2026-08-12T14:46:36Z,Molding,MLD07,warn,PLC,Infeed backlog high - accumulation table at 85%
