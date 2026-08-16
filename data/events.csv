@@ -1,30 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-12T17:39:31Z,Molding,MLD05,info,PLC,Master reset - line restart
-2026-08-12T17:40:36Z,Packaging,PKG04,info,MES,Hourly production: pass=2752 fail=281 yield=91.4%
-2026-08-12T17:41:29Z,Packaging,PKG08,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-12T17:42:01Z,Molding,MLD05,info,PLC,Ramp to rate complete (2900 uph)
-2026-08-12T17:42:30Z,Packaging,PKG05,info,MES,Recipe change queued: SKU-1042 -> SKU-2044
-2026-08-12T17:43:29Z,Assembly,ASM02,info,MES,Hourly production: pass=2837 fail=148 yield=88.1%
-2026-08-12T17:43:33Z,Molding,MLD05,info,MES,Hourly production: pass=2910 fail=158 yield=91.0%
-2026-08-12T17:45:22Z,Molding,MLD04,info,MES,Hourly production: pass=3098 fail=66 yield=97.7%
-2026-08-12T17:46:17Z,Packaging,PKG04,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-12T17:46:44Z,Packaging,PKG04,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T17:47:34Z,Coating,COT02,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T17:47:43Z,Packaging,PKG05,info,MES,Change over started - line clearance in progress
-2026-08-12T17:47:43Z,Packaging,PKG05,info,PLC,Guard door opened - operator station 1
-2026-08-12T17:47:51Z,Packaging,PKG04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-12T17:48:42Z,Assembly,ASM01,warn,VIS,Vision reject burst: 12 consecutive rejects - self-cleared
-2026-08-12T17:49:42Z,Molding,MLD06,info,MES,Operator J.Alvarez signed in at station 1
-2026-08-12T17:49:58Z,Assembly,ASM01,info,MES,Recipe change queued: SKU-2044 -> SKU-1042
-2026-08-12T17:50:19Z,Packaging,PKG04,info,HMI,Alarm E201 acknowledged by operator
-2026-08-12T17:52:03Z,Coating,COT02,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-12T17:52:37Z,Kitting,KIT08,info,MES,Hourly production: pass=2545 fail=129 yield=89.1%
-2026-08-12T17:52:37Z,Assembly,ASM01,info,MES,Hourly production: pass=3315 fail=109 yield=96.4%
-2026-08-12T17:52:50Z,Coating,COT02,info,MES,Hourly production: pass=2298 fail=198 yield=89.8%
-2026-08-12T17:53:10Z,Packaging,PKG05,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-12T17:53:11Z,Coating,COT01,warn,PLC,Servo temperature high warning - capper axis (78 C)
-2026-08-12T17:53:19Z,Coating,COT02,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-12T17:53:50Z,Kitting,KIT04,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
 2026-08-12T17:54:23Z,Coating,COT02,info,HMI,Alarm E201 acknowledged by operator
 2026-08-12T17:54:46Z,Packaging,PKG06,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-08-12T17:56:03Z,Molding,MLD06,info,MES,Hourly production: pass=2046 fail=100 yield=93.0%
@@ -74,7 +48,7 @@ ts,factory,line,level,src,message
 2026-08-12T18:23:36Z,Coating,COT01,info,HMI,Jam cleared - guards closed
 2026-08-12T18:24:09Z,Kitting,KIT07,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-08-12T18:24:35Z,Kitting,KIT08,info,PLC,Ramp to rate complete (3100 uph)
-2026-08-12T18:25:39Z,Packaging,PKG08,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-12T18:25:39Z,Packaging,PKG08,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-12T18:27:13Z,Coating,COT01,info,PLC,Fault reset - line restart
 2026-08-12T18:27:53Z,Molding,MLD03,warn,PLC,Infeed backlog high - accumulation table at 85%
 2026-08-12T18:28:49Z,Molding,MLD06,info,MES,Change over started - line clearance in progress
@@ -124,7 +98,7 @@ ts,factory,line,level,src,message
 2026-08-12T18:55:58Z,Assembly,ASM05,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
 2026-08-12T18:56:01Z,Packaging,PKG08,info,MES,Hourly production: pass=1591 fail=59 yield=92.6%
 2026-08-12T18:56:23Z,Molding,MLD05,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T18:56:23Z,Assembly,ASM01,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-12T18:56:23Z,Assembly,ASM01,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
 2026-08-12T18:56:38Z,Molding,MLD05,warn,PLC,Torque limit warning - infeed screw drive
 2026-08-12T18:57:17Z,Kitting,KIT08,info,MES,Hourly production: pass=2197 fail=228 yield=91.5%
 2026-08-12T18:57:31Z,Packaging,PKG04,info,MES,Hourly production: pass=3108 fail=216 yield=98.9%
