@@ -1,21 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-12T11:20:49Z,Assembly,ASM05,info,MES,Hourly production: pass=2550 fail=47 yield=93.7%
-2026-08-12T11:25:44Z,Molding,MLD05,info,PLC,Downstream cleared - auto restart
-2026-08-12T11:25:48Z,Packaging,PKG06,info,MES,Hourly production: pass=2359 fail=269 yield=96.1%
-2026-08-12T11:26:01Z,Assembly,ASM01,warn,VIS,Vision reject burst: 12 consecutive rejects - self-cleared
-2026-08-12T11:26:20Z,Molding,MLD03,info,MES,QA sampling in progress - 32 pc AQL pull
-2026-08-12T11:27:31Z,Molding,MLD05,info,MES,Hourly production: pass=2023 fail=74 yield=91.6%
-2026-08-12T11:29:21Z,Molding,MLD06,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-12T11:29:28Z,Molding,MLD06,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-12T11:30:27Z,Coating,COT03,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-12T11:31:42Z,Coating,COT03,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-12T11:31:44Z,Molding,MLD06,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-12T11:31:47Z,Molding,MLD07,info,MES,Operator T.Nguyen signed in at station 1
-2026-08-12T11:35:09Z,Molding,MLD06,info,HMI,Alarm E201 acknowledged by operator
-2026-08-12T11:35:29Z,Molding,MLD07,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-12T11:37:18Z,Molding,MLD07,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-12T11:39:10Z,Coating,COT01,info,MES,Hourly production: pass=1828 fail=66 yield=96.2%
-2026-08-12T11:39:20Z,Molding,MLD07,info,HMI,Alarm E310 acknowledged by operator
 2026-08-12T11:40:28Z,Packaging,PKG07,info,MES,Hourly production: pass=2261 fail=42 yield=88.6%
 2026-08-12T11:40:34Z,Assembly,ASM02,info,MES,Recipe change queued: SKU-1042 -> SKU-2044
 2026-08-12T11:42:58Z,Kitting,KIT05,info,HMI,Operator D.Okafor signed in - line restart
