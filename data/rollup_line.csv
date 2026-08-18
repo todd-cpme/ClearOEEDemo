@@ -4,19 +4,19 @@ Assembly,ASM02,14687,614,95.99,44.51,Running,,0
 Assembly,ASM05,20372,410,98.03,57.87,Running,,0
 Molding,MLD03,16841,408,97.63,54.67,Running,,0
 Molding,MLD04,21492,319,98.54,59.21,Running,,0
-Molding,MLD05,13386,768,94.57,41.96,Running,,0
-Molding,MLD06,14031,731,95.05,47.24,Running,,0
-Molding,MLD07,3150,93,97.13,30.27,Down,Scheduled Downtime,290
+Molding,MLD05,13386,768,94.57,41.96,Down,Quality Hold,2
+Molding,MLD06,14031,731,95.05,47.24,Down,Starved - Upstream,6
+Molding,MLD07,3150,93,97.13,30.27,Running,,0
 Coating,COT01,10819,370,96.69,45.08,Running,,0
-Coating,COT02,19738,559,97.25,56.07,Down,Change Over - Line clearance,1
-Coating,COT03,14478,378,97.46,43.88,Down,Jam,16
-Packaging,PKG04,14376,834,94.52,43.57,Running,,0
-Packaging,PKG05,11662,1782,86.75,40.78,Running,,0
-Packaging,PKG06,18365,1571,92.12,53.86,Running,,0
+Coating,COT02,19738,559,97.25,56.07,Down,Change Over - Line clearance,23
+Coating,COT03,14478,378,97.46,43.88,Running,,0
+Packaging,PKG04,14376,834,94.52,43.57,Down,Jam,20
+Packaging,PKG05,11662,1782,86.75,40.78,Down,Jam,20
+Packaging,PKG06,18365,1571,92.12,53.86,Down,Quality Hold,17
 Packaging,PKG07,7211,831,89.67,27.32,Running,,0
-Packaging,PKG08,11631,1281,90.08,40.38,Running,,0
+Packaging,PKG08,11631,1281,90.08,40.38,Down,Jam,14
 Kitting,KIT03,18229,92,99.5,55.24,Running,,0
 Kitting,KIT04,25237,363,98.58,69.52,Running,,0
-Kitting,KIT05,15738,326,97.97,49.34,Down,Quality Hold,12
-Kitting,KIT07,12404,44,99.65,51.68,Down,Quality Hold,15
+Kitting,KIT05,15738,326,97.97,49.34,Down,Quality Hold,34
+Kitting,KIT07,12404,44,99.65,51.68,Running,,0
 Kitting,KIT08,15431,225,98.56,45.25,Running,,0
