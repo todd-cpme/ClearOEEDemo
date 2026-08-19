@@ -1,22 +1,22 @@
 ts,factory,line,state,reason,duration_min
-2026-08-19T18:50:23Z,Assembly,ASM01,Down,Scheduled Downtime,53
-2026-08-19T18:50:23Z,Assembly,ASM02,Running,,0
-2026-08-19T18:50:23Z,Assembly,ASM05,Running,,0
-2026-08-19T18:50:23Z,Molding,MLD03,Running,,0
-2026-08-19T18:50:23Z,Molding,MLD04,Running,,0
-2026-08-19T18:50:23Z,Molding,MLD05,Running,,0
-2026-08-19T18:50:23Z,Molding,MLD06,Down,No Operator,26
-2026-08-19T18:50:23Z,Molding,MLD07,Running,,0
-2026-08-19T18:50:23Z,Coating,COT01,Running,,0
-2026-08-19T18:50:23Z,Coating,COT02,Running,,0
-2026-08-19T18:50:23Z,Coating,COT03,Running,,0
-2026-08-19T18:50:23Z,Packaging,PKG04,Running,,0
-2026-08-19T18:50:23Z,Packaging,PKG05,Down,Scheduled Downtime,53
-2026-08-19T18:50:23Z,Packaging,PKG06,Running,,0
-2026-08-19T18:50:23Z,Packaging,PKG07,Running,,0
-2026-08-19T18:50:23Z,Packaging,PKG08,Running,,0
-2026-08-19T18:50:23Z,Kitting,KIT03,Running,,0
-2026-08-19T18:50:23Z,Kitting,KIT04,Running,,0
-2026-08-19T18:50:23Z,Kitting,KIT05,Running,,0
-2026-08-19T18:50:23Z,Kitting,KIT07,Running,,0
-2026-08-19T18:50:23Z,Kitting,KIT08,Down,No Operator,26
+2026-08-19T19:22:24Z,Assembly,ASM01,Running,,0
+2026-08-19T19:22:24Z,Assembly,ASM02,Down,Jam,10
+2026-08-19T19:22:24Z,Assembly,ASM05,Running,,0
+2026-08-19T19:22:24Z,Molding,MLD03,Running,,0
+2026-08-19T19:22:24Z,Molding,MLD04,Down,Quality Hold,3
+2026-08-19T19:22:24Z,Molding,MLD05,Down,Jam,16
+2026-08-19T19:22:24Z,Molding,MLD06,Running,,0
+2026-08-19T19:22:24Z,Molding,MLD07,Running,,0
+2026-08-19T19:22:24Z,Coating,COT01,Running,,0
+2026-08-19T19:22:24Z,Coating,COT02,Running,,0
+2026-08-19T19:22:24Z,Coating,COT03,Down,Starved - Upstream,3
+2026-08-19T19:22:24Z,Packaging,PKG04,Running,,0
+2026-08-19T19:22:24Z,Packaging,PKG05,Running,,0
+2026-08-19T19:22:24Z,Packaging,PKG06,Running,,0
+2026-08-19T19:22:24Z,Packaging,PKG07,Down,Starved - Upstream,5
+2026-08-19T19:22:24Z,Packaging,PKG08,Down,No Operator,8
+2026-08-19T19:22:24Z,Kitting,KIT03,Running,,0
+2026-08-19T19:22:24Z,Kitting,KIT04,Running,,0
+2026-08-19T19:22:24Z,Kitting,KIT05,Down,Jam,0
+2026-08-19T19:22:24Z,Kitting,KIT07,Running,,0
+2026-08-19T19:22:24Z,Kitting,KIT08,Running,,0
