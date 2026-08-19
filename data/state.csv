@@ -1,27 +1,4 @@
 ts,factory,line,state,reason,duration_min
-2026-08-04T11:00:05Z,Assembly,ASM01,Down,Starved - Upstream,13.3
-2026-08-04T11:13:20Z,Assembly,ASM01,Running,,0
-2026-08-04T12:26:42Z,Assembly,ASM01,Down,Jam,14.6
-2026-08-04T12:41:18Z,Assembly,ASM01,Running,,0
-2026-08-04T13:47:09Z,Assembly,ASM01,Down,Quality Hold,42.3
-2026-08-04T14:29:25Z,Assembly,ASM01,Running,,0
-2026-08-04T15:08:52Z,Assembly,ASM01,Down,Quality Hold,20.5
-2026-08-04T15:29:23Z,Assembly,ASM01,Running,,0
-2026-08-04T16:01:45Z,Assembly,ASM01,Down,Jam,17.5
-2026-08-04T16:19:16Z,Assembly,ASM01,Running,,0
-2026-08-04T16:52:29Z,Assembly,ASM01,Down,Starved - Upstream,17.0
-2026-08-04T17:09:26Z,Assembly,ASM01,Running,,0
-2026-08-04T18:37:52Z,Assembly,ASM01,Down,Starved - Upstream,13.8
-2026-08-04T18:51:40Z,Assembly,ASM01,Running,,0
-2026-08-04T20:19:24Z,Assembly,ASM01,Down,No Operator,9.1
-2026-08-04T20:28:28Z,Assembly,ASM01,Running,,0
-2026-08-04T21:16:16Z,Assembly,ASM01,Down,Jam,16.9
-2026-08-04T21:33:10Z,Assembly,ASM01,Running,,0
-2026-08-04T22:09:01Z,Assembly,ASM01,Down,Scheduled Downtime,150.5
-2026-08-05T00:39:29Z,Assembly,ASM01,Running,,0
-2026-08-05T01:47:18Z,Assembly,ASM01,Down,Jam,23.6
-2026-08-05T02:10:51Z,Assembly,ASM01,Running,,0
-2026-08-05T03:00:00Z,Assembly,ASM01,Down,Outside production hours,0
 2026-08-05T12:14:41Z,Assembly,ASM01,Down,Starved - Upstream,14.8
 2026-08-05T12:29:29Z,Assembly,ASM01,Running,,0
 2026-08-05T13:02:33Z,Assembly,ASM01,Down,Jam,10.8
@@ -422,34 +399,29 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:27:39Z,Assembly,ASM01,Down,Jam,4.5
 2026-08-25T02:32:10Z,Assembly,ASM01,Running,,0
 2026-08-25T03:00:00Z,Assembly,ASM01,Down,Outside production hours,0
-2026-08-04T11:34:00Z,Assembly,ASM02,Down,Jam,11.6
-2026-08-04T11:45:36Z,Assembly,ASM02,Running,,0
-2026-08-04T12:16:37Z,Assembly,ASM02,Down,Quality Hold,23.3
-2026-08-04T12:39:58Z,Assembly,ASM02,Running,,0
-2026-08-04T13:51:46Z,Assembly,ASM02,Down,Blocked - Downstream,13.0
-2026-08-04T14:04:45Z,Assembly,ASM02,Running,,0
-2026-08-04T14:37:20Z,Assembly,ASM02,Down,Blocked - Downstream,8.1
-2026-08-04T14:45:27Z,Assembly,ASM02,Running,,0
-2026-08-04T15:58:05Z,Assembly,ASM02,Down,Jam,5.9
-2026-08-04T16:03:56Z,Assembly,ASM02,Running,,0
-2026-08-04T17:33:18Z,Assembly,ASM02,Down,Quality Hold,35.5
-2026-08-04T18:08:50Z,Assembly,ASM02,Running,,0
-2026-08-04T18:34:13Z,Assembly,ASM02,Down,Jam,13.5
-2026-08-04T18:47:42Z,Assembly,ASM02,Running,,0
-2026-08-04T19:19:03Z,Assembly,ASM02,Down,Starved - Upstream,8.7
-2026-08-04T19:27:45Z,Assembly,ASM02,Running,,0
-2026-08-04T19:59:55Z,Assembly,ASM02,Down,Jam,13.0
-2026-08-04T20:12:55Z,Assembly,ASM02,Running,,0
-2026-08-04T21:15:45Z,Assembly,ASM02,Down,Jam,4.5
-2026-08-04T21:20:13Z,Assembly,ASM02,Running,,0
-2026-08-04T22:25:47Z,Assembly,ASM02,Down,Jam,17.1
-2026-08-04T22:42:55Z,Assembly,ASM02,Running,,0
-2026-08-04T23:21:36Z,Assembly,ASM02,Down,No Operator,8.9
-2026-08-04T23:30:32Z,Assembly,ASM02,Running,,0
-2026-08-05T00:31:15Z,Assembly,ASM02,Down,Jam,9.0
-2026-08-05T00:40:14Z,Assembly,ASM02,Running,,0
-2026-08-05T01:07:07Z,Assembly,ASM02,Down,Scheduled Downtime,199.8
-2026-08-05T03:00:00Z,Assembly,ASM02,Down,Outside production hours,0
+2026-08-25T11:15:09Z,Assembly,ASM01,Running,,0
+2026-08-25T12:31:06Z,Assembly,ASM01,Down,Blocked - Downstream,4.1
+2026-08-25T12:35:12Z,Assembly,ASM01,Running,,0
+2026-08-25T13:05:28Z,Assembly,ASM01,Down,Jam,24.9
+2026-08-25T13:30:22Z,Assembly,ASM01,Running,,0
+2026-08-25T14:46:52Z,Assembly,ASM01,Down,Jam,9.5
+2026-08-25T14:56:21Z,Assembly,ASM01,Running,,0
+2026-08-25T15:45:49Z,Assembly,ASM01,Down,Jam,15.2
+2026-08-25T16:01:03Z,Assembly,ASM01,Running,,0
+2026-08-25T17:24:14Z,Assembly,ASM01,Down,Jam,6.1
+2026-08-25T17:30:20Z,Assembly,ASM01,Running,,0
+2026-08-25T18:05:58Z,Assembly,ASM01,Down,Change Over - Line clearance,57.5
+2026-08-25T19:03:25Z,Assembly,ASM01,Running,,0
+2026-08-25T20:23:30Z,Assembly,ASM01,Down,Jam,10.4
+2026-08-25T20:33:53Z,Assembly,ASM01,Running,,0
+2026-08-25T21:29:17Z,Assembly,ASM01,Down,E-Stop,9.8
+2026-08-25T21:39:04Z,Assembly,ASM01,Running,,0
+2026-08-25T22:22:56Z,Assembly,ASM01,Down,Jam,10.0
+2026-08-25T22:32:58Z,Assembly,ASM01,Running,,0
+2026-08-25T23:11:29Z,Assembly,ASM01,Down,Starved - Upstream,13.8
+2026-08-25T23:25:15Z,Assembly,ASM01,Running,,0
+2026-08-26T00:17:57Z,Assembly,ASM01,Down,Scheduled Downtime,226.4
+2026-08-26T03:00:00Z,Assembly,ASM01,Down,Outside production hours,0
 2026-08-05T11:04:05Z,Assembly,ASM02,Running,,0
 2026-08-05T12:21:36Z,Assembly,ASM02,Down,E-Stop,9.4
 2026-08-05T12:31:02Z,Assembly,ASM02,Running,,0
@@ -840,31 +812,29 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:21:30Z,Assembly,ASM02,Down,Jam,4.6
 2026-08-25T02:26:06Z,Assembly,ASM02,Running,,0
 2026-08-25T03:00:00Z,Assembly,ASM02,Down,Outside production hours,0
-2026-08-04T11:16:46Z,Assembly,ASM05,Down,Starved - Upstream,8.0
-2026-08-04T11:24:48Z,Assembly,ASM05,Running,,0
-2026-08-04T11:56:41Z,Assembly,ASM05,Down,Change Over - Line clearance,61.2
-2026-08-04T12:57:54Z,Assembly,ASM05,Running,,0
-2026-08-04T14:17:43Z,Assembly,ASM05,Down,Jam,10.0
-2026-08-04T14:27:41Z,Assembly,ASM05,Running,,0
-2026-08-04T15:55:00Z,Assembly,ASM05,Down,Jam,19.1
-2026-08-04T16:14:03Z,Assembly,ASM05,Running,,0
-2026-08-04T16:59:58Z,Assembly,ASM05,Down,Starved - Upstream,11.0
-2026-08-04T17:10:57Z,Assembly,ASM05,Running,,0
-2026-08-04T18:18:17Z,Assembly,ASM05,Down,Starved - Upstream,13.7
-2026-08-04T18:32:00Z,Assembly,ASM05,Running,,0
-2026-08-04T19:34:14Z,Assembly,ASM05,Down,Scheduled Downtime,125.4
-2026-08-04T21:39:36Z,Assembly,ASM05,Running,,0
-2026-08-04T22:12:52Z,Assembly,ASM05,Down,E-Stop,3.6
-2026-08-04T22:16:30Z,Assembly,ASM05,Running,,0
-2026-08-04T23:38:16Z,Assembly,ASM05,Down,Change Over - Line clearance,27.4
-2026-08-05T00:05:39Z,Assembly,ASM05,Running,,0
-2026-08-05T00:47:14Z,Assembly,ASM05,Down,Starved - Upstream,13.4
-2026-08-05T01:00:37Z,Assembly,ASM05,Running,,0
-2026-08-05T01:56:40Z,Assembly,ASM05,Down,Jam,21.5
-2026-08-05T02:18:09Z,Assembly,ASM05,Running,,0
-2026-08-05T02:43:35Z,Assembly,ASM05,Down,Starved - Upstream,15.6
-2026-08-05T02:59:11Z,Assembly,ASM05,Running,,0
-2026-08-05T03:00:00Z,Assembly,ASM05,Down,Outside production hours,0
+2026-08-25T11:24:46Z,Assembly,ASM02,Running,,0
+2026-08-25T12:35:12Z,Assembly,ASM02,Down,Jam,24.8
+2026-08-25T12:59:57Z,Assembly,ASM02,Running,,0
+2026-08-25T14:09:16Z,Assembly,ASM02,Down,Blocked - Downstream,4.6
+2026-08-25T14:13:53Z,Assembly,ASM02,Running,,0
+2026-08-25T14:45:55Z,Assembly,ASM02,Down,Jam,18.8
+2026-08-25T15:04:46Z,Assembly,ASM02,Running,,0
+2026-08-25T16:39:36Z,Assembly,ASM02,Down,Blocked - Downstream,4.1
+2026-08-25T16:43:41Z,Assembly,ASM02,Running,,0
+2026-08-25T18:17:06Z,Assembly,ASM02,Down,Change Over - Line clearance,33.2
+2026-08-25T18:50:16Z,Assembly,ASM02,Running,,0
+2026-08-25T20:18:11Z,Assembly,ASM02,Down,Starved - Upstream,7.5
+2026-08-25T20:25:41Z,Assembly,ASM02,Running,,0
+2026-08-25T21:41:22Z,Assembly,ASM02,Down,Blocked - Downstream,6.7
+2026-08-25T21:48:04Z,Assembly,ASM02,Running,,0
+2026-08-25T22:40:27Z,Assembly,ASM02,Down,Blocked - Downstream,10.2
+2026-08-25T22:50:38Z,Assembly,ASM02,Running,,0
+2026-08-25T23:38:11Z,Assembly,ASM02,Down,Starved - Upstream,19.2
+2026-08-25T23:57:24Z,Assembly,ASM02,Running,,0
+2026-08-26T00:50:52Z,Assembly,ASM02,Down,Jam,17.0
+2026-08-26T01:07:50Z,Assembly,ASM02,Running,,0
+2026-08-26T02:36:55Z,Assembly,ASM02,Down,Change Over - Line clearance,77.3
+2026-08-26T03:00:00Z,Assembly,ASM02,Down,Outside production hours,0
 2026-08-05T11:40:55Z,Assembly,ASM05,Down,Jam,9.3
 2026-08-05T11:50:14Z,Assembly,ASM05,Running,,0
 2026-08-05T13:11:26Z,Assembly,ASM05,Down,Blocked - Downstream,14.4
@@ -1267,30 +1237,32 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T01:34:56Z,Assembly,ASM05,Down,Starved - Upstream,16.2
 2026-08-25T01:51:09Z,Assembly,ASM05,Running,,0
 2026-08-25T03:00:00Z,Assembly,ASM05,Down,Outside production hours,0
-2026-08-04T11:09:45Z,Molding,MLD03,Running,,0
-2026-08-04T11:44:01Z,Molding,MLD03,Down,Change Over - Line clearance,81.8
-2026-08-04T13:05:50Z,Molding,MLD03,Running,,0
-2026-08-04T13:39:50Z,Molding,MLD03,Down,Blocked - Downstream,14.2
-2026-08-04T13:53:59Z,Molding,MLD03,Running,,0
-2026-08-04T14:27:28Z,Molding,MLD03,Down,Blocked - Downstream,14.4
-2026-08-04T14:41:51Z,Molding,MLD03,Running,,0
-2026-08-04T16:13:28Z,Molding,MLD03,Down,No Operator,24.4
-2026-08-04T16:37:50Z,Molding,MLD03,Running,,0
-2026-08-04T17:20:58Z,Molding,MLD03,Down,No Operator,25.7
-2026-08-04T17:46:42Z,Molding,MLD03,Running,,0
-2026-08-04T18:12:07Z,Molding,MLD03,Down,Quality Hold,16.1
-2026-08-04T18:28:16Z,Molding,MLD03,Running,,0
-2026-08-04T19:53:59Z,Molding,MLD03,Down,Change Over - Line clearance,71.6
-2026-08-04T21:05:36Z,Molding,MLD03,Running,,0
-2026-08-04T22:31:36Z,Molding,MLD03,Down,E-Stop,5.8
-2026-08-04T22:37:22Z,Molding,MLD03,Running,,0
-2026-08-04T23:30:05Z,Molding,MLD03,Down,Jam,20.1
-2026-08-04T23:50:10Z,Molding,MLD03,Running,,0
-2026-08-05T00:43:34Z,Molding,MLD03,Down,Starved - Upstream,15.4
-2026-08-05T00:58:59Z,Molding,MLD03,Running,,0
-2026-08-05T02:04:58Z,Molding,MLD03,Down,Starved - Upstream,18.8
-2026-08-05T02:23:44Z,Molding,MLD03,Running,,0
-2026-08-05T03:00:00Z,Molding,MLD03,Down,Outside production hours,0
+2026-08-25T11:42:28Z,Assembly,ASM05,Down,No Operator,23.7
+2026-08-25T12:06:08Z,Assembly,ASM05,Running,,0
+2026-08-25T12:39:15Z,Assembly,ASM05,Down,No Operator,25.3
+2026-08-25T13:04:35Z,Assembly,ASM05,Running,,0
+2026-08-25T13:45:47Z,Assembly,ASM05,Down,Starved - Upstream,17.9
+2026-08-25T14:03:43Z,Assembly,ASM05,Running,,0
+2026-08-25T14:31:04Z,Assembly,ASM05,Down,Jam,7.7
+2026-08-25T14:38:43Z,Assembly,ASM05,Running,,0
+2026-08-25T15:16:44Z,Assembly,ASM05,Down,Jam,21.7
+2026-08-25T15:38:29Z,Assembly,ASM05,Running,,0
+2026-08-25T17:06:03Z,Assembly,ASM05,Down,Jam,24.5
+2026-08-25T17:30:32Z,Assembly,ASM05,Running,,0
+2026-08-25T18:36:33Z,Assembly,ASM05,Down,Blocked - Downstream,8.4
+2026-08-25T18:44:59Z,Assembly,ASM05,Running,,0
+2026-08-25T19:31:32Z,Assembly,ASM05,Down,Change Over - Line clearance,71.1
+2026-08-25T20:42:36Z,Assembly,ASM05,Running,,0
+2026-08-25T21:39:09Z,Assembly,ASM05,Down,Blocked - Downstream,5.0
+2026-08-25T21:44:09Z,Assembly,ASM05,Running,,0
+2026-08-25T22:33:32Z,Assembly,ASM05,Down,E-Stop,5.1
+2026-08-25T22:38:41Z,Assembly,ASM05,Running,,0
+2026-08-25T23:41:41Z,Assembly,ASM05,Down,Jam,8.9
+2026-08-25T23:50:36Z,Assembly,ASM05,Running,,0
+2026-08-26T01:14:09Z,Assembly,ASM05,Down,No Operator,29.7
+2026-08-26T01:43:51Z,Assembly,ASM05,Running,,0
+2026-08-26T02:29:36Z,Assembly,ASM05,Down,Change Over - Line clearance,77.3
+2026-08-26T03:00:00Z,Assembly,ASM05,Down,Outside production hours,0
 2026-08-05T12:02:41Z,Molding,MLD03,Down,Quality Hold,34.8
 2026-08-05T12:37:31Z,Molding,MLD03,Running,,0
 2026-08-05T13:25:40Z,Molding,MLD03,Down,Jam,18.1
@@ -1680,28 +1652,21 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:07:06Z,Molding,MLD03,Down,Starved - Upstream,17.9
 2026-08-25T02:25:02Z,Molding,MLD03,Running,,0
 2026-08-25T03:00:00Z,Molding,MLD03,Down,Outside production hours,0
-2026-08-04T11:02:38Z,Molding,MLD04,Down,Blocked - Downstream,5.1
-2026-08-04T11:07:46Z,Molding,MLD04,Running,,0
-2026-08-04T12:15:16Z,Molding,MLD04,Down,Quality Hold,32.2
-2026-08-04T12:47:28Z,Molding,MLD04,Running,,0
-2026-08-04T14:03:15Z,Molding,MLD04,Down,Change Over - Line clearance,65.9
-2026-08-04T15:09:12Z,Molding,MLD04,Running,,0
-2026-08-04T15:52:11Z,Molding,MLD04,Down,Starved - Upstream,18.7
-2026-08-04T16:10:56Z,Molding,MLD04,Running,,0
-2026-08-04T16:58:42Z,Molding,MLD04,Down,Starved - Upstream,10.5
-2026-08-04T17:09:14Z,Molding,MLD04,Running,,0
-2026-08-04T17:43:59Z,Molding,MLD04,Down,Scheduled Downtime,185.9
-2026-08-04T20:49:56Z,Molding,MLD04,Running,,0
-2026-08-04T22:08:30Z,Molding,MLD04,Down,Starved - Upstream,11.7
-2026-08-04T22:20:15Z,Molding,MLD04,Running,,0
-2026-08-04T23:15:53Z,Molding,MLD04,Down,Blocked - Downstream,14.2
-2026-08-04T23:30:03Z,Molding,MLD04,Running,,0
-2026-08-05T00:38:13Z,Molding,MLD04,Down,No Operator,9.2
-2026-08-05T00:47:24Z,Molding,MLD04,Running,,0
-2026-08-05T01:25:14Z,Molding,MLD04,Down,Jam,16.3
-2026-08-05T01:41:32Z,Molding,MLD04,Running,,0
-2026-08-05T02:16:14Z,Molding,MLD04,Down,Change Over - Line clearance,69.9
-2026-08-05T03:00:00Z,Molding,MLD04,Down,Outside production hours,0
+2026-08-25T14:28:30Z,Molding,MLD03,Running,,0
+2026-08-25T15:44:12Z,Molding,MLD03,Down,No Operator,20.3
+2026-08-25T16:04:31Z,Molding,MLD03,Running,,0
+2026-08-25T17:12:41Z,Molding,MLD03,Down,E-Stop,6.0
+2026-08-25T17:18:43Z,Molding,MLD03,Running,,0
+2026-08-25T18:38:33Z,Molding,MLD03,Down,Quality Hold,40.9
+2026-08-25T19:19:26Z,Molding,MLD03,Running,,0
+2026-08-25T19:48:43Z,Molding,MLD03,Down,Change Over - Line clearance,83.2
+2026-08-25T21:11:55Z,Molding,MLD03,Running,,0
+2026-08-25T22:16:59Z,Molding,MLD03,Down,Quality Hold,41.2
+2026-08-25T22:58:14Z,Molding,MLD03,Running,,0
+2026-08-25T23:41:23Z,Molding,MLD03,Down,Change Over - Line clearance,86.5
+2026-08-26T01:07:55Z,Molding,MLD03,Running,,0
+2026-08-26T02:05:58Z,Molding,MLD03,Down,Change Over - Line clearance,56.6
+2026-08-26T03:00:00Z,Molding,MLD03,Down,Outside production hours,0
 2026-08-05T11:00:03Z,Molding,MLD04,Down,Starved - Upstream,5.8
 2026-08-05T11:05:54Z,Molding,MLD04,Running,,0
 2026-08-05T12:20:35Z,Molding,MLD04,Down,Jam,17.1
@@ -2114,30 +2079,30 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T00:00:44Z,Molding,MLD04,Down,Scheduled Downtime,117.5
 2026-08-25T01:58:16Z,Molding,MLD04,Running,,0
 2026-08-25T03:00:00Z,Molding,MLD04,Down,Outside production hours,0
-2026-08-04T11:22:23Z,Molding,MLD05,Running,,0
-2026-08-04T12:04:59Z,Molding,MLD05,Down,Quality Hold,21.1
-2026-08-04T12:26:05Z,Molding,MLD05,Running,,0
-2026-08-04T13:49:18Z,Molding,MLD05,Down,Blocked - Downstream,5.1
-2026-08-04T13:54:21Z,Molding,MLD05,Running,,0
-2026-08-04T15:02:14Z,Molding,MLD05,Down,Blocked - Downstream,13.1
-2026-08-04T15:15:22Z,Molding,MLD05,Running,,0
-2026-08-04T16:37:09Z,Molding,MLD05,Down,Change Over - Line clearance,30.2
-2026-08-04T17:07:20Z,Molding,MLD05,Running,,0
-2026-08-04T17:37:38Z,Molding,MLD05,Down,Jam,12.9
-2026-08-04T17:50:30Z,Molding,MLD05,Running,,0
-2026-08-04T19:17:53Z,Molding,MLD05,Down,Starved - Upstream,16.3
-2026-08-04T19:34:09Z,Molding,MLD05,Running,,0
-2026-08-04T20:42:53Z,Molding,MLD05,Down,Starved - Upstream,7.6
-2026-08-04T20:50:31Z,Molding,MLD05,Running,,0
-2026-08-04T21:48:28Z,Molding,MLD05,Down,Starved - Upstream,11.4
-2026-08-04T21:59:52Z,Molding,MLD05,Running,,0
-2026-08-04T22:55:40Z,Molding,MLD05,Down,Jam,6.7
-2026-08-04T23:02:23Z,Molding,MLD05,Running,,0
-2026-08-04T23:49:57Z,Molding,MLD05,Down,Change Over - Line clearance,40.3
-2026-08-05T00:30:16Z,Molding,MLD05,Running,,0
-2026-08-05T01:59:14Z,Molding,MLD05,Down,No Operator,29.1
-2026-08-05T02:28:21Z,Molding,MLD05,Running,,0
-2026-08-05T03:00:00Z,Molding,MLD05,Down,Outside production hours,0
+2026-08-25T11:33:47Z,Molding,MLD04,Down,Blocked - Downstream,12.1
+2026-08-25T11:45:51Z,Molding,MLD04,Running,,0
+2026-08-25T12:53:23Z,Molding,MLD04,Down,Scheduled Downtime,214.0
+2026-08-25T16:27:24Z,Molding,MLD04,Running,,0
+2026-08-25T17:46:53Z,Molding,MLD04,Down,Jam,20.2
+2026-08-25T18:07:06Z,Molding,MLD04,Running,,0
+2026-08-25T19:02:32Z,Molding,MLD04,Down,Blocked - Downstream,13.0
+2026-08-25T19:15:33Z,Molding,MLD04,Running,,0
+2026-08-25T19:55:12Z,Molding,MLD04,Down,Blocked - Downstream,11.8
+2026-08-25T20:06:57Z,Molding,MLD04,Running,,0
+2026-08-25T20:44:04Z,Molding,MLD04,Down,Blocked - Downstream,6.9
+2026-08-25T20:50:56Z,Molding,MLD04,Running,,0
+2026-08-25T22:03:53Z,Molding,MLD04,Down,Jam,4.9
+2026-08-25T22:08:49Z,Molding,MLD04,Running,,0
+2026-08-25T23:30:20Z,Molding,MLD04,Down,Blocked - Downstream,13.8
+2026-08-25T23:44:05Z,Molding,MLD04,Running,,0
+2026-08-26T00:32:52Z,Molding,MLD04,Down,Starved - Upstream,12.2
+2026-08-26T00:45:02Z,Molding,MLD04,Running,,0
+2026-08-26T01:15:49Z,Molding,MLD04,Down,Jam,12.8
+2026-08-26T01:28:38Z,Molding,MLD04,Running,,0
+2026-08-26T02:01:03Z,Molding,MLD04,Down,E-Stop,11.5
+2026-08-26T02:12:33Z,Molding,MLD04,Running,,0
+2026-08-26T02:59:52Z,Molding,MLD04,Down,Starved - Upstream,10.0
+2026-08-26T03:00:00Z,Molding,MLD04,Down,Outside production hours,0
 2026-08-05T12:19:09Z,Molding,MLD05,Down,Quality Hold,17.6
 2026-08-05T12:36:46Z,Molding,MLD05,Running,,0
 2026-08-05T13:42:55Z,Molding,MLD05,Down,Quality Hold,23.4
@@ -2541,36 +2506,25 @@ ts,factory,line,state,reason,duration_min
 2026-08-24T23:08:28Z,Molding,MLD05,Running,,0
 2026-08-25T00:38:01Z,Molding,MLD05,Down,Scheduled Downtime,197.0
 2026-08-25T03:00:00Z,Molding,MLD05,Down,Outside production hours,0
-2026-08-04T11:09:41Z,Molding,MLD06,Running,,0
-2026-08-04T12:32:17Z,Molding,MLD06,Down,Change Over - Line clearance,31.6
-2026-08-04T13:03:54Z,Molding,MLD06,Running,,0
-2026-08-04T13:35:39Z,Molding,MLD06,Down,Blocked - Downstream,7.0
-2026-08-04T13:42:37Z,Molding,MLD06,Running,,0
-2026-08-04T14:48:10Z,Molding,MLD06,Down,Blocked - Downstream,7.2
-2026-08-04T14:55:22Z,Molding,MLD06,Running,,0
-2026-08-04T16:11:13Z,Molding,MLD06,Down,No Operator,9.5
-2026-08-04T16:20:42Z,Molding,MLD06,Running,,0
-2026-08-04T17:19:22Z,Molding,MLD06,Down,Blocked - Downstream,6.3
-2026-08-04T17:25:40Z,Molding,MLD06,Running,,0
-2026-08-04T18:18:26Z,Molding,MLD06,Down,Blocked - Downstream,13.3
-2026-08-04T18:31:44Z,Molding,MLD06,Running,,0
-2026-08-04T19:03:49Z,Molding,MLD06,Down,Blocked - Downstream,12.7
-2026-08-04T19:16:32Z,Molding,MLD06,Running,,0
-2026-08-04T19:41:51Z,Molding,MLD06,Down,Jam,5.6
-2026-08-04T19:47:28Z,Molding,MLD06,Running,,0
-2026-08-04T20:32:39Z,Molding,MLD06,Down,Change Over - Line clearance,64.2
-2026-08-04T21:36:52Z,Molding,MLD06,Running,,0
-2026-08-04T22:23:21Z,Molding,MLD06,Down,Starved - Upstream,12.1
-2026-08-04T22:35:29Z,Molding,MLD06,Running,,0
-2026-08-04T23:28:24Z,Molding,MLD06,Down,Jam,12.0
-2026-08-04T23:40:26Z,Molding,MLD06,Running,,0
-2026-08-05T00:31:39Z,Molding,MLD06,Down,Change Over - Line clearance,36.9
-2026-08-05T01:08:30Z,Molding,MLD06,Running,,0
-2026-08-05T01:36:05Z,Molding,MLD06,Down,Blocked - Downstream,8.0
-2026-08-05T01:44:06Z,Molding,MLD06,Running,,0
-2026-08-05T02:12:07Z,Molding,MLD06,Down,Jam,4.9
-2026-08-05T02:17:01Z,Molding,MLD06,Running,,0
-2026-08-05T03:00:00Z,Molding,MLD06,Down,Outside production hours,0
+2026-08-25T11:35:14Z,Molding,MLD05,Down,Change Over - Line clearance,75.8
+2026-08-25T12:51:01Z,Molding,MLD05,Running,,0
+2026-08-25T13:19:44Z,Molding,MLD05,Down,Blocked - Downstream,5.6
+2026-08-25T13:25:20Z,Molding,MLD05,Running,,0
+2026-08-25T13:56:28Z,Molding,MLD05,Down,No Operator,24.9
+2026-08-25T14:21:22Z,Molding,MLD05,Running,,0
+2026-08-25T15:04:04Z,Molding,MLD05,Down,Quality Hold,30.9
+2026-08-25T15:34:56Z,Molding,MLD05,Running,,0
+2026-08-25T17:03:45Z,Molding,MLD05,Down,Scheduled Downtime,166.8
+2026-08-25T19:50:34Z,Molding,MLD05,Running,,0
+2026-08-25T21:08:58Z,Molding,MLD05,Down,Starved - Upstream,13.4
+2026-08-25T21:22:21Z,Molding,MLD05,Running,,0
+2026-08-25T22:43:01Z,Molding,MLD05,Down,Change Over - Line clearance,87.3
+2026-08-26T00:10:18Z,Molding,MLD05,Running,,0
+2026-08-26T00:39:40Z,Molding,MLD05,Down,E-Stop,4.1
+2026-08-26T00:43:48Z,Molding,MLD05,Running,,0
+2026-08-26T02:08:14Z,Molding,MLD05,Down,Jam,5.5
+2026-08-26T02:13:47Z,Molding,MLD05,Running,,0
+2026-08-26T03:00:00Z,Molding,MLD05,Down,Outside production hours,0
 2026-08-05T11:29:38Z,Molding,MLD06,Down,Change Over - Line clearance,25.9
 2026-08-05T11:55:30Z,Molding,MLD06,Running,,0
 2026-08-05T13:18:52Z,Molding,MLD06,Down,Blocked - Downstream,13.9
@@ -2967,22 +2921,34 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:17:30Z,Molding,MLD06,Running,,0
 2026-08-25T02:46:28Z,Molding,MLD06,Down,Quality Hold,27.3
 2026-08-25T03:00:00Z,Molding,MLD06,Down,Outside production hours,0
-2026-08-04T11:19:26Z,Molding,MLD07,Running,,0
-2026-08-04T12:05:19Z,Molding,MLD07,Down,No Operator,23.1
-2026-08-04T12:28:26Z,Molding,MLD07,Running,,0
-2026-08-04T13:50:51Z,Molding,MLD07,Down,Jam,24.9
-2026-08-04T14:15:43Z,Molding,MLD07,Running,,0
-2026-08-04T15:31:15Z,Molding,MLD07,Down,No Operator,26.3
-2026-08-04T15:57:36Z,Molding,MLD07,Running,,0
-2026-08-04T16:25:14Z,Molding,MLD07,Down,Starved - Upstream,15.8
-2026-08-04T16:41:05Z,Molding,MLD07,Running,,0
-2026-08-04T17:30:21Z,Molding,MLD07,Down,Quality Hold,232.2
-2026-08-04T21:22:34Z,Molding,MLD07,Running,,0
-2026-08-04T22:07:38Z,Molding,MLD07,Down,Change Over - Line clearance,28.7
-2026-08-04T22:36:19Z,Molding,MLD07,Running,,0
-2026-08-04T23:19:36Z,Molding,MLD07,Down,Jam,219.3
-2026-08-05T02:58:54Z,Molding,MLD07,Running,,0
-2026-08-05T03:00:00Z,Molding,MLD07,Down,Outside production hours,0
+2026-08-25T11:20:51Z,Molding,MLD06,Running,,0
+2026-08-25T12:00:41Z,Molding,MLD06,Down,Jam,7.7
+2026-08-25T12:08:20Z,Molding,MLD06,Running,,0
+2026-08-25T12:54:52Z,Molding,MLD06,Down,Jam,22.0
+2026-08-25T13:16:49Z,Molding,MLD06,Running,,0
+2026-08-25T14:03:44Z,Molding,MLD06,Down,Starved - Upstream,16.7
+2026-08-25T14:20:28Z,Molding,MLD06,Running,,0
+2026-08-25T15:11:00Z,Molding,MLD06,Down,Starved - Upstream,20.0
+2026-08-25T15:30:57Z,Molding,MLD06,Running,,0
+2026-08-25T17:05:01Z,Molding,MLD06,Down,Jam,23.5
+2026-08-25T17:28:28Z,Molding,MLD06,Running,,0
+2026-08-25T18:08:36Z,Molding,MLD06,Down,Starved - Upstream,8.7
+2026-08-25T18:17:18Z,Molding,MLD06,Running,,0
+2026-08-25T18:56:52Z,Molding,MLD06,Down,Blocked - Downstream,10.9
+2026-08-25T19:07:47Z,Molding,MLD06,Running,,0
+2026-08-25T19:33:30Z,Molding,MLD06,Down,Jam,22.1
+2026-08-25T19:55:38Z,Molding,MLD06,Running,,0
+2026-08-25T21:05:07Z,Molding,MLD06,Down,Jam,11.5
+2026-08-25T21:16:36Z,Molding,MLD06,Running,,0
+2026-08-25T22:25:39Z,Molding,MLD06,Down,Blocked - Downstream,6.4
+2026-08-25T22:32:06Z,Molding,MLD06,Running,,0
+2026-08-25T23:13:09Z,Molding,MLD06,Down,Change Over - Line clearance,43.0
+2026-08-25T23:56:09Z,Molding,MLD06,Running,,0
+2026-08-26T01:15:21Z,Molding,MLD06,Down,Blocked - Downstream,10.7
+2026-08-26T01:26:01Z,Molding,MLD06,Running,,0
+2026-08-26T01:51:16Z,Molding,MLD06,Down,Starved - Upstream,15.1
+2026-08-26T02:06:25Z,Molding,MLD06,Running,,0
+2026-08-26T03:00:00Z,Molding,MLD06,Down,Outside production hours,0
 2026-08-05T11:37:01Z,Molding,MLD07,Down,Blocked - Downstream,8.4
 2026-08-05T11:45:27Z,Molding,MLD07,Running,,0
 2026-08-05T12:25:49Z,Molding,MLD07,Down,Jam,19.2
@@ -3271,29 +3237,26 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:02:19Z,Molding,MLD07,Down,Starved - Upstream,12.4
 2026-08-25T02:14:40Z,Molding,MLD07,Running,,0
 2026-08-25T03:00:00Z,Molding,MLD07,Down,Outside production hours,0
-2026-08-04T11:09:27Z,Coating,COT01,Running,,0
-2026-08-04T12:40:58Z,Coating,COT01,Down,Jam,7.1
-2026-08-04T12:48:05Z,Coating,COT01,Running,,0
-2026-08-04T14:14:46Z,Coating,COT01,Down,Blocked - Downstream,9.3
-2026-08-04T14:24:07Z,Coating,COT01,Running,,0
-2026-08-04T15:32:42Z,Coating,COT01,Down,Jam,9.3
-2026-08-04T15:41:57Z,Coating,COT01,Running,,0
-2026-08-04T16:22:34Z,Coating,COT01,Down,Jam,15.5
-2026-08-04T16:38:06Z,Coating,COT01,Running,,0
-2026-08-04T17:12:10Z,Coating,COT01,Down,Quality Hold,38.7
-2026-08-04T17:50:54Z,Coating,COT01,Running,,0
-2026-08-04T19:10:41Z,Coating,COT01,Down,Jam,4.0
-2026-08-04T19:14:43Z,Coating,COT01,Running,,0
-2026-08-04T20:49:11Z,Coating,COT01,Down,Jam,5.1
-2026-08-04T20:54:19Z,Coating,COT01,Running,,0
-2026-08-04T22:10:35Z,Coating,COT01,Down,Jam,11.0
-2026-08-04T22:21:36Z,Coating,COT01,Running,,0
-2026-08-04T23:00:02Z,Coating,COT01,Down,Quality Hold,30.4
-2026-08-04T23:30:26Z,Coating,COT01,Running,,0
-2026-08-05T01:03:55Z,Coating,COT01,Down,Quality Hold,18.1
-2026-08-05T01:21:58Z,Coating,COT01,Running,,0
-2026-08-05T01:53:59Z,Coating,COT01,Down,Scheduled Downtime,139.6
-2026-08-05T03:00:00Z,Coating,COT01,Down,Outside production hours,0
+2026-08-25T11:16:18Z,Molding,MLD07,Running,,0
+2026-08-25T11:46:03Z,Molding,MLD07,Down,Jam,210.1
+2026-08-25T15:16:12Z,Molding,MLD07,Running,,0
+2026-08-25T15:42:04Z,Molding,MLD07,Down,Jam,21.2
+2026-08-25T16:03:18Z,Molding,MLD07,Running,,0
+2026-08-25T16:45:53Z,Molding,MLD07,Down,Quality Hold,17.7
+2026-08-25T17:03:34Z,Molding,MLD07,Running,,0
+2026-08-25T18:06:38Z,Molding,MLD07,Down,Jam,8.8
+2026-08-25T18:15:24Z,Molding,MLD07,Running,,0
+2026-08-25T19:31:58Z,Molding,MLD07,Down,Blocked - Downstream,11.7
+2026-08-25T19:43:42Z,Molding,MLD07,Running,,0
+2026-08-25T20:49:11Z,Molding,MLD07,Down,Starved - Upstream,18.9
+2026-08-25T21:08:06Z,Molding,MLD07,Running,,0
+2026-08-25T22:31:36Z,Molding,MLD07,Down,No Operator,24.7
+2026-08-25T22:56:15Z,Molding,MLD07,Running,,0
+2026-08-25T23:33:02Z,Molding,MLD07,Down,Jam,11.4
+2026-08-25T23:44:23Z,Molding,MLD07,Running,,0
+2026-08-26T00:52:35Z,Molding,MLD07,Down,Scheduled Downtime,121.7
+2026-08-26T02:54:19Z,Molding,MLD07,Running,,0
+2026-08-26T03:00:00Z,Molding,MLD07,Down,Outside production hours,0
 2026-08-05T11:35:02Z,Coating,COT01,Down,Jam,21.5
 2026-08-05T11:56:31Z,Coating,COT01,Running,,0
 2026-08-05T12:26:09Z,Coating,COT01,Down,Starved - Upstream,8.5
@@ -3680,30 +3643,30 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:24:48Z,Coating,COT01,Running,,0
 2026-08-25T02:55:27Z,Coating,COT01,Down,Starved - Upstream,8.7
 2026-08-25T03:00:00Z,Coating,COT01,Down,Outside production hours,0
-2026-08-04T11:12:16Z,Coating,COT02,Running,,0
-2026-08-04T11:58:22Z,Coating,COT02,Down,No Operator,13.7
-2026-08-04T12:12:06Z,Coating,COT02,Running,,0
-2026-08-04T12:38:41Z,Coating,COT02,Down,Starved - Upstream,6.4
-2026-08-04T12:45:05Z,Coating,COT02,Running,,0
-2026-08-04T14:08:48Z,Coating,COT02,Down,Starved - Upstream,12.7
-2026-08-04T14:21:29Z,Coating,COT02,Running,,0
-2026-08-04T15:03:47Z,Coating,COT02,Down,Jam,15.4
-2026-08-04T15:19:13Z,Coating,COT02,Running,,0
-2026-08-04T16:53:41Z,Coating,COT02,Down,Blocked - Downstream,6.5
-2026-08-04T17:00:09Z,Coating,COT02,Running,,0
-2026-08-04T17:39:28Z,Coating,COT02,Down,Starved - Upstream,16.9
-2026-08-04T17:56:23Z,Coating,COT02,Running,,0
-2026-08-04T18:42:42Z,Coating,COT02,Down,Change Over - Line clearance,65.5
-2026-08-04T19:48:12Z,Coating,COT02,Running,,0
-2026-08-04T20:26:30Z,Coating,COT02,Down,Jam,15.7
-2026-08-04T20:42:11Z,Coating,COT02,Running,,0
-2026-08-04T22:05:31Z,Coating,COT02,Down,Quality Hold,40.0
-2026-08-04T22:45:32Z,Coating,COT02,Running,,0
-2026-08-04T23:17:10Z,Coating,COT02,Down,Change Over - Line clearance,72.7
-2026-08-05T00:29:55Z,Coating,COT02,Running,,0
-2026-08-05T01:39:02Z,Coating,COT02,Down,Quality Hold,41.4
-2026-08-05T02:20:29Z,Coating,COT02,Running,,0
-2026-08-05T03:00:00Z,Coating,COT02,Down,Outside production hours,0
+2026-08-25T12:34:25Z,Coating,COT01,Running,,0
+2026-08-25T13:22:07Z,Coating,COT01,Down,Starved - Upstream,7.7
+2026-08-25T13:29:52Z,Coating,COT01,Running,,0
+2026-08-25T14:03:17Z,Coating,COT01,Down,E-Stop,6.9
+2026-08-25T14:10:11Z,Coating,COT01,Running,,0
+2026-08-25T14:40:05Z,Coating,COT01,Down,Change Over - Line clearance,53.3
+2026-08-25T15:33:22Z,Coating,COT01,Running,,0
+2026-08-25T16:51:05Z,Coating,COT01,Down,Change Over - Line clearance,50.8
+2026-08-25T17:41:56Z,Coating,COT01,Running,,0
+2026-08-25T18:49:04Z,Coating,COT01,Down,Blocked - Downstream,6.0
+2026-08-25T18:55:04Z,Coating,COT01,Running,,0
+2026-08-25T19:58:02Z,Coating,COT01,Down,Blocked - Downstream,12.2
+2026-08-25T20:10:15Z,Coating,COT01,Running,,0
+2026-08-25T20:50:40Z,Coating,COT01,Down,Starved - Upstream,14.6
+2026-08-25T21:05:16Z,Coating,COT01,Running,,0
+2026-08-25T22:31:26Z,Coating,COT01,Down,Blocked - Downstream,9.1
+2026-08-25T22:40:33Z,Coating,COT01,Running,,0
+2026-08-25T23:09:12Z,Coating,COT01,Down,Starved - Upstream,18.4
+2026-08-25T23:27:36Z,Coating,COT01,Running,,0
+2026-08-26T00:44:20Z,Coating,COT01,Down,Change Over - Line clearance,49.1
+2026-08-26T01:33:28Z,Coating,COT01,Running,,0
+2026-08-26T02:31:58Z,Coating,COT01,Down,Blocked - Downstream,5.7
+2026-08-26T02:37:40Z,Coating,COT01,Running,,0
+2026-08-26T03:00:00Z,Coating,COT01,Down,Outside production hours,0
 2026-08-05T12:58:49Z,Coating,COT02,Running,,0
 2026-08-05T13:52:35Z,Coating,COT02,Down,Starved - Upstream,17.2
 2026-08-05T14:09:46Z,Coating,COT02,Running,,0
@@ -4083,29 +4046,31 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T01:36:12Z,Coating,COT02,Running,,0
 2026-08-25T02:58:30Z,Coating,COT02,Down,No Operator,11.2
 2026-08-25T03:00:00Z,Coating,COT02,Down,Outside production hours,0
-2026-08-04T11:49:58Z,Coating,COT03,Down,Jam,11.0
-2026-08-04T12:01:00Z,Coating,COT03,Running,,0
-2026-08-04T13:06:21Z,Coating,COT03,Down,Starved - Upstream,19.1
-2026-08-04T13:25:27Z,Coating,COT03,Running,,0
-2026-08-04T14:14:37Z,Coating,COT03,Down,E-Stop,10.7
-2026-08-04T14:25:20Z,Coating,COT03,Running,,0
-2026-08-04T15:13:05Z,Coating,COT03,Down,Jam,23.6
-2026-08-04T15:36:39Z,Coating,COT03,Running,,0
-2026-08-04T17:07:26Z,Coating,COT03,Down,Jam,5.6
-2026-08-04T17:12:59Z,Coating,COT03,Running,,0
-2026-08-04T18:02:52Z,Coating,COT03,Down,Jam,17.3
-2026-08-04T18:20:11Z,Coating,COT03,Running,,0
-2026-08-04T19:44:57Z,Coating,COT03,Down,E-Stop,8.0
-2026-08-04T19:52:57Z,Coating,COT03,Running,,0
-2026-08-04T20:27:11Z,Coating,COT03,Down,Starved - Upstream,15.2
-2026-08-04T20:42:23Z,Coating,COT03,Running,,0
-2026-08-04T21:32:16Z,Coating,COT03,Down,E-Stop,6.1
-2026-08-04T21:38:23Z,Coating,COT03,Running,,0
-2026-08-04T22:31:54Z,Coating,COT03,Down,Blocked - Downstream,11.2
-2026-08-04T22:43:09Z,Coating,COT03,Running,,0
-2026-08-04T23:29:57Z,Coating,COT03,Down,Scheduled Downtime,194.8
-2026-08-05T02:44:46Z,Coating,COT03,Running,,0
-2026-08-05T03:00:00Z,Coating,COT03,Down,Outside production hours,0
+2026-08-25T12:05:34Z,Coating,COT02,Down,Change Over - Line clearance,49.4
+2026-08-25T12:54:56Z,Coating,COT02,Running,,0
+2026-08-25T14:06:58Z,Coating,COT02,Down,Jam,7.6
+2026-08-25T14:14:32Z,Coating,COT02,Running,,0
+2026-08-25T15:22:07Z,Coating,COT02,Down,Starved - Upstream,13.7
+2026-08-25T15:35:52Z,Coating,COT02,Running,,0
+2026-08-25T16:25:11Z,Coating,COT02,Down,Blocked - Downstream,13.9
+2026-08-25T16:39:05Z,Coating,COT02,Running,,0
+2026-08-25T17:39:42Z,Coating,COT02,Down,Jam,21.3
+2026-08-25T18:00:59Z,Coating,COT02,Running,,0
+2026-08-25T19:16:35Z,Coating,COT02,Down,Blocked - Downstream,6.6
+2026-08-25T19:23:10Z,Coating,COT02,Running,,0
+2026-08-25T19:56:05Z,Coating,COT02,Down,Change Over - Line clearance,37.4
+2026-08-25T20:33:28Z,Coating,COT02,Running,,0
+2026-08-25T21:47:47Z,Coating,COT02,Down,Starved - Upstream,7.6
+2026-08-25T21:55:25Z,Coating,COT02,Running,,0
+2026-08-25T22:33:35Z,Coating,COT02,Down,E-Stop,7.8
+2026-08-25T22:41:23Z,Coating,COT02,Running,,0
+2026-08-25T23:14:43Z,Coating,COT02,Down,Starved - Upstream,10.9
+2026-08-25T23:25:36Z,Coating,COT02,Running,,0
+2026-08-26T00:49:32Z,Coating,COT02,Down,No Operator,28.5
+2026-08-26T01:18:03Z,Coating,COT02,Running,,0
+2026-08-26T02:10:25Z,Coating,COT02,Down,Starved - Upstream,12.3
+2026-08-26T02:22:46Z,Coating,COT02,Running,,0
+2026-08-26T03:00:00Z,Coating,COT02,Down,Outside production hours,0
 2026-08-05T11:41:48Z,Coating,COT03,Down,Jam,7.5
 2026-08-05T11:49:16Z,Coating,COT03,Running,,0
 2026-08-05T12:33:41Z,Coating,COT03,Down,Jam,10.1
@@ -4510,27 +4475,32 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:46:07Z,Coating,COT03,Down,Jam,9.6
 2026-08-25T02:55:45Z,Coating,COT03,Running,,0
 2026-08-25T03:00:00Z,Coating,COT03,Down,Outside production hours,0
-2026-08-04T11:02:43Z,Packaging,PKG04,Running,,0
-2026-08-04T12:10:24Z,Packaging,PKG04,Down,Jam,6.0
-2026-08-04T12:16:24Z,Packaging,PKG04,Running,,0
-2026-08-04T12:57:41Z,Packaging,PKG04,Down,Jam,7.0
-2026-08-04T13:04:43Z,Packaging,PKG04,Running,,0
-2026-08-04T14:36:49Z,Packaging,PKG04,Down,Jam,13.8
-2026-08-04T14:50:37Z,Packaging,PKG04,Running,,0
-2026-08-04T15:47:50Z,Packaging,PKG04,Down,Starved - Upstream,12.3
-2026-08-04T16:00:05Z,Packaging,PKG04,Running,,0
-2026-08-04T17:32:54Z,Packaging,PKG04,Down,Scheduled Downtime,112.3
-2026-08-04T19:25:11Z,Packaging,PKG04,Running,,0
-2026-08-04T20:08:33Z,Packaging,PKG04,Down,Jam,19.4
-2026-08-04T20:27:58Z,Packaging,PKG04,Running,,0
-2026-08-04T21:20:04Z,Packaging,PKG04,Down,Blocked - Downstream,12.3
-2026-08-04T21:32:20Z,Packaging,PKG04,Running,,0
-2026-08-04T22:40:50Z,Packaging,PKG04,Down,Quality Hold,32.8
-2026-08-04T23:13:40Z,Packaging,PKG04,Running,,0
-2026-08-05T00:40:51Z,Packaging,PKG04,Down,Change Over - Line clearance,49.3
-2026-08-05T01:30:10Z,Packaging,PKG04,Running,,0
-2026-08-05T02:40:35Z,Packaging,PKG04,Down,Change Over - Line clearance,55.7
-2026-08-05T03:00:00Z,Packaging,PKG04,Down,Outside production hours,0
+2026-08-25T11:26:22Z,Coating,COT03,Down,Starved - Upstream,18.4
+2026-08-25T11:44:47Z,Coating,COT03,Running,,0
+2026-08-25T12:11:16Z,Coating,COT03,Down,Jam,9.0
+2026-08-25T12:20:16Z,Coating,COT03,Running,,0
+2026-08-25T12:45:53Z,Coating,COT03,Down,Starved - Upstream,8.4
+2026-08-25T12:54:15Z,Coating,COT03,Running,,0
+2026-08-25T13:58:07Z,Coating,COT03,Down,Change Over - Line clearance,34.1
+2026-08-25T14:32:10Z,Coating,COT03,Running,,0
+2026-08-25T15:02:39Z,Coating,COT03,Down,No Operator,10.4
+2026-08-25T15:13:03Z,Coating,COT03,Running,,0
+2026-08-25T16:44:08Z,Coating,COT03,Down,Change Over - Line clearance,65.0
+2026-08-25T17:49:07Z,Coating,COT03,Running,,0
+2026-08-25T18:32:20Z,Coating,COT03,Down,Starved - Upstream,10.5
+2026-08-25T18:42:50Z,Coating,COT03,Running,,0
+2026-08-25T19:59:27Z,Coating,COT03,Down,Blocked - Downstream,8.9
+2026-08-25T20:08:20Z,Coating,COT03,Running,,0
+2026-08-25T21:32:57Z,Coating,COT03,Down,Jam,12.1
+2026-08-25T21:45:04Z,Coating,COT03,Running,,0
+2026-08-25T22:20:27Z,Coating,COT03,Down,Starved - Upstream,6.6
+2026-08-25T22:27:03Z,Coating,COT03,Running,,0
+2026-08-25T23:49:56Z,Coating,COT03,Down,Jam,13.5
+2026-08-26T00:03:28Z,Coating,COT03,Running,,0
+2026-08-26T01:20:51Z,Coating,COT03,Down,Blocked - Downstream,12.3
+2026-08-26T01:33:11Z,Coating,COT03,Running,,0
+2026-08-26T02:48:29Z,Coating,COT03,Down,Change Over - Line clearance,27.6
+2026-08-26T03:00:00Z,Coating,COT03,Down,Outside production hours,0
 2026-08-05T11:43:54Z,Packaging,PKG04,Running,,0
 2026-08-05T13:14:43Z,Packaging,PKG04,Down,E-Stop,7.5
 2026-08-05T13:22:16Z,Packaging,PKG04,Running,,0
@@ -4918,28 +4888,32 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:08:04Z,Packaging,PKG04,Down,Starved - Upstream,12.7
 2026-08-25T02:20:45Z,Packaging,PKG04,Running,,0
 2026-08-25T03:00:00Z,Packaging,PKG04,Down,Outside production hours,0
-2026-08-04T11:17:59Z,Packaging,PKG05,Running,,0
-2026-08-04T12:15:56Z,Packaging,PKG05,Down,Change Over - Line clearance,50.2
-2026-08-04T13:06:08Z,Packaging,PKG05,Running,,0
-2026-08-04T14:37:42Z,Packaging,PKG05,Down,Blocked - Downstream,12.7
-2026-08-04T14:50:26Z,Packaging,PKG05,Running,,0
-2026-08-04T16:23:40Z,Packaging,PKG05,Down,Jam,19.5
-2026-08-04T16:43:12Z,Packaging,PKG05,Running,,0
-2026-08-04T17:23:02Z,Packaging,PKG05,Down,Change Over - Line clearance,80.3
-2026-08-04T18:43:22Z,Packaging,PKG05,Running,,0
-2026-08-04T19:22:28Z,Packaging,PKG05,Down,Blocked - Downstream,10.6
-2026-08-04T19:33:03Z,Packaging,PKG05,Running,,0
-2026-08-04T20:29:28Z,Packaging,PKG05,Down,Quality Hold,29.9
-2026-08-04T20:59:22Z,Packaging,PKG05,Running,,0
-2026-08-04T21:58:06Z,Packaging,PKG05,Down,Jam,22.7
-2026-08-04T22:20:46Z,Packaging,PKG05,Running,,0
-2026-08-04T23:05:53Z,Packaging,PKG05,Down,Change Over - Line clearance,34.9
-2026-08-04T23:40:47Z,Packaging,PKG05,Running,,0
-2026-08-05T00:47:59Z,Packaging,PKG05,Down,No Operator,15.2
-2026-08-05T01:03:12Z,Packaging,PKG05,Running,,0
-2026-08-05T02:08:12Z,Packaging,PKG05,Down,Change Over - Line clearance,30.8
-2026-08-05T02:39:00Z,Packaging,PKG05,Running,,0
-2026-08-05T03:00:00Z,Packaging,PKG05,Down,Outside production hours,0
+2026-08-25T11:25:48Z,Packaging,PKG04,Running,,0
+2026-08-25T11:59:36Z,Packaging,PKG04,Down,Starved - Upstream,13.2
+2026-08-25T12:12:51Z,Packaging,PKG04,Running,,0
+2026-08-25T13:12:13Z,Packaging,PKG04,Down,Blocked - Downstream,14.6
+2026-08-25T13:26:47Z,Packaging,PKG04,Running,,0
+2026-08-25T14:31:32Z,Packaging,PKG04,Down,Quality Hold,21.7
+2026-08-25T14:53:14Z,Packaging,PKG04,Running,,0
+2026-08-25T15:32:28Z,Packaging,PKG04,Down,No Operator,29.1
+2026-08-25T16:01:35Z,Packaging,PKG04,Running,,0
+2026-08-25T17:30:45Z,Packaging,PKG04,Down,Blocked - Downstream,14.0
+2026-08-25T17:44:45Z,Packaging,PKG04,Running,,0
+2026-08-25T18:49:39Z,Packaging,PKG04,Down,Starved - Upstream,9.0
+2026-08-25T18:58:39Z,Packaging,PKG04,Running,,0
+2026-08-25T19:40:00Z,Packaging,PKG04,Down,Starved - Upstream,7.9
+2026-08-25T19:47:56Z,Packaging,PKG04,Running,,0
+2026-08-25T20:45:09Z,Packaging,PKG04,Down,Quality Hold,34.9
+2026-08-25T21:20:01Z,Packaging,PKG04,Running,,0
+2026-08-25T22:07:51Z,Packaging,PKG04,Down,Starved - Upstream,16.9
+2026-08-25T22:24:42Z,Packaging,PKG04,Running,,0
+2026-08-25T22:56:23Z,Packaging,PKG04,Down,Change Over - Line clearance,86.3
+2026-08-26T00:22:43Z,Packaging,PKG04,Running,,0
+2026-08-26T01:36:44Z,Packaging,PKG04,Down,E-Stop,3.6
+2026-08-26T01:40:22Z,Packaging,PKG04,Running,,0
+2026-08-26T02:31:47Z,Packaging,PKG04,Down,Starved - Upstream,9.8
+2026-08-26T02:41:36Z,Packaging,PKG04,Running,,0
+2026-08-26T03:00:00Z,Packaging,PKG04,Down,Outside production hours,0
 2026-08-05T11:03:59Z,Packaging,PKG05,Running,,0
 2026-08-05T12:03:28Z,Packaging,PKG05,Down,Change Over - Line clearance,64.2
 2026-08-05T13:07:38Z,Packaging,PKG05,Running,,0
@@ -5304,31 +5278,25 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:02:07Z,Packaging,PKG05,Down,Change Over - Line clearance,30.3
 2026-08-25T02:32:27Z,Packaging,PKG05,Running,,0
 2026-08-25T03:00:00Z,Packaging,PKG05,Down,Outside production hours,0
-2026-08-04T11:36:41Z,Packaging,PKG06,Down,Quality Hold,28.2
-2026-08-04T12:04:55Z,Packaging,PKG06,Running,,0
-2026-08-04T13:11:27Z,Packaging,PKG06,Down,Starved - Upstream,10.5
-2026-08-04T13:21:55Z,Packaging,PKG06,Running,,0
-2026-08-04T14:20:35Z,Packaging,PKG06,Down,Jam,22.2
-2026-08-04T14:42:45Z,Packaging,PKG06,Running,,0
-2026-08-04T15:18:10Z,Packaging,PKG06,Down,E-Stop,11.2
-2026-08-04T15:29:24Z,Packaging,PKG06,Running,,0
-2026-08-04T16:56:51Z,Packaging,PKG06,Down,Change Over - Line clearance,30.2
-2026-08-04T17:27:02Z,Packaging,PKG06,Running,,0
-2026-08-04T19:00:46Z,Packaging,PKG06,Down,No Operator,22.6
-2026-08-04T19:23:19Z,Packaging,PKG06,Running,,0
-2026-08-04T20:48:17Z,Packaging,PKG06,Down,Jam,10.4
-2026-08-04T20:58:41Z,Packaging,PKG06,Running,,0
-2026-08-04T21:56:51Z,Packaging,PKG06,Down,Blocked - Downstream,4.3
-2026-08-04T22:01:09Z,Packaging,PKG06,Running,,0
-2026-08-04T23:04:14Z,Packaging,PKG06,Down,Change Over - Line clearance,49.7
-2026-08-04T23:53:54Z,Packaging,PKG06,Running,,0
-2026-08-05T00:38:28Z,Packaging,PKG06,Down,Jam,5.7
-2026-08-05T00:44:12Z,Packaging,PKG06,Running,,0
-2026-08-05T01:09:47Z,Packaging,PKG06,Down,Jam,4.7
-2026-08-05T01:14:27Z,Packaging,PKG06,Running,,0
-2026-08-05T02:32:12Z,Packaging,PKG06,Down,Blocked - Downstream,4.3
-2026-08-05T02:36:27Z,Packaging,PKG06,Running,,0
-2026-08-05T03:00:00Z,Packaging,PKG06,Down,Outside production hours,0
+2026-08-25T11:50:44Z,Packaging,PKG05,Running,,0
+2026-08-25T13:04:15Z,Packaging,PKG05,Down,Blocked - Downstream,12.2
+2026-08-25T13:16:26Z,Packaging,PKG05,Running,,0
+2026-08-25T14:15:37Z,Packaging,PKG05,Down,Starved - Upstream,6.7
+2026-08-25T14:22:17Z,Packaging,PKG05,Running,,0
+2026-08-25T14:47:27Z,Packaging,PKG05,Down,Change Over - Line clearance,45.0
+2026-08-25T15:32:28Z,Packaging,PKG05,Running,,0
+2026-08-25T17:03:29Z,Packaging,PKG05,Down,Jam,17.2
+2026-08-25T17:20:39Z,Packaging,PKG05,Running,,0
+2026-08-25T18:52:20Z,Packaging,PKG05,Down,Jam,12.7
+2026-08-25T19:05:05Z,Packaging,PKG05,Running,,0
+2026-08-25T20:36:54Z,Packaging,PKG05,Down,Blocked - Downstream,4.1
+2026-08-25T20:40:59Z,Packaging,PKG05,Running,,0
+2026-08-25T22:02:49Z,Packaging,PKG05,Down,Change Over - Line clearance,26.1
+2026-08-25T22:28:53Z,Packaging,PKG05,Running,,0
+2026-08-26T00:00:36Z,Packaging,PKG05,Down,Change Over - Line clearance,74.4
+2026-08-26T01:15:01Z,Packaging,PKG05,Running,,0
+2026-08-26T01:47:31Z,Packaging,PKG05,Down,Change Over - Line clearance,84.1
+2026-08-26T03:00:00Z,Packaging,PKG05,Down,Outside production hours,0
 2026-08-05T11:50:44Z,Packaging,PKG06,Down,Jam,8.3
 2026-08-05T11:59:00Z,Packaging,PKG06,Running,,0
 2026-08-05T12:33:22Z,Packaging,PKG06,Down,Starved - Upstream,5.4
@@ -5744,30 +5712,25 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:37:35Z,Packaging,PKG06,Down,Blocked - Downstream,4.4
 2026-08-25T02:41:59Z,Packaging,PKG06,Running,,0
 2026-08-25T03:00:00Z,Packaging,PKG06,Down,Outside production hours,0
-2026-08-04T11:06:50Z,Packaging,PKG07,Running,,0
-2026-08-04T12:27:57Z,Packaging,PKG07,Down,Starved - Upstream,18.7
-2026-08-04T12:46:38Z,Packaging,PKG07,Running,,0
-2026-08-04T13:31:32Z,Packaging,PKG07,Down,Jam,8.7
-2026-08-04T13:40:16Z,Packaging,PKG07,Running,,0
-2026-08-04T14:43:54Z,Packaging,PKG07,Down,Change Over - Line clearance,54.0
-2026-08-04T15:37:54Z,Packaging,PKG07,Running,,0
-2026-08-04T16:08:18Z,Packaging,PKG07,Down,Jam,19.1
-2026-08-04T16:27:25Z,Packaging,PKG07,Running,,0
-2026-08-04T17:51:55Z,Packaging,PKG07,Down,Change Over - Line clearance,60.5
-2026-08-04T18:52:23Z,Packaging,PKG07,Running,,0
-2026-08-04T20:18:13Z,Packaging,PKG07,Down,Blocked - Downstream,11.8
-2026-08-04T20:29:59Z,Packaging,PKG07,Running,,0
-2026-08-04T21:14:22Z,Packaging,PKG07,Down,Blocked - Downstream,11.8
-2026-08-04T21:26:11Z,Packaging,PKG07,Running,,0
-2026-08-04T22:30:54Z,Packaging,PKG07,Down,No Operator,18.8
-2026-08-04T22:49:44Z,Packaging,PKG07,Running,,0
-2026-08-04T23:52:22Z,Packaging,PKG07,Down,Starved - Upstream,11.9
-2026-08-05T00:04:18Z,Packaging,PKG07,Running,,0
-2026-08-05T00:57:48Z,Packaging,PKG07,Down,Starved - Upstream,10.4
-2026-08-05T01:08:15Z,Packaging,PKG07,Running,,0
-2026-08-05T02:11:57Z,Packaging,PKG07,Down,Jam,16.1
-2026-08-05T02:28:04Z,Packaging,PKG07,Running,,0
-2026-08-05T03:00:00Z,Packaging,PKG07,Down,Outside production hours,0
+2026-08-25T11:12:29Z,Packaging,PKG06,Running,,0
+2026-08-25T12:04:13Z,Packaging,PKG06,Down,Scheduled Downtime,218.3
+2026-08-25T15:42:29Z,Packaging,PKG06,Running,,0
+2026-08-25T16:57:55Z,Packaging,PKG06,Down,Jam,23.0
+2026-08-25T17:20:58Z,Packaging,PKG06,Running,,0
+2026-08-25T18:05:07Z,Packaging,PKG06,Down,Starved - Upstream,8.5
+2026-08-25T18:13:36Z,Packaging,PKG06,Running,,0
+2026-08-25T18:49:44Z,Packaging,PKG06,Down,Change Over - Line clearance,49.4
+2026-08-25T19:39:09Z,Packaging,PKG06,Running,,0
+2026-08-25T20:38:31Z,Packaging,PKG06,Down,Jam,6.0
+2026-08-25T20:44:33Z,Packaging,PKG06,Running,,0
+2026-08-25T21:42:39Z,Packaging,PKG06,Down,Jam,10.1
+2026-08-25T21:52:47Z,Packaging,PKG06,Running,,0
+2026-08-25T23:08:03Z,Packaging,PKG06,Down,Change Over - Line clearance,37.4
+2026-08-25T23:45:30Z,Packaging,PKG06,Running,,0
+2026-08-26T00:36:46Z,Packaging,PKG06,Down,Starved - Upstream,10.3
+2026-08-26T00:47:07Z,Packaging,PKG06,Running,,0
+2026-08-26T02:13:36Z,Packaging,PKG06,Down,Change Over - Line clearance,54.2
+2026-08-26T03:00:00Z,Packaging,PKG06,Down,Outside production hours,0
 2026-08-05T12:04:57Z,Packaging,PKG07,Down,Change Over - Line clearance,43.6
 2026-08-05T12:48:33Z,Packaging,PKG07,Running,,0
 2026-08-05T14:08:24Z,Packaging,PKG07,Down,Starved - Upstream,9.2
@@ -6159,32 +6122,32 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:22:53Z,Packaging,PKG07,Down,Jam,9.9
 2026-08-25T02:32:50Z,Packaging,PKG07,Running,,0
 2026-08-25T03:00:00Z,Packaging,PKG07,Down,Outside production hours,0
-2026-08-04T11:31:27Z,Packaging,PKG08,Running,,0
-2026-08-04T13:04:56Z,Packaging,PKG08,Down,E-Stop,11.1
-2026-08-04T13:16:03Z,Packaging,PKG08,Running,,0
-2026-08-04T14:13:05Z,Packaging,PKG08,Down,Blocked - Downstream,9.6
-2026-08-04T14:22:43Z,Packaging,PKG08,Running,,0
-2026-08-04T15:49:04Z,Packaging,PKG08,Down,No Operator,21.5
-2026-08-04T16:10:33Z,Packaging,PKG08,Running,,0
-2026-08-04T17:21:12Z,Packaging,PKG08,Down,Starved - Upstream,19.7
-2026-08-04T17:40:54Z,Packaging,PKG08,Running,,0
-2026-08-04T18:33:46Z,Packaging,PKG08,Down,E-Stop,9.2
-2026-08-04T18:42:59Z,Packaging,PKG08,Running,,0
-2026-08-04T19:43:27Z,Packaging,PKG08,Down,Starved - Upstream,8.3
-2026-08-04T19:51:46Z,Packaging,PKG08,Running,,0
-2026-08-04T21:04:20Z,Packaging,PKG08,Down,Jam,4.0
-2026-08-04T21:08:21Z,Packaging,PKG08,Running,,0
-2026-08-04T22:02:02Z,Packaging,PKG08,Down,Jam,15.3
-2026-08-04T22:17:21Z,Packaging,PKG08,Running,,0
-2026-08-04T23:11:03Z,Packaging,PKG08,Down,Jam,16.8
-2026-08-04T23:27:52Z,Packaging,PKG08,Running,,0
-2026-08-04T23:58:51Z,Packaging,PKG08,Down,Starved - Upstream,5.4
-2026-08-05T00:04:16Z,Packaging,PKG08,Running,,0
-2026-08-05T01:24:26Z,Packaging,PKG08,Down,Jam,10.8
-2026-08-05T01:35:12Z,Packaging,PKG08,Running,,0
-2026-08-05T02:36:14Z,Packaging,PKG08,Down,No Operator,9.7
-2026-08-05T02:45:56Z,Packaging,PKG08,Running,,0
-2026-08-05T03:00:00Z,Packaging,PKG08,Down,Outside production hours,0
+2026-08-25T11:04:49Z,Packaging,PKG07,Running,,0
+2026-08-25T11:58:57Z,Packaging,PKG07,Down,Starved - Upstream,13.9
+2026-08-25T12:12:51Z,Packaging,PKG07,Running,,0
+2026-08-25T13:20:52Z,Packaging,PKG07,Down,Blocked - Downstream,9.1
+2026-08-25T13:30:00Z,Packaging,PKG07,Running,,0
+2026-08-25T14:27:47Z,Packaging,PKG07,Down,Change Over - Line clearance,34.7
+2026-08-25T15:02:30Z,Packaging,PKG07,Running,,0
+2026-08-25T16:34:45Z,Packaging,PKG07,Down,Blocked - Downstream,9.3
+2026-08-25T16:44:05Z,Packaging,PKG07,Running,,0
+2026-08-25T17:48:17Z,Packaging,PKG07,Down,Jam,12.0
+2026-08-25T18:00:15Z,Packaging,PKG07,Running,,0
+2026-08-25T18:55:27Z,Packaging,PKG07,Down,Quality Hold,22.5
+2026-08-25T19:17:59Z,Packaging,PKG07,Running,,0
+2026-08-25T20:29:14Z,Packaging,PKG07,Down,Starved - Upstream,12.7
+2026-08-25T20:41:59Z,Packaging,PKG07,Running,,0
+2026-08-25T21:35:31Z,Packaging,PKG07,Down,No Operator,19.9
+2026-08-25T21:55:28Z,Packaging,PKG07,Running,,0
+2026-08-25T22:25:08Z,Packaging,PKG07,Down,Jam,22.3
+2026-08-25T22:47:24Z,Packaging,PKG07,Running,,0
+2026-08-26T00:03:25Z,Packaging,PKG07,Down,Jam,22.3
+2026-08-26T00:25:45Z,Packaging,PKG07,Running,,0
+2026-08-26T01:17:37Z,Packaging,PKG07,Down,Jam,18.3
+2026-08-26T01:35:54Z,Packaging,PKG07,Running,,0
+2026-08-26T02:39:17Z,Packaging,PKG07,Down,Blocked - Downstream,7.6
+2026-08-26T02:46:52Z,Packaging,PKG07,Running,,0
+2026-08-26T03:00:00Z,Packaging,PKG07,Down,Outside production hours,0
 2026-08-05T11:07:08Z,Packaging,PKG08,Running,,0
 2026-08-05T12:08:32Z,Packaging,PKG08,Down,Jam,16.1
 2026-08-05T12:24:39Z,Packaging,PKG08,Running,,0
@@ -6591,25 +6554,31 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T01:42:25Z,Packaging,PKG08,Down,No Operator,19.6
 2026-08-25T02:02:02Z,Packaging,PKG08,Running,,0
 2026-08-25T03:00:00Z,Packaging,PKG08,Down,Outside production hours,0
-2026-08-04T12:10:30Z,Kitting,KIT03,Down,Scheduled Downtime,164.3
-2026-08-04T14:54:51Z,Kitting,KIT03,Running,,0
-2026-08-04T15:22:57Z,Kitting,KIT03,Down,Change Over - Line clearance,75.5
-2026-08-04T16:38:30Z,Kitting,KIT03,Running,,0
-2026-08-04T17:33:16Z,Kitting,KIT03,Down,Starved - Upstream,11.1
-2026-08-04T17:44:23Z,Kitting,KIT03,Running,,0
-2026-08-04T19:17:48Z,Kitting,KIT03,Down,Quality Hold,18.8
-2026-08-04T19:36:35Z,Kitting,KIT03,Running,,0
-2026-08-04T20:12:19Z,Kitting,KIT03,Down,Jam,19.4
-2026-08-04T20:31:40Z,Kitting,KIT03,Running,,0
-2026-08-04T21:51:49Z,Kitting,KIT03,Down,Jam,16.9
-2026-08-04T22:08:43Z,Kitting,KIT03,Running,,0
-2026-08-04T22:51:02Z,Kitting,KIT03,Down,Change Over - Line clearance,74.8
-2026-08-05T00:05:53Z,Kitting,KIT03,Running,,0
-2026-08-05T00:51:10Z,Kitting,KIT03,Down,Blocked - Downstream,7.9
-2026-08-05T00:59:04Z,Kitting,KIT03,Running,,0
-2026-08-05T02:09:58Z,Kitting,KIT03,Down,Change Over - Line clearance,29.3
-2026-08-05T02:39:14Z,Kitting,KIT03,Running,,0
-2026-08-05T03:00:00Z,Kitting,KIT03,Down,Outside production hours,0
+2026-08-25T11:03:16Z,Packaging,PKG08,Down,No Operator,18.9
+2026-08-25T11:22:12Z,Packaging,PKG08,Running,,0
+2026-08-25T12:15:29Z,Packaging,PKG08,Down,Change Over - Line clearance,75.1
+2026-08-25T13:30:35Z,Packaging,PKG08,Running,,0
+2026-08-25T15:05:04Z,Packaging,PKG08,Down,Jam,6.3
+2026-08-25T15:11:23Z,Packaging,PKG08,Running,,0
+2026-08-25T16:12:30Z,Packaging,PKG08,Down,Quality Hold,30.9
+2026-08-25T16:43:22Z,Packaging,PKG08,Running,,0
+2026-08-25T17:55:29Z,Packaging,PKG08,Down,Jam,15.9
+2026-08-25T18:11:20Z,Packaging,PKG08,Running,,0
+2026-08-25T19:01:25Z,Packaging,PKG08,Down,Quality Hold,18.1
+2026-08-25T19:19:31Z,Packaging,PKG08,Running,,0
+2026-08-25T19:49:15Z,Packaging,PKG08,Down,Jam,7.7
+2026-08-25T19:56:58Z,Packaging,PKG08,Running,,0
+2026-08-25T21:26:00Z,Packaging,PKG08,Down,Quality Hold,22.9
+2026-08-25T21:48:52Z,Packaging,PKG08,Running,,0
+2026-08-25T22:59:22Z,Packaging,PKG08,Down,Starved - Upstream,6.6
+2026-08-25T23:05:59Z,Packaging,PKG08,Running,,0
+2026-08-26T00:00:07Z,Packaging,PKG08,Down,Quality Hold,20.1
+2026-08-26T00:20:16Z,Packaging,PKG08,Running,,0
+2026-08-26T01:27:15Z,Packaging,PKG08,Down,No Operator,18.0
+2026-08-26T01:45:16Z,Packaging,PKG08,Running,,0
+2026-08-26T02:29:35Z,Packaging,PKG08,Down,Jam,23.6
+2026-08-26T02:53:11Z,Packaging,PKG08,Running,,0
+2026-08-26T03:00:00Z,Packaging,PKG08,Down,Outside production hours,0
 2026-08-05T11:25:42Z,Kitting,KIT03,Down,Quality Hold,30.3
 2026-08-05T11:56:02Z,Kitting,KIT03,Running,,0
 2026-08-05T12:32:52Z,Kitting,KIT03,Down,No Operator,27.9
@@ -7015,29 +6984,29 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T01:30:14Z,Kitting,KIT03,Running,,0
 2026-08-25T02:29:23Z,Kitting,KIT03,Down,Quality Hold,30.8
 2026-08-25T03:00:00Z,Kitting,KIT03,Down,Outside production hours,0
-2026-08-04T11:11:13Z,Kitting,KIT04,Down,Change Over - Line clearance,63.4
-2026-08-04T12:14:39Z,Kitting,KIT04,Running,,0
-2026-08-04T13:17:43Z,Kitting,KIT04,Down,Jam,9.3
-2026-08-04T13:26:59Z,Kitting,KIT04,Running,,0
-2026-08-04T14:05:55Z,Kitting,KIT04,Down,Starved - Upstream,19.2
-2026-08-04T14:25:05Z,Kitting,KIT04,Running,,0
-2026-08-04T15:09:21Z,Kitting,KIT04,Down,Jam,17.4
-2026-08-04T15:26:47Z,Kitting,KIT04,Running,,0
-2026-08-04T16:20:26Z,Kitting,KIT04,Down,Jam,8.1
-2026-08-04T16:28:31Z,Kitting,KIT04,Running,,0
-2026-08-04T17:47:36Z,Kitting,KIT04,Down,Jam,10.5
-2026-08-04T17:58:07Z,Kitting,KIT04,Running,,0
-2026-08-04T19:31:03Z,Kitting,KIT04,Down,Jam,9.0
-2026-08-04T19:40:03Z,Kitting,KIT04,Running,,0
-2026-08-04T21:13:53Z,Kitting,KIT04,Down,Starved - Upstream,5.4
-2026-08-04T21:19:20Z,Kitting,KIT04,Running,,0
-2026-08-04T22:31:27Z,Kitting,KIT04,Down,Jam,15.8
-2026-08-04T22:47:16Z,Kitting,KIT04,Running,,0
-2026-08-05T00:03:44Z,Kitting,KIT04,Down,Jam,9.1
-2026-08-05T00:12:52Z,Kitting,KIT04,Running,,0
-2026-08-05T01:07:31Z,Kitting,KIT04,Down,Change Over - Line clearance,81.0
-2026-08-05T02:28:34Z,Kitting,KIT04,Running,,0
-2026-08-05T03:00:00Z,Kitting,KIT04,Down,Outside production hours,0
+2026-08-25T11:36:24Z,Kitting,KIT03,Down,Jam,16.0
+2026-08-25T11:52:23Z,Kitting,KIT03,Running,,0
+2026-08-25T13:04:17Z,Kitting,KIT03,Down,Scheduled Downtime,184.8
+2026-08-25T16:09:07Z,Kitting,KIT03,Running,,0
+2026-08-25T16:57:24Z,Kitting,KIT03,Down,Starved - Upstream,13.2
+2026-08-25T17:10:34Z,Kitting,KIT03,Running,,0
+2026-08-25T18:29:25Z,Kitting,KIT03,Down,No Operator,8.3
+2026-08-25T18:37:41Z,Kitting,KIT03,Running,,0
+2026-08-25T19:25:12Z,Kitting,KIT03,Down,Blocked - Downstream,8.7
+2026-08-25T19:33:53Z,Kitting,KIT03,Running,,0
+2026-08-25T21:03:52Z,Kitting,KIT03,Down,Starved - Upstream,9.5
+2026-08-25T21:13:20Z,Kitting,KIT03,Running,,0
+2026-08-25T21:53:20Z,Kitting,KIT03,Down,Jam,24.0
+2026-08-25T22:17:22Z,Kitting,KIT03,Running,,0
+2026-08-25T23:46:23Z,Kitting,KIT03,Down,Jam,22.1
+2026-08-26T00:08:27Z,Kitting,KIT03,Running,,0
+2026-08-26T00:38:44Z,Kitting,KIT03,Down,Jam,9.9
+2026-08-26T00:48:39Z,Kitting,KIT03,Running,,0
+2026-08-26T01:19:22Z,Kitting,KIT03,Down,Jam,9.5
+2026-08-26T01:28:52Z,Kitting,KIT03,Running,,0
+2026-08-26T01:54:13Z,Kitting,KIT03,Down,Jam,16.7
+2026-08-26T02:10:56Z,Kitting,KIT03,Running,,0
+2026-08-26T03:00:00Z,Kitting,KIT03,Down,Outside production hours,0
 2026-08-05T12:51:45Z,Kitting,KIT04,Running,,0
 2026-08-05T13:59:31Z,Kitting,KIT04,Down,Quality Hold,15.4
 2026-08-05T14:14:57Z,Kitting,KIT04,Running,,0
@@ -7441,32 +7410,26 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:39:16Z,Kitting,KIT04,Down,Jam,16.9
 2026-08-25T02:56:10Z,Kitting,KIT04,Running,,0
 2026-08-25T03:00:00Z,Kitting,KIT04,Down,Outside production hours,0
-2026-08-04T12:10:23Z,Kitting,KIT05,Running,,0
-2026-08-04T13:01:24Z,Kitting,KIT05,Down,Quality Hold,33.6
-2026-08-04T13:34:58Z,Kitting,KIT05,Running,,0
-2026-08-04T15:07:54Z,Kitting,KIT05,Down,Starved - Upstream,7.0
-2026-08-04T15:14:56Z,Kitting,KIT05,Running,,0
-2026-08-04T16:26:26Z,Kitting,KIT05,Down,Blocked - Downstream,8.5
-2026-08-04T16:34:53Z,Kitting,KIT05,Running,,0
-2026-08-04T17:25:15Z,Kitting,KIT05,Down,E-Stop,6.1
-2026-08-04T17:31:20Z,Kitting,KIT05,Running,,0
-2026-08-04T18:33:47Z,Kitting,KIT05,Down,Jam,16.3
-2026-08-04T18:50:07Z,Kitting,KIT05,Running,,0
-2026-08-04T19:18:22Z,Kitting,KIT05,Down,Change Over - Line clearance,84.6
-2026-08-04T20:42:55Z,Kitting,KIT05,Running,,0
-2026-08-04T21:36:55Z,Kitting,KIT05,Down,Starved - Upstream,16.5
-2026-08-04T21:53:24Z,Kitting,KIT05,Running,,0
-2026-08-04T22:30:36Z,Kitting,KIT05,Down,Jam,10.7
-2026-08-04T22:41:16Z,Kitting,KIT05,Running,,0
-2026-08-04T23:20:21Z,Kitting,KIT05,Down,Jam,24.2
-2026-08-04T23:44:34Z,Kitting,KIT05,Running,,0
-2026-08-05T00:58:51Z,Kitting,KIT05,Down,Jam,9.4
-2026-08-05T01:08:16Z,Kitting,KIT05,Running,,0
-2026-08-05T01:35:23Z,Kitting,KIT05,Down,Jam,13.3
-2026-08-05T01:48:42Z,Kitting,KIT05,Running,,0
-2026-08-05T02:27:29Z,Kitting,KIT05,Down,Jam,12.8
-2026-08-05T02:40:17Z,Kitting,KIT05,Running,,0
-2026-08-05T03:00:00Z,Kitting,KIT05,Down,Outside production hours,0
+2026-08-25T12:05:32Z,Kitting,KIT04,Running,,0
+2026-08-25T12:39:28Z,Kitting,KIT04,Down,Scheduled Downtime,119.9
+2026-08-25T14:39:21Z,Kitting,KIT04,Running,,0
+2026-08-25T16:07:07Z,Kitting,KIT04,Down,Starved - Upstream,19.3
+2026-08-25T16:26:25Z,Kitting,KIT04,Running,,0
+2026-08-25T17:17:20Z,Kitting,KIT04,Down,Starved - Upstream,17.0
+2026-08-25T17:34:22Z,Kitting,KIT04,Running,,0
+2026-08-25T19:06:38Z,Kitting,KIT04,Down,Jam,19.3
+2026-08-25T19:25:57Z,Kitting,KIT04,Running,,0
+2026-08-25T20:10:22Z,Kitting,KIT04,Down,Blocked - Downstream,4.5
+2026-08-25T20:14:50Z,Kitting,KIT04,Running,,0
+2026-08-25T20:42:15Z,Kitting,KIT04,Down,Starved - Upstream,14.7
+2026-08-25T20:56:56Z,Kitting,KIT04,Running,,0
+2026-08-25T22:22:43Z,Kitting,KIT04,Down,Blocked - Downstream,11.7
+2026-08-25T22:34:28Z,Kitting,KIT04,Running,,0
+2026-08-26T00:06:53Z,Kitting,KIT04,Down,Jam,24.0
+2026-08-26T00:30:52Z,Kitting,KIT04,Running,,0
+2026-08-26T02:04:33Z,Kitting,KIT04,Down,No Operator,20.3
+2026-08-26T02:24:53Z,Kitting,KIT04,Running,,0
+2026-08-26T03:00:00Z,Kitting,KIT04,Down,Outside production hours,0
 2026-08-05T11:30:12Z,Kitting,KIT05,Running,,0
 2026-08-05T12:33:39Z,Kitting,KIT05,Down,Blocked - Downstream,10.3
 2026-08-05T12:43:59Z,Kitting,KIT05,Running,,0
@@ -7864,23 +7827,29 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T02:35:47Z,Kitting,KIT05,Down,Starved - Upstream,12.8
 2026-08-25T02:48:33Z,Kitting,KIT05,Running,,0
 2026-08-25T03:00:00Z,Kitting,KIT05,Down,Outside production hours,0
-2026-08-04T11:07:38Z,Kitting,KIT07,Down,No Operator,11.8
-2026-08-04T11:19:29Z,Kitting,KIT07,Running,,0
-2026-08-04T12:17:00Z,Kitting,KIT07,Down,Change Over - Line clearance,45.8
-2026-08-04T13:02:49Z,Kitting,KIT07,Running,,0
-2026-08-04T14:14:26Z,Kitting,KIT07,Down,Change Over - Line clearance,41.7
-2026-08-04T14:56:07Z,Kitting,KIT07,Running,,0
-2026-08-04T15:42:15Z,Kitting,KIT07,Down,Jam,9.4
-2026-08-04T15:51:37Z,Kitting,KIT07,Running,,0
-2026-08-04T17:11:05Z,Kitting,KIT07,Down,Scheduled Downtime,197.8
-2026-08-04T20:28:55Z,Kitting,KIT07,Running,,0
-2026-08-04T21:55:56Z,Kitting,KIT07,Down,Jam,23.9
-2026-08-04T22:19:48Z,Kitting,KIT07,Running,,0
-2026-08-04T22:58:34Z,Kitting,KIT07,Down,Quality Hold,38.8
-2026-08-04T23:37:21Z,Kitting,KIT07,Running,,0
-2026-08-05T01:08:47Z,Kitting,KIT07,Down,Quality Hold,39.0
-2026-08-05T01:47:47Z,Kitting,KIT07,Running,,0
-2026-08-05T03:00:00Z,Kitting,KIT07,Down,Outside production hours,0
+2026-08-25T11:24:56Z,Kitting,KIT05,Down,Jam,7.2
+2026-08-25T11:32:08Z,Kitting,KIT05,Running,,0
+2026-08-25T12:19:39Z,Kitting,KIT05,Down,Change Over - Line clearance,34.2
+2026-08-25T12:53:51Z,Kitting,KIT05,Running,,0
+2026-08-25T14:02:35Z,Kitting,KIT05,Down,Blocked - Downstream,12.7
+2026-08-25T14:15:19Z,Kitting,KIT05,Running,,0
+2026-08-25T15:27:01Z,Kitting,KIT05,Down,Blocked - Downstream,10.4
+2026-08-25T15:37:24Z,Kitting,KIT05,Running,,0
+2026-08-25T16:50:38Z,Kitting,KIT05,Down,Change Over - Line clearance,63.9
+2026-08-25T17:54:32Z,Kitting,KIT05,Running,,0
+2026-08-25T19:22:26Z,Kitting,KIT05,Down,Jam,10.6
+2026-08-25T19:33:03Z,Kitting,KIT05,Running,,0
+2026-08-25T20:19:02Z,Kitting,KIT05,Down,Jam,6.7
+2026-08-25T20:25:41Z,Kitting,KIT05,Running,,0
+2026-08-25T21:56:02Z,Kitting,KIT05,Down,Jam,15.9
+2026-08-25T22:11:57Z,Kitting,KIT05,Running,,0
+2026-08-25T23:19:25Z,Kitting,KIT05,Down,Quality Hold,16.1
+2026-08-25T23:35:32Z,Kitting,KIT05,Running,,0
+2026-08-26T01:03:22Z,Kitting,KIT05,Down,Change Over - Line clearance,49.9
+2026-08-26T01:53:18Z,Kitting,KIT05,Running,,0
+2026-08-26T02:39:32Z,Kitting,KIT05,Down,Starved - Upstream,18.0
+2026-08-26T02:57:31Z,Kitting,KIT05,Running,,0
+2026-08-26T03:00:00Z,Kitting,KIT05,Down,Outside production hours,0
 2026-08-05T11:02:26Z,Kitting,KIT07,Down,Starved - Upstream,13.6
 2026-08-05T11:16:02Z,Kitting,KIT07,Running,,0
 2026-08-05T12:27:19Z,Kitting,KIT07,Down,Change Over - Line clearance,56.6
@@ -8242,33 +8211,28 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T01:21:12Z,Kitting,KIT07,Running,,0
 2026-08-25T02:51:23Z,Kitting,KIT07,Down,Starved - Upstream,16.6
 2026-08-25T03:00:00Z,Kitting,KIT07,Down,Outside production hours,0
-2026-08-04T11:06:30Z,Kitting,KIT08,Down,Jam,24.2
-2026-08-04T11:30:41Z,Kitting,KIT08,Running,,0
-2026-08-04T12:27:56Z,Kitting,KIT08,Down,E-Stop,10.6
-2026-08-04T12:38:35Z,Kitting,KIT08,Running,,0
-2026-08-04T14:06:08Z,Kitting,KIT08,Down,Change Over - Line clearance,32.4
-2026-08-04T14:38:33Z,Kitting,KIT08,Running,,0
-2026-08-04T15:07:07Z,Kitting,KIT08,Down,Change Over - Line clearance,39.1
-2026-08-04T15:46:14Z,Kitting,KIT08,Running,,0
-2026-08-04T17:11:46Z,Kitting,KIT08,Down,Quality Hold,35.8
-2026-08-04T17:47:32Z,Kitting,KIT08,Running,,0
-2026-08-04T18:58:32Z,Kitting,KIT08,Down,Jam,13.0
-2026-08-04T19:11:33Z,Kitting,KIT08,Running,,0
-2026-08-04T20:08:34Z,Kitting,KIT08,Down,Starved - Upstream,16.8
-2026-08-04T20:25:19Z,Kitting,KIT08,Running,,0
-2026-08-04T20:50:55Z,Kitting,KIT08,Down,E-Stop,8.3
-2026-08-04T20:59:12Z,Kitting,KIT08,Running,,0
-2026-08-04T21:25:34Z,Kitting,KIT08,Down,Jam,4.4
-2026-08-04T21:29:59Z,Kitting,KIT08,Running,,0
-2026-08-04T22:36:51Z,Kitting,KIT08,Down,Jam,20.1
-2026-08-04T22:56:55Z,Kitting,KIT08,Running,,0
-2026-08-04T23:36:23Z,Kitting,KIT08,Down,Jam,7.4
-2026-08-04T23:43:44Z,Kitting,KIT08,Running,,0
-2026-08-05T00:26:16Z,Kitting,KIT08,Down,Jam,19.0
-2026-08-05T00:45:15Z,Kitting,KIT08,Running,,0
-2026-08-05T01:32:55Z,Kitting,KIT08,Down,Starved - Upstream,10.9
-2026-08-05T01:43:51Z,Kitting,KIT08,Running,,0
-2026-08-05T03:00:00Z,Kitting,KIT08,Down,Outside production hours,0
+2026-08-25T11:19:39Z,Kitting,KIT07,Down,Jam,4.8
+2026-08-25T11:24:25Z,Kitting,KIT07,Running,,0
+2026-08-25T12:40:37Z,Kitting,KIT07,Down,Blocked - Downstream,5.6
+2026-08-25T12:46:10Z,Kitting,KIT07,Running,,0
+2026-08-25T13:31:23Z,Kitting,KIT07,Down,Quality Hold,38.3
+2026-08-25T14:09:41Z,Kitting,KIT07,Running,,0
+2026-08-25T14:50:51Z,Kitting,KIT07,Down,Jam,15.5
+2026-08-25T15:06:23Z,Kitting,KIT07,Running,,0
+2026-08-25T16:34:47Z,Kitting,KIT07,Down,Starved - Upstream,11.5
+2026-08-25T16:46:18Z,Kitting,KIT07,Running,,0
+2026-08-25T18:17:30Z,Kitting,KIT07,Down,Jam,5.9
+2026-08-25T18:23:22Z,Kitting,KIT07,Running,,0
+2026-08-25T19:14:39Z,Kitting,KIT07,Down,Jam,21.4
+2026-08-25T19:36:02Z,Kitting,KIT07,Running,,0
+2026-08-25T20:46:34Z,Kitting,KIT07,Down,Starved - Upstream,12.2
+2026-08-25T20:58:47Z,Kitting,KIT07,Running,,0
+2026-08-25T22:10:48Z,Kitting,KIT07,Down,No Operator,8.0
+2026-08-25T22:18:48Z,Kitting,KIT07,Running,,0
+2026-08-25T23:40:13Z,Kitting,KIT07,Down,E-Stop,11.9
+2026-08-25T23:52:07Z,Kitting,KIT07,Running,,0
+2026-08-26T00:48:10Z,Kitting,KIT07,Down,Scheduled Downtime,201.5
+2026-08-26T03:00:00Z,Kitting,KIT07,Down,Outside production hours,0
 2026-08-05T11:11:50Z,Kitting,KIT08,Down,Change Over - Line clearance,73.4
 2026-08-05T12:25:13Z,Kitting,KIT08,Running,,0
 2026-08-05T13:31:29Z,Kitting,KIT08,Down,Blocked - Downstream,8.7
@@ -8652,3 +8616,28 @@ ts,factory,line,state,reason,duration_min
 2026-08-25T01:33:43Z,Kitting,KIT08,Down,No Operator,17.8
 2026-08-25T01:51:29Z,Kitting,KIT08,Running,,0
 2026-08-25T03:00:00Z,Kitting,KIT08,Down,Outside production hours,0
+2026-08-25T11:10:49Z,Kitting,KIT08,Down,Jam,21.6
+2026-08-25T11:32:24Z,Kitting,KIT08,Running,,0
+2026-08-25T12:26:35Z,Kitting,KIT08,Down,Jam,9.1
+2026-08-25T12:35:39Z,Kitting,KIT08,Running,,0
+2026-08-25T14:00:03Z,Kitting,KIT08,Down,Jam,22.0
+2026-08-25T14:22:05Z,Kitting,KIT08,Running,,0
+2026-08-25T15:04:22Z,Kitting,KIT08,Down,E-Stop,11.7
+2026-08-25T15:16:02Z,Kitting,KIT08,Running,,0
+2026-08-25T16:50:18Z,Kitting,KIT08,Down,Starved - Upstream,7.3
+2026-08-25T16:57:39Z,Kitting,KIT08,Running,,0
+2026-08-25T17:36:33Z,Kitting,KIT08,Down,Jam,24.1
+2026-08-25T18:00:36Z,Kitting,KIT08,Running,,0
+2026-08-25T18:40:47Z,Kitting,KIT08,Down,Jam,15.4
+2026-08-25T18:56:08Z,Kitting,KIT08,Running,,0
+2026-08-25T20:22:23Z,Kitting,KIT08,Down,Jam,11.3
+2026-08-25T20:33:40Z,Kitting,KIT08,Running,,0
+2026-08-25T21:34:25Z,Kitting,KIT08,Down,Quality Hold,29.9
+2026-08-25T22:04:18Z,Kitting,KIT08,Running,,0
+2026-08-25T23:18:56Z,Kitting,KIT08,Down,Jam,10.8
+2026-08-25T23:29:43Z,Kitting,KIT08,Running,,0
+2026-08-26T00:11:44Z,Kitting,KIT08,Down,Starved - Upstream,9.3
+2026-08-26T00:20:59Z,Kitting,KIT08,Running,,0
+2026-08-26T00:55:59Z,Kitting,KIT08,Down,Change Over - Line clearance,79.4
+2026-08-26T02:15:23Z,Kitting,KIT08,Running,,0
+2026-08-26T03:00:00Z,Kitting,KIT08,Down,Outside production hours,0
