@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,23104,640,97.3,56.63,Running,,0
-Assembly,ASM02,19591,790,96.12,46.64,Running,,0
-Assembly,ASM05,27055,546,98.02,60.39,Running,,0
-Molding,MLD03,18856,473,97.55,56.12,Down,Scheduled Downtime,64
-Molding,MLD04,26282,381,98.57,56.89,Running,,0
-Molding,MLD05,16276,918,94.66,40.09,Down,No Operator,20
-Molding,MLD06,18371,926,95.2,48.6,Running,,0
-Molding,MLD07,7291,238,96.84,40.05,Running,,0
-Coating,COT01,14285,461,96.87,45.79,Down,Quality Hold,23
-Coating,COT02,25494,710,97.29,56.9,Running,,0
-Coating,COT03,16876,410,97.63,43.27,Down,Scheduled Downtime,37
-Packaging,PKG04,19149,1116,94.49,45.6,Down,Jam,14
-Packaging,PKG05,14915,2295,86.66,40.98,Running,,0
-Packaging,PKG06,22986,2009,91.96,52.96,Running,,0
-Packaging,PKG07,9259,1046,89.85,27.56,Down,Change Over - Line clearance,1
-Packaging,PKG08,16206,1781,90.1,42.2,Running,,0
-Kitting,KIT03,22609,134,99.41,53.83,Running,,0
-Kitting,KIT04,32377,484,98.53,70.08,Running,,0
-Kitting,KIT05,19285,392,98.01,47.5,Down,Change Over - Line clearance,47
-Kitting,KIT07,16875,67,99.6,51.13,Running,,0
-Kitting,KIT08,16693,254,98.5,41.42,Down,Scheduled Downtime,98
+Assembly,ASM01,24286,667,97.33,54.94,Down,Change Over - Line clearance,27
+Assembly,ASM02,19812,796,96.14,44.03,Down,Change Over - Line clearance,73
+Assembly,ASM05,29221,619,97.93,60.88,Down,Blocked - Downstream,10
+Molding,MLD03,20891,538,97.49,57.39,Running,,0
+Molding,MLD04,26282,381,98.57,56.89,Down,Scheduled Downtime,89
+Molding,MLD05,17219,964,94.7,39.58,Down,Jam,11
+Molding,MLD06,19402,968,95.25,47.9,Down,Change Over - Line clearance,12
+Molding,MLD07,8995,319,96.58,43.24,Running,,0
+Coating,COT01,15713,507,96.87,46.77,Running,,0
+Coating,COT02,27411,773,97.26,57.1,Down,Quality Hold,4
+Coating,COT03,16876,410,97.63,43.27,Down,Scheduled Downtime,145
+Packaging,PKG04,20980,1225,94.48,46.62,Running,,0
+Packaging,PKG05,15118,2325,86.67,38.76,Down,Change Over - Line clearance,43
+Packaging,PKG06,24708,2179,91.9,53.14,Running,,0
+Packaging,PKG07,10174,1148,89.86,28.27,Running,,0
+Packaging,PKG08,17976,1956,90.19,43.21,Down,Starved - Upstream,9
+Kitting,KIT03,24434,177,99.28,54.3,Running,,0
+Kitting,KIT04,34155,521,98.5,69.0,Running,,0
+Kitting,KIT05,20361,421,97.97,46.81,Down,Quality Hold,12
+Kitting,KIT07,18018,68,99.62,50.04,Down,Change Over - Line clearance,25
+Kitting,KIT08,18710,262,98.62,43.1,Running,,0
