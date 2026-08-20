@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,27981,861,97.01,63.31,Running,,0
-Assembly,ASM02,22278,1074,95.4,57.13,Down,Scheduled Downtime,10
-Assembly,ASM05,24286,551,97.78,58.38,Down,Starved - Upstream,6
-Molding,MLD03,18447,558,97.06,47.06,Running,,0
-Molding,MLD04,25562,403,98.45,55.33,Running,,0
-Molding,MLD05,15548,882,94.63,38.29,Running,,0
-Molding,MLD06,15700,713,95.66,44.73,Running,,0
-Molding,MLD07,13622,512,96.38,47.63,Running,,0
-Coating,COT01,13673,490,96.54,43.82,Down,Scheduled Downtime,73
-Coating,COT02,20664,699,96.73,53.81,Down,Starved - Upstream,2
-Coating,COT03,19394,521,97.38,49.72,Running,,0
-Packaging,PKG04,22847,1241,94.85,54.4,Running,,0
-Packaging,PKG05,9930,1439,87.34,29.38,Running,,0
-Packaging,PKG06,19654,1726,91.93,48.78,Running,,0
-Packaging,PKG07,10722,1114,90.59,31.92,Running,,0
-Packaging,PKG08,23016,2525,90.11,51.37,Running,,0
-Kitting,KIT03,27395,267,99.03,65.23,Running,,0
-Kitting,KIT04,27140,565,97.96,58.74,Running,,0
-Kitting,KIT05,18682,440,97.7,49.55,Running,,0
-Kitting,KIT07,26972,364,98.67,64.22,Down,Jam,0
-Kitting,KIT08,21641,304,98.61,49.87,Down,No Operator,1
+Assembly,ASM01,31108,994,96.9,65.36,Running,,0
+Assembly,ASM02,22278,1074,95.4,57.13,Down,Scheduled Downtime,116
+Assembly,ASM05,26470,598,97.79,59.09,Running,,0
+Molding,MLD03,19499,584,97.09,46.43,Down,Jam,11
+Molding,MLD04,27357,417,98.5,55.27,Running,,0
+Molding,MLD05,17009,956,94.68,39.1,Running,,0
+Molding,MLD06,16517,743,95.7,43.7,Down,Quality Hold,5
+Molding,MLD07,14790,545,96.45,47.41,Down,Change Over - Line clearance,7
+Coating,COT01,14777,535,96.51,43.98,Down,Blocked - Downstream,8
+Coating,COT02,22211,731,96.81,53.39,Running,,0
+Coating,COT03,21632,591,97.34,51.5,Running,,0
+Packaging,PKG04,22881,1243,94.85,50.85,Down,Change Over - Line clearance,48
+Packaging,PKG05,11140,1613,87.35,30.61,Running,,0
+Packaging,PKG06,21138,1858,91.92,48.71,Running,,0
+Packaging,PKG07,11539,1211,90.5,32.06,Running,,0
+Packaging,PKG08,24193,2647,90.14,50.4,Down,Quality Hold,16
+Kitting,KIT03,29427,309,98.96,65.39,Running,,0
+Kitting,KIT04,28522,578,98.01,57.62,Running,,0
+Kitting,KIT05,19553,469,97.66,48.16,Running,,0
+Kitting,KIT07,28761,366,98.74,63.92,Down,Starved - Upstream,4
+Kitting,KIT08,23130,325,98.61,49.75,Running,,0
