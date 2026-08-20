@@ -4660,3 +4660,28 @@ ts,factory,line,level,src,message
 2026-08-20T03:07:44Z,Packaging,PKG08,info,HMI,Operator J.Alvarez signed in - line restart
 2026-08-20T03:32:45Z,Assembly,ASM02,info,PLC,LOTO removed
 2026-08-20T03:34:45Z,Assembly,ASM02,info,PLC,Master reset - line restart
+2026-08-20T10:52:49Z,Assembly,ASM02,info,MES,Recipe change queued: SKU-1042 -> SKU-1179
+2026-08-20T11:02:52Z,Kitting,KIT04,info,MES,Hourly production: pass=1650 fail=227 yield=91.0%
+2026-08-20T11:04:31Z,Coating,COT02,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-20T11:04:47Z,Coating,COT02,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-20T11:05:41Z,Assembly,ASM02,info,MES,Change over started - line clearance in progress
+2026-08-20T11:05:41Z,Assembly,ASM02,info,PLC,Guard door opened - operator station 1
+2026-08-20T11:05:48Z,Assembly,ASM01,warn,VIS,Vision reject burst: 7 consecutive rejects - self-cleared
+2026-08-20T11:07:24Z,Coating,COT02,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-20T11:07:30Z,Assembly,ASM05,info,MES,Hourly production: pass=1751 fail=26 yield=96.5%
+2026-08-20T11:09:06Z,Kitting,KIT03,info,MES,Hourly production: pass=2041 fail=213 yield=94.2%
+2026-08-20T11:09:41Z,Packaging,PKG06,warn,PLC,Servo temperature high warning - capper axis (78 C)
+2026-08-20T11:09:56Z,Coating,COT02,info,HMI,Alarm E201 acknowledged by operator
+2026-08-20T11:11:40Z,Molding,MLD03,error,PLC,E001 E-STOP PRESSED - operator station 2 - safety circuit open
+2026-08-20T11:14:13Z,Assembly,ASM02,info,MES,Line clearance checklist item complete: infeed cleared
+2026-08-20T11:15:24Z,Packaging,PKG07,warn,VIS,Vision reject burst: 4 consecutive rejects - self-cleared
+2026-08-20T11:16:49Z,Molding,MLD03,info,HMI,E-stop reset - safety circuit closed
+2026-08-20T11:17:54Z,Packaging,PKG04,info,MES,Hourly production: pass=1862 fail=88 yield=90.0%
+2026-08-20T11:18:42Z,Kitting,KIT07,info,MES,Hourly production: pass=3315 fail=118 yield=96.4%
+2026-08-20T11:20:23Z,Packaging,PKG06,warn,VIS,Vision reject burst: 7 consecutive rejects - self-cleared
+2026-08-20T11:20:54Z,Coating,COT02,info,HMI,Jam cleared - guards closed
+2026-08-20T11:21:00Z,Kitting,KIT07,warn,VIS,Vision reject burst: 9 consecutive rejects - self-cleared
+2026-08-20T11:21:20Z,Molding,MLD05,warn,VIS,Vision reject burst: 4 consecutive rejects - self-cleared
+2026-08-20T11:21:29Z,Packaging,PKG05,info,MES,Hourly production: pass=1662 fail=207 yield=96.2%
+2026-08-20T11:21:59Z,Molding,MLD03,info,PLC,Safety reset complete - master reset - line restart
+2026-08-20T11:22:04Z,Packaging,PKG08,info,MES,Hourly production: pass=2549 fail=219 yield=96.9%
