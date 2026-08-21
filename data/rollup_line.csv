@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,17524,526,97.09,64.43,Running,,0
-Assembly,ASM02,16352,833,95.15,60.56,Running,,0
-Assembly,ASM05,13936,372,97.4,48.39,Running,,0
-Molding,MLD03,12402,452,96.48,49.21,Down,Change Over - Line clearance,11
-Molding,MLD04,11342,156,98.64,49.1,Running,,0
+Assembly,ASM01,17524,526,97.09,64.43,Down,E-Stop,2
+Assembly,ASM02,16352,833,95.15,60.56,Down,Blocked - Downstream,3
+Assembly,ASM05,13936,372,97.4,48.39,Down,Change Over - Line clearance,27
+Molding,MLD03,12402,452,96.48,49.21,Running,,0
+Molding,MLD04,11342,156,98.64,49.1,Down,Starved - Upstream,9
 Molding,MLD05,12171,669,94.79,46.63,Running,,0
 Molding,MLD06,11067,578,95.04,45.54,Running,,0
 Molding,MLD07,10207,330,96.87,49.07,Running,,0
 Coating,COT01,11059,298,97.38,51.2,Running,,0
-Coating,COT02,10455,239,97.77,46.67,Down,Scheduled Downtime,175
+Coating,COT02,10455,239,97.77,46.67,Running,,0
 Coating,COT03,14206,327,97.75,52.61,Running,,0
-Packaging,PKG04,11810,789,93.74,43.74,Down,Starved - Upstream,15
-Packaging,PKG05,6358,953,86.96,34.94,Down,Scheduled Downtime,101
+Packaging,PKG04,11810,789,93.74,43.74,Running,,0
+Packaging,PKG05,6358,953,86.96,34.94,Down,Scheduled Downtime,133
 Packaging,PKG06,9977,854,92.12,45.97,Running,,0
 Packaging,PKG07,6429,671,90.55,29.76,Running,,0
 Packaging,PKG08,13677,1800,88.37,47.49,Running,,0
 Kitting,KIT03,14659,223,98.5,61.08,Running,,0
-Kitting,KIT04,20395,342,98.35,68.67,Down,Starved - Upstream,18
-Kitting,KIT05,13629,396,97.18,52.22,Down,Jam,1
+Kitting,KIT04,20395,342,98.35,68.67,Running,,0
+Kitting,KIT05,13629,396,97.18,52.22,Running,,0
 Kitting,KIT07,18774,120,99.36,69.53,Running,,0
 Kitting,KIT08,13167,208,98.44,47.19,Running,,0
