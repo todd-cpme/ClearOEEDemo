@@ -1,15 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-18T10:59:51Z,Packaging,PKG06,warn,VIS,Vision reject rate high: rolling 15 min at 5.8% (limit 3.0%)
-2026-08-18T11:02:26Z,Kitting,KIT03,info,MES,Recipe change queued: SKU-3007 -> SKU-2311
-2026-08-18T11:03:36Z,Assembly,ASM02,warn,VIS,Camera 2 calibration drift detected - contrast margin low
-2026-08-18T11:03:41Z,Molding,MLD05,info,MES,Hourly production: pass=2837 fail=224 yield=94.7%
-2026-08-18T11:05:08Z,Assembly,ASM02,warn,VIS,Vision reject rate high: rolling 15 min at 5.1% (limit 3.0%)
-2026-08-18T11:06:21Z,Packaging,PKG06,warn,VIS,Camera 2 calibration drift detected - contrast margin low
-2026-08-18T11:07:13Z,Packaging,PKG08,info,MES,Recipe change queued: SKU-2311 -> SKU-1042
-2026-08-18T11:07:15Z,Packaging,PKG07,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-18T11:07:34Z,Molding,MLD06,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-18T11:07:38Z,Packaging,PKG06,error,MES,QUALITY HOLD - lot paused pending QA disposition
-2026-08-18T11:07:50Z,Assembly,ASM02,error,MES,QUALITY HOLD - lot paused pending QA disposition
 2026-08-18T11:08:24Z,Molding,MLD07,warn,PLC,Torque limit warning - infeed screw drive
 2026-08-18T11:08:43Z,Molding,MLD07,warn,PLC,Infeed backlog high - accumulation table at 85%
 2026-08-18T11:08:44Z,Kitting,KIT07,info,MES,Hourly production: pass=1874 fail=246 yield=93.3%
@@ -64,7 +53,7 @@ ts,factory,line,level,src,message
 2026-08-18T11:37:03Z,Molding,MLD04,error,PLC,"E311 BLOCKED - discharge full, line paused"
 2026-08-18T11:38:32Z,Packaging,PKG05,info,MES,Hourly production: pass=2382 fail=215 yield=92.2%
 2026-08-18T11:39:11Z,Molding,MLD05,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-18T11:39:48Z,Packaging,PKG08,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-18T11:39:48Z,Packaging,PKG08,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-18T11:40:13Z,Packaging,PKG04,info,MES,Line clearance checklist item complete: infeed cleared
 2026-08-18T11:41:02Z,Kitting,KIT03,info,MES,Line clearance checklist item complete: reject bin verified empty
 2026-08-18T11:42:51Z,Coating,COT01,info,MES,Recipe change queued: SKU-3007 -> SKU-1179
@@ -78,7 +67,7 @@ ts,factory,line,level,src,message
 2026-08-18T11:50:03Z,Molding,MLD03,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-08-18T11:52:58Z,Molding,MLD05,info,MES,Line clearance checklist item complete: reject bin verified empty
 2026-08-18T11:54:18Z,Coating,COT03,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-18T11:55:19Z,Kitting,KIT03,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-18T11:55:19Z,Kitting,KIT03,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
 2026-08-18T11:56:27Z,Kitting,KIT07,warn,PLC,Infeed backlog high - accumulation table at 85%
 2026-08-18T11:56:31Z,Coating,COT01,info,MES,Change over started - line clearance in progress
 2026-08-18T11:56:31Z,Coating,COT01,info,PLC,Guard door opened - operator station 1
@@ -6122,3 +6111,9 @@ ts,factory,line,level,src,message
 2026-08-22T05:04:27Z,Packaging,PKG06,info,PLC,Master reset - line restart
 2026-08-22T05:26:24Z,Coating,COT03,info,PLC,LOTO removed
 2026-08-22T05:28:24Z,Coating,COT03,info,PLC,Master reset - line restart
+2026-08-22T10:55:11Z,Coating,COT02,info,MES,Recipe change queued: SKU-2044 -> SKU-3007
+2026-08-22T11:02:57Z,Coating,COT03,info,MES,Operator K.Simmons signed in at station 1
+2026-08-22T11:06:05Z,Kitting,KIT05,info,MES,Hourly production: pass=2369 fail=272 yield=92.4%
+2026-08-22T11:07:40Z,Packaging,PKG04,info,MES,Hourly production: pass=1662 fail=252 yield=88.7%
+2026-08-22T11:07:59Z,Coating,COT02,info,MES,Change over started - line clearance in progress
+2026-08-22T11:07:59Z,Coating,COT02,info,PLC,Guard door opened - operator station 1
