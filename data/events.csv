@@ -1,25 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-19T17:48:05Z,Coating,COT02,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-19T17:49:08Z,Kitting,KIT05,info,HMI,Alarm E201 acknowledged by operator
-2026-08-19T17:49:34Z,Coating,COT01,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-19T17:50:43Z,Assembly,ASM02,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
-2026-08-19T17:51:00Z,Coating,COT02,info,HMI,Alarm E310 acknowledged by operator
-2026-08-19T17:51:08Z,Molding,MLD03,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-19T17:51:32Z,Coating,COT01,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-19T17:52:06Z,Coating,COT03,info,MES,Change over started - line clearance in progress
-2026-08-19T17:52:06Z,Coating,COT03,info,PLC,Guard door opened - operator station 1
-2026-08-19T17:52:06Z,Kitting,KIT04,info,MES,Change over started - line clearance in progress
-2026-08-19T17:52:06Z,Kitting,KIT04,info,PLC,Guard door opened - operator station 1
-2026-08-19T17:54:29Z,Packaging,PKG07,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-19T17:54:48Z,Molding,MLD04,info,PLC,Downstream cleared - auto restart
-2026-08-19T17:54:54Z,Molding,MLD03,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-19T17:57:21Z,Packaging,PKG05,info,MES,Scheduled downtime started - PM work order WO-46770
-2026-08-19T17:57:21Z,Packaging,PKG05,warn,PLC,LOTO applied - energy isolation verified
-2026-08-19T17:57:44Z,Molding,MLD03,info,HMI,Alarm E310 acknowledged by operator
-2026-08-19T17:57:49Z,Assembly,ASM01,info,MES,Scheduled downtime started - PM work order WO-40748
-2026-08-19T17:57:49Z,Assembly,ASM01,warn,PLC,LOTO applied - energy isolation verified
-2026-08-19T18:00:45Z,Kitting,KIT07,info,MES,Hourly production: pass=2946 fail=57 yield=95.4%
-2026-08-19T18:00:58Z,Coating,COT03,info,MES,Line clearance checklist item complete: infeed cleared
 2026-08-19T18:02:29Z,Packaging,PKG04,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
 2026-08-19T18:02:38Z,Coating,COT02,info,PLC,Product present at infeed - auto restart
 2026-08-19T18:02:49Z,Kitting,KIT04,info,MES,Line clearance checklist item complete: infeed cleared
@@ -63,7 +42,7 @@ ts,factory,line,level,src,message
 2026-08-19T18:26:38Z,Kitting,KIT03,info,PLC,Fault reset - line restart
 2026-08-19T18:27:31Z,Molding,MLD07,info,HMI,Jam cleared - guards closed
 2026-08-19T18:27:33Z,Coating,COT02,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-19T18:27:35Z,Coating,COT03,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-19T18:27:35Z,Coating,COT03,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
 2026-08-19T18:28:14Z,Packaging,PKG04,info,HMI,Operator J.Alvarez signed in - line restart
 2026-08-19T18:28:29Z,Molding,MLD03,warn,VIS,Vision reject burst: 8 consecutive rejects - self-cleared
 2026-08-19T18:28:32Z,Assembly,ASM02,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
@@ -80,9 +59,9 @@ ts,factory,line,level,src,message
 2026-08-19T18:32:56Z,Kitting,KIT05,info,MES,Hourly production: pass=1862 fail=67 yield=95.2%
 2026-08-19T18:33:24Z,Packaging,PKG06,info,PLC,Fault reset - line restart
 2026-08-19T18:34:17Z,Assembly,ASM01,info,MES,PM task complete: lubrication / inspection checklist
-2026-08-19T18:34:45Z,Packaging,PKG07,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-19T18:34:45Z,Packaging,PKG07,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
 2026-08-19T18:34:49Z,Molding,MLD03,info,MES,Hourly production: pass=2376 fail=234 yield=95.0%
-2026-08-19T18:34:57Z,Kitting,KIT04,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-19T18:34:57Z,Kitting,KIT04,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-19T18:35:24Z,Packaging,PKG06,info,PLC,Ramp to rate complete (3100 uph)
 2026-08-19T18:36:16Z,Coating,COT01,warn,VIS,Vision reject burst: 9 consecutive rejects - self-cleared
 2026-08-19T18:36:27Z,Coating,COT03,info,PLC,Master reset - line restart
