@@ -1,30 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-19T15:43:12Z,Packaging,PKG04,info,PLC,Product present at infeed - auto restart
-2026-08-19T15:43:13Z,Molding,MLD05,error,MES,QUALITY HOLD - lot paused pending QA disposition
-2026-08-19T15:45:16Z,Packaging,PKG06,info,MES,Hourly production: pass=2351 fail=235 yield=94.3%
-2026-08-19T15:45:42Z,Packaging,PKG06,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
-2026-08-19T15:46:01Z,Coating,COT02,info,MES,Hourly production: pass=2018 fail=169 yield=96.7%
-2026-08-19T15:47:03Z,Molding,MLD04,info,MES,Hourly production: pass=2472 fail=93 yield=95.2%
-2026-08-19T15:48:00Z,Kitting,KIT07,warn,VIS,Vision reject burst: 5 consecutive rejects - self-cleared
-2026-08-19T15:48:58Z,Assembly,ASM05,info,MES,Recipe change queued: SKU-3007 -> SKU-1179
-2026-08-19T15:49:36Z,Kitting,KIT07,info,MES,Hourly production: pass=1657 fail=268 yield=93.1%
-2026-08-19T15:49:38Z,Kitting,KIT08,info,MES,Hourly production: pass=1706 fail=248 yield=89.0%
-2026-08-19T15:49:41Z,Packaging,PKG07,info,MES,Hourly production: pass=2202 fail=152 yield=94.2%
-2026-08-19T15:50:26Z,Assembly,ASM02,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-19T15:50:52Z,Molding,MLD07,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-19T15:51:14Z,Assembly,ASM02,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-19T15:51:44Z,Molding,MLD05,info,MES,QA sampling in progress - 32 pc AQL pull
-2026-08-19T15:51:52Z,Coating,COT03,info,HMI,Jam cleared - guards closed
-2026-08-19T15:52:03Z,Assembly,ASM02,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-19T15:54:45Z,Molding,MLD07,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-19T15:55:29Z,Assembly,ASM02,info,HMI,Alarm E201 acknowledged by operator
-2026-08-19T15:55:54Z,Coating,COT03,info,PLC,Fault reset - line restart
-2026-08-19T15:56:32Z,Assembly,ASM05,info,MES,Change over started - line clearance in progress
-2026-08-19T15:56:32Z,Assembly,ASM05,info,PLC,Guard door opened - operator station 1
-2026-08-19T15:57:54Z,Coating,COT03,info,PLC,Ramp to rate complete (3000 uph)
-2026-08-19T15:58:09Z,Packaging,PKG06,info,MES,Recipe change queued: SKU-1042 -> SKU-2311
-2026-08-19T15:58:40Z,Assembly,ASM01,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-19T16:00:15Z,Molding,MLD05,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
 2026-08-19T16:01:06Z,Assembly,ASM01,error,PLC,"E311 BLOCKED - discharge full, line paused"
 2026-08-19T16:03:00Z,Molding,MLD03,info,MES,Recipe change queued: SKU-1179 -> SKU-2311
 2026-08-19T16:03:45Z,Molding,MLD07,info,PLC,Downstream cleared - auto restart
@@ -120,7 +94,7 @@ ts,factory,line,level,src,message
 2026-08-19T17:02:22Z,Molding,MLD06,info,MES,Line clearance checklist item complete: reject bin verified empty
 2026-08-19T17:02:49Z,Packaging,PKG04,info,HMI,Alarm E201 acknowledged by operator
 2026-08-19T17:02:52Z,Coating,COT01,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-19T17:03:14Z,Assembly,ASM05,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-19T17:03:14Z,Assembly,ASM05,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-19T17:03:53Z,Kitting,KIT03,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
 2026-08-19T17:04:01Z,Molding,MLD07,info,HMI,E-stop reset - safety circuit closed
 2026-08-19T17:04:12Z,Kitting,KIT08,warn,PLC,Infeed backlog high - accumulation table at 85%
@@ -149,7 +123,7 @@ ts,factory,line,level,src,message
 2026-08-19T17:17:24Z,Kitting,KIT08,info,HMI,Jam cleared - guards closed
 2026-08-19T17:18:34Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
 2026-08-19T17:19:09Z,Kitting,KIT08,info,PLC,Fault reset - line restart
-2026-08-19T17:19:15Z,Packaging,PKG06,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-19T17:19:15Z,Packaging,PKG06,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
 2026-08-19T17:19:55Z,Assembly,ASM05,info,PLC,Master reset - line restart
 2026-08-19T17:20:00Z,Molding,MLD05,warn,PLC,Torque limit warning - infeed screw drive
 2026-08-19T17:20:40Z,Molding,MLD06,info,PLC,Master reset - line restart
