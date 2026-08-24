@@ -1,89 +1,5 @@
 ts,factory,line,level,src,message
-2026-08-20T18:02:47Z,Kitting,KIT05,info,MES,Hourly production: pass=2213 fail=29 yield=94.0%
-2026-08-20T18:04:36Z,Molding,MLD06,info,PLC,LOTO removed
-2026-08-20T18:06:24Z,Packaging,PKG08,info,HMI,Jam cleared - guards closed
-2026-08-20T18:06:36Z,Molding,MLD06,info,PLC,Master reset - line restart
-2026-08-20T18:07:26Z,Packaging,PKG07,info,MES,Hourly production: pass=2170 fail=57 yield=91.7%
-2026-08-20T18:07:44Z,Coating,COT02,info,MES,Hourly production: pass=1644 fail=101 yield=95.1%
-2026-08-20T18:07:45Z,Coating,COT03,info,MES,Hourly production: pass=2224 fail=183 yield=94.7%
-2026-08-20T18:08:28Z,Assembly,ASM05,info,MES,Hourly production: pass=2205 fail=66 yield=97.3%
-2026-08-20T18:08:32Z,Packaging,PKG08,info,PLC,Fault reset - line restart
-2026-08-20T18:08:42Z,Kitting,KIT07,info,MES,Recipe change queued: SKU-2311 -> SKU-3007
-2026-08-20T18:09:42Z,Packaging,PKG05,info,MES,Hourly production: pass=2455 fail=97 yield=91.8%
-2026-08-20T18:10:12Z,Packaging,PKG08,info,MES,Hourly production: pass=3357 fail=286 yield=95.4%
-2026-08-20T18:10:32Z,Packaging,PKG08,info,PLC,Ramp to rate complete (3200 uph)
-2026-08-20T18:12:50Z,Kitting,KIT04,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
-2026-08-20T18:13:51Z,Packaging,PKG07,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
-2026-08-20T18:17:19Z,Kitting,KIT05,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-20T18:17:26Z,Packaging,PKG04,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-20T18:17:39Z,Kitting,KIT05,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-20T18:17:40Z,Molding,MLD03,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-20T18:18:44Z,Packaging,PKG04,info,MES,Hourly production: pass=2608 fail=50 yield=88.8%
-2026-08-20T18:18:53Z,Packaging,PKG04,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-20T18:19:41Z,Molding,MLD03,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-20T18:20:10Z,Kitting,KIT04,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-20T18:20:42Z,Kitting,KIT05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-20T18:20:42Z,Coating,COT01,warn,VIS,Vision reject burst: 9 consecutive rejects - self-cleared
-2026-08-20T18:20:48Z,Molding,MLD03,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-20T18:20:56Z,Kitting,KIT07,info,MES,Change over started - line clearance in progress
-2026-08-20T18:20:56Z,Kitting,KIT07,info,PLC,Guard door opened - operator station 1
-2026-08-20T18:21:14Z,Kitting,KIT03,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-20T18:21:49Z,Assembly,ASM02,warn,VIS,Vision reject burst: 5 consecutive rejects - self-cleared
-2026-08-20T18:22:17Z,Kitting,KIT03,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-20T18:23:20Z,Kitting,KIT05,info,HMI,Alarm E201 acknowledged by operator
-2026-08-20T18:23:43Z,Coating,COT01,info,MES,Hourly production: pass=3003 fail=148 yield=91.3%
-2026-08-20T18:23:49Z,Coating,COT03,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-20T18:24:15Z,Kitting,KIT04,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-20T18:24:21Z,Molding,MLD03,info,HMI,Alarm E201 acknowledged by operator
-2026-08-20T18:24:44Z,Packaging,PKG04,info,PLC,Downstream cleared - auto restart
-2026-08-20T18:25:51Z,Assembly,ASM02,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-20T18:27:21Z,Kitting,KIT04,info,HMI,Alarm E310 acknowledged by operator
-2026-08-20T18:27:26Z,Kitting,KIT03,info,PLC,Downstream cleared - auto restart
-2026-08-20T18:28:10Z,Coating,COT03,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-20T18:28:18Z,Assembly,ASM02,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-20T18:29:36Z,Kitting,KIT07,info,MES,Line clearance checklist item complete: infeed cleared
-2026-08-20T18:29:51Z,Assembly,ASM02,info,HMI,Alarm E310 acknowledged by operator
-2026-08-20T18:30:53Z,Assembly,ASM01,info,MES,Hourly production: pass=1980 fail=20 yield=97.4%
-2026-08-20T18:32:34Z,Kitting,KIT08,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-20T18:33:13Z,Assembly,ASM01,warn,VIS,Vision reject burst: 8 consecutive rejects - self-cleared
-2026-08-20T18:34:42Z,Coating,COT01,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-20T18:34:46Z,Kitting,KIT05,info,HMI,Jam cleared - guards closed
-2026-08-20T18:34:49Z,Kitting,KIT08,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-20T18:35:07Z,Molding,MLD06,info,MES,Hourly production: pass=1891 fail=205 yield=90.9%
-2026-08-20T18:36:05Z,Assembly,ASM02,info,PLC,Product present at infeed - auto restart
-2026-08-20T18:36:54Z,Kitting,KIT08,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-20T18:37:43Z,Molding,MLD04,info,MES,PM task complete: lubrication / inspection checklist
-2026-08-20T18:38:17Z,Kitting,KIT05,info,PLC,Fault reset - line restart
-2026-08-20T18:39:01Z,Coating,COT03,info,PLC,Downstream cleared - auto restart
-2026-08-20T18:39:05Z,Coating,COT01,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-20T18:39:43Z,Kitting,KIT08,info,HMI,Alarm E201 acknowledged by operator
-2026-08-20T18:39:45Z,Kitting,KIT04,info,PLC,Product present at infeed - auto restart
-2026-08-20T18:39:47Z,Molding,MLD03,info,HMI,Jam cleared - guards closed
-2026-08-20T18:40:17Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
-2026-08-20T18:40:33Z,Coating,COT01,info,HMI,Alarm E310 acknowledged by operator
-2026-08-20T18:41:43Z,Packaging,PKG05,info,MES,Recipe change queued: SKU-2311 -> SKU-1179
-2026-08-20T18:42:27Z,Assembly,ASM05,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-20T18:42:35Z,Kitting,KIT07,info,MES,Line clearance checklist item complete: reject bin verified empty
-2026-08-20T18:42:54Z,Packaging,PKG06,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
-2026-08-20T18:43:27Z,Packaging,PKG06,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-08-20T18:44:31Z,Molding,MLD03,info,PLC,Fault reset - line restart
-2026-08-20T18:44:53Z,Kitting,KIT05,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
-2026-08-20T18:45:54Z,Packaging,PKG06,warn,PLC,Torque limit warning - infeed screw drive
-2026-08-20T18:46:27Z,Coating,COT01,info,PLC,Product present at infeed - auto restart
-2026-08-20T18:46:31Z,Molding,MLD03,info,PLC,Ramp to rate complete (2800 uph)
-2026-08-20T18:46:41Z,Assembly,ASM05,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-20T18:48:03Z,Packaging,PKG06,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-08-20T18:48:45Z,Assembly,ASM05,info,HMI,Alarm E310 acknowledged by operator
-2026-08-20T18:49:39Z,Packaging,PKG06,info,HMI,Alarm E201 acknowledged by operator
-2026-08-20T18:50:00Z,Coating,COT02,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-20T18:51:45Z,Packaging,PKG05,info,MES,Change over started - line clearance in progress
-2026-08-20T18:51:45Z,Packaging,PKG05,info,PLC,Guard door opened - operator station 1
-2026-08-20T18:51:52Z,Kitting,KIT08,info,HMI,Jam cleared - guards closed
-2026-08-20T18:52:41Z,Assembly,ASM02,info,MES,Hourly production: pass=2111 fail=176 yield=89.2%
-2026-08-20T18:53:47Z,Coating,COT02,error,PLC,"E311 BLOCKED - discharge full, line paused"
-2026-08-20T18:53:58Z,Molding,MLD03,info,MES,Hourly production: pass=2571 fail=185 yield=91.9%
-2026-08-20T18:54:06Z,Molding,MLD05,info,MES,Hourly production: pass=2373 fail=258 yield=92.4%
-2026-08-20T18:55:35Z,Kitting,KIT07,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-08-20T18:55:35Z,Kitting,KIT07,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-08-20T18:55:36Z,Kitting,KIT08,info,PLC,Fault reset - line restart
 2026-08-20T18:56:36Z,Packaging,PKG06,info,HMI,Jam cleared - guards closed
 2026-08-20T18:57:02Z,Assembly,ASM05,info,PLC,Product present at infeed - auto restart
@@ -193,7 +109,7 @@ ts,factory,line,level,src,message
 2026-08-20T19:58:58Z,Coating,COT02,info,HMI,Alarm E201 acknowledged by operator
 2026-08-20T20:00:15Z,Molding,MLD03,info,PLC,Ramp to rate complete (2800 uph)
 2026-08-20T20:00:44Z,Packaging,PKG07,warn,VIS,Camera 2 calibration drift detected - contrast margin low
-2026-08-20T20:01:01Z,Packaging,PKG05,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-20T20:01:01Z,Packaging,PKG05,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
 2026-08-20T20:01:26Z,Kitting,KIT03,info,MES,Operator D.Okafor signed in at station 1
 2026-08-20T20:02:06Z,Kitting,KIT08,info,MES,Hourly production: pass=2135 fail=220 yield=97.2%
 2026-08-20T20:02:11Z,Kitting,KIT05,info,MES,Hourly production: pass=2366 fail=84 yield=91.1%
@@ -4655,5 +4571,98 @@ ts,factory,line,level,src,message
 2026-08-24T17:57:36Z,Molding,MLD05,info,MES,Hourly production: pass=3359 fail=160 yield=97.3%
 2026-08-24T17:57:45Z,Kitting,KIT03,info,PLC,LOTO removed
 2026-08-24T17:57:53Z,Kitting,KIT07,info,MES,Line clearance checklist item complete: infeed cleared
+2026-08-24T17:58:17Z,Coating,COT02,info,MES,PM work order WO-46198 scheduled - line will stop at end of current lot
 2026-08-24T17:59:26Z,Kitting,KIT08,error,PLC,"E311 BLOCKED - discharge full, line paused"
 2026-08-24T17:59:45Z,Kitting,KIT03,info,PLC,Master reset - line restart
+2026-08-24T18:02:32Z,Packaging,PKG05,info,PLC,Master reset - line restart
+2026-08-24T18:02:37Z,Kitting,KIT04,warn,PLC,Servo temperature high warning - capper axis (78 C)
+2026-08-24T18:02:53Z,Coating,COT01,info,HMI,Jam cleared - guards closed
+2026-08-24T18:04:22Z,Packaging,PKG04,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-24T18:04:38Z,Kitting,KIT04,info,MES,Hourly production: pass=1777 fail=165 yield=88.5%
+2026-08-24T18:05:02Z,Packaging,PKG05,info,PLC,Ramp to rate complete (2600 uph)
+2026-08-24T18:05:29Z,Coating,COT01,info,PLC,Fault reset - line restart
+2026-08-24T18:06:14Z,Molding,MLD04,info,MES,Hourly production: pass=1961 fail=229 yield=98.1%
+2026-08-24T18:07:29Z,Coating,COT01,info,PLC,Ramp to rate complete (2400 uph)
+2026-08-24T18:09:04Z,Packaging,PKG04,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-24T18:09:10Z,Packaging,PKG06,info,MES,Hourly production: pass=2067 fail=81 yield=96.5%
+2026-08-24T18:09:47Z,Coating,COT02,info,MES,Scheduled downtime started - PM work order WO-45192
+2026-08-24T18:09:47Z,Coating,COT02,warn,PLC,LOTO applied - energy isolation verified
+2026-08-24T18:09:53Z,Packaging,PKG04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-24T18:10:43Z,Kitting,KIT05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
+2026-08-24T18:11:27Z,Kitting,KIT03,info,MES,Hourly production: pass=3140 fail=281 yield=90.3%
+2026-08-24T18:11:35Z,Kitting,KIT08,info,PLC,Downstream cleared - auto restart
+2026-08-24T18:12:19Z,Packaging,PKG07,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
+2026-08-24T18:12:20Z,Molding,MLD07,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-24T18:12:26Z,Molding,MLD07,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-24T18:12:43Z,Packaging,PKG04,info,HMI,Alarm E201 acknowledged by operator
+2026-08-24T18:13:00Z,Kitting,KIT07,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-08-24T18:13:46Z,Coating,COT03,info,MES,Hourly production: pass=3157 fail=216 yield=98.6%
+2026-08-24T18:14:34Z,Molding,MLD05,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-24T18:15:34Z,Assembly,ASM01,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-24T18:15:37Z,Kitting,KIT05,error,PLC,"E311 BLOCKED - discharge full, line paused"
+2026-08-24T18:16:03Z,Molding,MLD05,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-24T18:16:21Z,Molding,MLD07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-24T18:16:49Z,Packaging,PKG07,error,PLC,"E311 BLOCKED - discharge full, line paused"
+2026-08-24T18:17:34Z,Molding,MLD05,info,HMI,Alarm E310 acknowledged by operator
+2026-08-24T18:17:39Z,Assembly,ASM01,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-24T18:18:26Z,Molding,MLD07,info,HMI,Alarm E201 acknowledged by operator
+2026-08-24T18:18:32Z,Packaging,PKG08,warn,VIS,Vision reject burst: 12 consecutive rejects - self-cleared
+2026-08-24T18:19:22Z,Assembly,ASM01,info,HMI,Alarm E310 acknowledged by operator
+2026-08-24T18:20:13Z,Molding,MLD06,info,MES,Hourly production: pass=3199 fail=253 yield=95.6%
+2026-08-24T18:20:59Z,Kitting,KIT08,info,MES,Hourly production: pass=3221 fail=91 yield=91.7%
+2026-08-24T18:22:15Z,Packaging,PKG07,info,PLC,Downstream cleared - auto restart
+2026-08-24T18:23:30Z,Kitting,KIT03,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-24T18:23:38Z,Molding,MLD05,info,PLC,Product present at infeed - auto restart
+2026-08-24T18:24:46Z,Assembly,ASM02,info,MES,PM task complete: lubrication / inspection checklist
+2026-08-24T18:25:00Z,Packaging,PKG04,info,HMI,Jam cleared - guards closed
+2026-08-24T18:25:21Z,Packaging,PKG08,info,MES,Hourly production: pass=1531 fail=284 yield=97.1%
+2026-08-24T18:25:44Z,Kitting,KIT03,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-24T18:25:53Z,Molding,MLD03,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
+2026-08-24T18:26:13Z,Assembly,ASM01,info,PLC,Product present at infeed - auto restart
+2026-08-24T18:27:01Z,Kitting,KIT03,info,HMI,Alarm E310 acknowledged by operator
+2026-08-24T18:27:08Z,Molding,MLD03,info,MES,Hourly production: pass=2043 fail=240 yield=90.3%
+2026-08-24T18:27:27Z,Molding,MLD07,info,HMI,Jam cleared - guards closed
+2026-08-24T18:27:41Z,Packaging,PKG05,info,MES,Hourly production: pass=3257 fail=123 yield=94.7%
+2026-08-24T18:27:56Z,Kitting,KIT05,info,PLC,Downstream cleared - auto restart
+2026-08-24T18:28:07Z,Kitting,KIT07,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-08-24T18:28:46Z,Packaging,PKG04,info,PLC,Fault reset - line restart
+2026-08-24T18:30:13Z,Molding,MLD07,info,PLC,Fault reset - line restart
+2026-08-24T18:30:46Z,Packaging,PKG04,info,PLC,Ramp to rate complete (3000 uph)
+2026-08-24T18:31:12Z,Kitting,KIT04,info,MES,PM work order WO-47447 scheduled - line will stop at end of current lot
+2026-08-24T18:32:07Z,Kitting,KIT03,info,PLC,Product present at infeed - auto restart
+2026-08-24T18:32:13Z,Molding,MLD07,info,PLC,Ramp to rate complete (2600 uph)
+2026-08-24T18:32:28Z,Assembly,ASM05,info,MES,Hourly production: pass=3214 fail=175 yield=98.0%
+2026-08-24T18:33:06Z,Coating,COT01,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-08-24T18:34:00Z,Packaging,PKG05,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-24T18:34:11Z,Packaging,PKG05,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-24T18:34:27Z,Packaging,PKG04,info,MES,Hourly production: pass=2796 fail=128 yield=88.6%
+2026-08-24T18:35:50Z,Coating,COT01,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-24T18:36:15Z,Kitting,KIT08,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-24T18:36:34Z,Kitting,KIT08,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-24T18:36:36Z,Packaging,PKG07,info,MES,Hourly production: pass=1639 fail=44 yield=98.2%
+2026-08-24T18:36:58Z,Coating,COT01,info,HMI,Alarm E310 acknowledged by operator
+2026-08-24T18:37:29Z,Assembly,ASM01,info,MES,Hourly production: pass=2109 fail=117 yield=94.4%
+2026-08-24T18:37:33Z,Kitting,KIT08,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-24T18:37:35Z,Packaging,PKG06,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
+2026-08-24T18:37:58Z,Packaging,PKG05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-24T18:38:12Z,Kitting,KIT07,info,PLC,Master reset - line restart
+2026-08-24T18:38:37Z,Kitting,KIT08,info,HMI,Alarm E201 acknowledged by operator
+2026-08-24T18:40:42Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
+2026-08-24T18:41:03Z,Packaging,PKG05,info,HMI,Alarm E201 acknowledged by operator
+2026-08-24T18:41:28Z,Coating,COT01,info,PLC,Product present at infeed - auto restart
+2026-08-24T18:42:42Z,Molding,MLD07,info,MES,Hourly production: pass=2440 fail=32 yield=92.3%
+2026-08-24T18:43:14Z,Kitting,KIT08,info,HMI,Jam cleared - guards closed
+2026-08-24T18:44:40Z,Kitting,KIT08,info,PLC,Fault reset - line restart
+2026-08-24T18:45:19Z,Molding,MLD06,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-24T18:45:27Z,Molding,MLD06,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-24T18:46:03Z,Kitting,KIT04,info,MES,Scheduled downtime started - PM work order WO-42531
+2026-08-24T18:46:03Z,Kitting,KIT04,warn,PLC,LOTO applied - energy isolation verified
+2026-08-24T18:46:40Z,Kitting,KIT08,info,PLC,Ramp to rate complete (3100 uph)
+2026-08-24T18:48:02Z,Molding,MLD06,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-24T18:48:18Z,Assembly,ASM05,warn,PLC,Servo temperature high warning - capper axis (78 C)
+2026-08-24T18:49:23Z,Molding,MLD03,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-08-24T18:51:17Z,Molding,MLD03,warn,PLC,Torque limit warning - infeed screw drive
+2026-08-24T18:51:39Z,Molding,MLD06,info,HMI,Alarm E201 acknowledged by operator
+2026-08-24T18:53:19Z,Molding,MLD03,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-08-24T18:54:26Z,Packaging,PKG05,info,HMI,Jam cleared - guards closed
+2026-08-24T18:55:04Z,Packaging,PKG06,info,HMI,Operator J.Alvarez signed in - line restart
