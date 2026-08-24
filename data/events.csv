@@ -1,27 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-20T02:37:45Z,Kitting,KIT04,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-08-20T02:39:11Z,Kitting,KIT07,info,MES,Hourly production: pass=3189 fail=210 yield=91.0%
-2026-08-20T02:39:35Z,Kitting,KIT04,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-08-20T02:39:47Z,Molding,MLD04,info,PLC,Product present at infeed - auto restart
-2026-08-20T02:40:17Z,Packaging,PKG08,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-20T02:40:45Z,Kitting,KIT04,info,HMI,Alarm E310 acknowledged by operator
-2026-08-20T02:41:13Z,Coating,COT03,info,MES,Hourly production: pass=1997 fail=244 yield=95.5%
-2026-08-20T02:41:38Z,Assembly,ASM01,info,MES,Hourly production: pass=1802 fail=176 yield=94.7%
-2026-08-20T02:43:08Z,Packaging,PKG06,info,HMI,Jam cleared - guards closed
-2026-08-20T02:43:13Z,Packaging,PKG07,info,HMI,Operator R.Patel signed in - line restart
-2026-08-20T02:45:27Z,Kitting,KIT04,info,PLC,Product present at infeed - auto restart
-2026-08-20T02:45:31Z,Packaging,PKG06,info,PLC,Fault reset - line restart
-2026-08-20T02:45:40Z,Packaging,PKG07,info,MES,Hourly production: pass=3122 fail=185 yield=93.8%
-2026-08-20T02:45:51Z,Kitting,KIT05,info,MES,Hourly production: pass=2812 fail=137 yield=89.4%
-2026-08-20T02:47:00Z,Molding,MLD07,info,MES,Hourly production: pass=2122 fail=83 yield=88.1%
-2026-08-20T02:47:31Z,Packaging,PKG06,info,PLC,Ramp to rate complete (3100 uph)
-2026-08-20T02:49:32Z,Packaging,PKG05,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
-2026-08-20T02:56:50Z,Molding,MLD06,info,MES,Hourly production: pass=2257 fail=167 yield=97.2%
-2026-08-20T02:57:42Z,Kitting,KIT07,warn,VIS,Vision reject burst: 8 consecutive rejects - self-cleared
-2026-08-20T03:07:20Z,Packaging,PKG05,info,HMI,Operator T.Nguyen signed in - line restart
-2026-08-20T03:07:44Z,Packaging,PKG08,info,HMI,Operator J.Alvarez signed in - line restart
-2026-08-20T03:32:45Z,Assembly,ASM02,info,PLC,LOTO removed
-2026-08-20T03:34:45Z,Assembly,ASM02,info,PLC,Master reset - line restart
 2026-08-20T10:52:49Z,Assembly,ASM02,info,MES,Recipe change queued: SKU-1042 -> SKU-1179
 2026-08-20T11:02:52Z,Kitting,KIT04,info,MES,Hourly production: pass=1650 fail=227 yield=91.0%
 2026-08-20T11:04:31Z,Coating,COT02,warn,PLC,Infeed backlog high - accumulation table at 85%
