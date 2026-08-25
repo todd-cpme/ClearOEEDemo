@@ -1,19 +1,19 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
 Assembly,ASM01,22327,650,97.17,65.67,Running,,0
 Assembly,ASM02,18466,747,96.11,61.55,Running,,0
-Assembly,ASM05,16280,370,97.78,50.88,Down,Change Over - Line clearance,33
-Molding,MLD03,8340,192,97.75,49.65,Down,Change Over - Line clearance,15
-Molding,MLD04,13821,270,98.08,59.83,Down,Blocked - Downstream,9
+Assembly,ASM05,16280,370,97.78,50.88,Down,Change Over - Line clearance,70
+Molding,MLD03,8340,192,97.75,49.65,Down,Change Over - Line clearance,53
+Molding,MLD04,13821,270,98.08,59.83,Running,,0
 Molding,MLD05,7693,409,94.95,29.48,Running,,0
 Molding,MLD06,12006,591,95.31,44.47,Running,,0
 Molding,MLD07,8160,303,96.42,44.83,Running,,0
-Coating,COT01,9368,258,97.32,43.37,Down,Blocked - Downstream,6
-Coating,COT02,17340,525,97.06,54.18,Down,Change Over - Line clearance,8
-Coating,COT03,14876,323,97.87,49.58,Down,Blocked - Downstream,5
+Coating,COT01,9368,258,97.32,43.37,Running,,0
+Coating,COT02,17340,525,97.06,54.18,Running,,0
+Coating,COT03,14876,323,97.87,49.58,Running,,0
 Packaging,PKG04,14952,845,94.65,49.84,Running,,0
 Packaging,PKG05,9542,1404,87.17,36.7,Running,,0
-Packaging,PKG06,10249,910,91.85,41.33,Running,,0
-Packaging,PKG07,8761,917,90.52,36.5,Running,,0
+Packaging,PKG06,10249,910,91.85,41.33,Down,Jam,3
+Packaging,PKG07,8761,917,90.52,36.5,Down,Starved - Upstream,13
 Packaging,PKG08,14914,1631,90.14,46.6,Running,,0
 Kitting,KIT03,14368,232,98.41,59.87,Running,,0
 Kitting,KIT04,15981,265,98.37,60.53,Running,,0
