@@ -1,18 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-22T10:55:11Z,Coating,COT02,info,MES,Recipe change queued: SKU-2044 -> SKU-3007
-2026-08-22T10:56:44Z,Packaging,PKG07,info,MES,Recipe change queued: SKU-1042 -> SKU-1179
-2026-08-22T11:02:57Z,Coating,COT03,info,MES,Operator K.Simmons signed in at station 1
-2026-08-22T11:06:05Z,Kitting,KIT05,info,MES,Hourly production: pass=2369 fail=272 yield=92.4%
-2026-08-22T11:07:40Z,Packaging,PKG04,info,MES,Hourly production: pass=1662 fail=252 yield=88.7%
-2026-08-22T11:07:59Z,Coating,COT02,info,MES,Change over started - line clearance in progress
-2026-08-22T11:07:59Z,Coating,COT02,info,PLC,Guard door opened - operator station 1
-2026-08-22T11:09:30Z,Packaging,PKG04,warn,VIS,Vision reject burst: 12 consecutive rejects - self-cleared
-2026-08-22T11:09:32Z,Packaging,PKG07,info,MES,Change over started - line clearance in progress
-2026-08-22T11:09:32Z,Packaging,PKG07,info,PLC,Guard door opened - operator station 1
-2026-08-22T11:11:15Z,Assembly,ASM01,warn,PLC,Servo temperature high warning - capper axis (78 C)
-2026-08-22T11:11:35Z,Assembly,ASM02,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
-2026-08-22T11:11:42Z,Coating,COT01,info,MES,Hourly production: pass=2377 fail=243 yield=93.9%
-2026-08-22T11:12:24Z,Assembly,ASM05,warn,PLC,Infeed conveyor low - upstream supply degraded
 2026-08-22T11:15:01Z,Molding,MLD04,warn,VIS,Vision reject burst: 7 consecutive rejects - self-cleared
 2026-08-22T11:15:24Z,Assembly,ASM02,error,PLC,"E311 BLOCKED - discharge full, line paused"
 2026-08-22T11:15:50Z,Coating,COT02,info,MES,Line clearance checklist item complete: infeed cleared
@@ -41,10 +27,10 @@ ts,factory,line,level,src,message
 2026-08-22T11:36:23Z,Packaging,PKG05,warn,VIS,Vision reject burst: 8 consecutive rejects - self-cleared
 2026-08-22T11:37:06Z,Packaging,PKG06,info,HMI,Alarm E201 acknowledged by operator
 2026-08-22T11:37:11Z,Molding,MLD03,info,PLC,Product present at infeed - auto restart
-2026-08-22T11:39:22Z,Coating,COT02,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-22T11:39:22Z,Coating,COT02,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
 2026-08-22T11:40:11Z,Molding,MLD06,info,MES,Hourly production: pass=1751 fail=69 yield=94.7%
 2026-08-22T11:40:21Z,Packaging,PKG06,info,HMI,Jam cleared - guards closed
-2026-08-22T11:40:30Z,Packaging,PKG07,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
+2026-08-22T11:40:30Z,Packaging,PKG07,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
 2026-08-22T11:41:21Z,Packaging,PKG06,info,PLC,Fault reset - line restart
 2026-08-22T11:41:28Z,Molding,MLD06,warn,PLC,Infeed conveyor low - upstream supply degraded
 2026-08-22T11:41:30Z,Kitting,KIT05,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
@@ -4586,3 +4572,24 @@ ts,factory,line,level,src,message
 2026-08-26T04:04:22Z,Assembly,ASM01,info,PLC,Master reset - line restart
 2026-08-26T04:07:41Z,Kitting,KIT07,info,PLC,LOTO removed
 2026-08-26T04:09:41Z,Kitting,KIT07,info,PLC,Master reset - line restart
+2026-08-26T10:40:18Z,Assembly,ASM01,info,MES,PM work order WO-41181 scheduled - line will stop at end of current lot
+2026-08-26T10:56:21Z,Kitting,KIT04,warn,VIS,Vision reject rate high: rolling 15 min at 6.4% (limit 3.0%)
+2026-08-26T10:57:38Z,Coating,COT02,info,MES,Recipe change queued: SKU-2311 -> SKU-2311
+2026-08-26T10:59:05Z,Kitting,KIT04,warn,VIS,Camera 2 calibration drift detected - contrast margin low
+2026-08-26T10:59:43Z,Molding,MLD07,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
+2026-08-26T11:02:27Z,Kitting,KIT04,error,MES,QUALITY HOLD - lot paused pending QA disposition
+2026-08-26T11:03:10Z,Molding,MLD07,error,PLC,"E311 BLOCKED - discharge full, line paused"
+2026-08-26T11:03:24Z,Kitting,KIT08,info,MES,Recipe change queued: SKU-2044 -> SKU-3007
+2026-08-26T11:06:38Z,Kitting,KIT08,info,MES,Hourly production: pass=2423 fail=258 yield=88.5%
+2026-08-26T11:06:53Z,Kitting,KIT03,info,MES,Hourly production: pass=2024 fail=119 yield=92.7%
+2026-08-26T11:07:52Z,Assembly,ASM01,info,MES,Scheduled downtime started - PM work order WO-41784
+2026-08-26T11:07:52Z,Assembly,ASM01,warn,PLC,LOTO applied - energy isolation verified
+2026-08-26T11:09:10Z,Molding,MLD06,info,MES,Hourly production: pass=1623 fail=103 yield=98.6%
+2026-08-26T11:10:07Z,Kitting,KIT07,info,MES,Hourly production: pass=1934 fail=287 yield=88.7%
+2026-08-26T11:10:33Z,Coating,COT01,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
+2026-08-26T11:10:40Z,Kitting,KIT07,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
+2026-08-26T11:12:05Z,Coating,COT02,info,MES,Change over started - line clearance in progress
+2026-08-26T11:12:05Z,Coating,COT02,info,PLC,Guard door opened - operator station 1
+2026-08-26T11:12:17Z,Kitting,KIT07,error,PLC,"E311 BLOCKED - discharge full, line paused"
+2026-08-26T11:13:18Z,Kitting,KIT08,info,MES,Change over started - line clearance in progress
+2026-08-26T11:13:18Z,Kitting,KIT08,info,PLC,Guard door opened - operator station 1
