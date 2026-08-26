@@ -1,13 +1,4 @@
 ts,factory,line,level,src,message
-2026-08-22T03:06:49Z,Kitting,KIT05,info,PLC,Master reset - line restart
-2026-08-22T03:08:54Z,Kitting,KIT08,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
-2026-08-22T03:09:19Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
-2026-08-22T03:18:23Z,Kitting,KIT08,info,PLC,Master reset - line restart
-2026-08-22T03:18:47Z,Kitting,KIT04,info,PLC,LOTO removed
-2026-08-22T03:20:47Z,Kitting,KIT04,info,PLC,Master reset - line restart
-2026-08-22T03:20:53Z,Kitting,KIT08,info,PLC,Ramp to rate complete (3100 uph)
-2026-08-22T03:46:56Z,Coating,COT03,info,MES,PM task complete: lubrication / inspection checklist
-2026-08-22T03:47:25Z,Packaging,PKG06,info,MES,PM task complete: lubrication / inspection checklist
 2026-08-22T05:02:27Z,Packaging,PKG06,info,PLC,LOTO removed
 2026-08-22T05:04:27Z,Packaging,PKG06,info,PLC,Master reset - line restart
 2026-08-22T05:26:24Z,Coating,COT03,info,PLC,LOTO removed
@@ -4575,3 +4566,23 @@ ts,factory,line,level,src,message
 2026-08-26T02:56:57Z,Packaging,PKG06,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
 2026-08-26T02:57:31Z,Kitting,KIT05,info,PLC,Product present at infeed - auto restart
 2026-08-26T02:59:52Z,Molding,MLD04,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-08-26T03:01:53Z,Molding,MLD04,info,HMI,Alarm E310 acknowledged by operator
+2026-08-26T03:02:17Z,Coating,COT03,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-08-26T03:02:36Z,Molding,MLD03,info,PLC,Master reset - line restart
+2026-08-26T03:05:06Z,Molding,MLD03,info,PLC,Ramp to rate complete (2800 uph)
+2026-08-26T03:07:47Z,Packaging,PKG06,info,PLC,Master reset - line restart
+2026-08-26T03:08:16Z,Assembly,ASM05,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-08-26T03:09:55Z,Molding,MLD04,info,PLC,Product present at infeed - auto restart
+2026-08-26T03:10:17Z,Packaging,PKG06,info,PLC,Ramp to rate complete (3100 uph)
+2026-08-26T03:10:34Z,Coating,COT03,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
+2026-08-26T03:11:39Z,Packaging,PKG05,info,PLC,Master reset - line restart
+2026-08-26T03:14:09Z,Packaging,PKG05,info,PLC,Ramp to rate complete (2600 uph)
+2026-08-26T03:15:34Z,Assembly,ASM02,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-08-26T03:16:05Z,Coating,COT03,info,PLC,Master reset - line restart
+2026-08-26T03:18:35Z,Coating,COT03,info,PLC,Ramp to rate complete (3000 uph)
+2026-08-26T03:31:28Z,Assembly,ASM05,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-08-26T03:38:45Z,Assembly,ASM02,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
+2026-08-26T03:46:55Z,Assembly,ASM05,info,PLC,Master reset - line restart
+2026-08-26T03:49:25Z,Assembly,ASM05,info,PLC,Ramp to rate complete (3200 uph)
+2026-08-26T03:54:13Z,Assembly,ASM02,info,PLC,Master reset - line restart
+2026-08-26T03:56:43Z,Assembly,ASM02,info,PLC,Ramp to rate complete (3000 uph)
