@@ -4615,3 +4615,14 @@ ts,factory,line,level,src,message
 2026-09-10T03:28:36Z,Packaging,PKG04,info,PLC,Ramp to rate complete (3000 uph)
 2026-09-10T03:32:45Z,Kitting,KIT05,info,PLC,Master reset - line restart
 2026-09-10T03:35:15Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
+2026-09-10T10:59:40Z,Coating,COT02,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-09-10T11:00:42Z,Coating,COT02,info,MES,Hourly production: pass=1536 fail=253 yield=89.7%
+2026-09-10T11:01:54Z,Coating,COT02,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-09-10T11:03:36Z,Coating,COT02,info,HMI,Alarm E310 acknowledged by operator
+2026-09-10T11:03:48Z,Kitting,KIT08,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
+2026-09-10T11:04:35Z,Molding,MLD04,warn,PLC,Servo temperature high warning - capper axis (78 C)
+2026-09-10T11:07:25Z,Packaging,PKG08,info,MES,Hourly production: pass=2700 fail=250 yield=92.9%
+2026-09-10T11:08:41Z,Molding,MLD04,info,MES,Hourly production: pass=2595 fail=288 yield=92.3%
+2026-09-10T11:09:44Z,Molding,MLD05,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-09-10T11:10:26Z,Coating,COT02,info,PLC,Product present at infeed - auto restart
+2026-09-10T11:11:06Z,Molding,MLD05,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
