@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,24716,729,97.13,60.58,Running,,0
-Assembly,ASM02,18817,776,96.04,52.27,Down,Starved - Upstream,3
-Assembly,ASM05,20038,556,97.3,56.92,Down,Blocked - Downstream,2
-Molding,MLD03,15924,393,97.59,47.39,Running,,0
-Molding,MLD04,21237,333,98.46,53.63,Down,Change Over - Line clearance,25
-Molding,MLD05,14386,933,93.91,41.34,Down,Quality Hold,27
-Molding,MLD06,12582,598,95.46,42.36,Running,,0
-Molding,MLD07,12513,458,96.47,43.76,Running,,0
-Coating,COT01,13421,432,96.88,46.6,Running,,0
-Coating,COT02,11376,298,97.45,44.43,Running,,0
-Coating,COT03,15631,354,97.79,47.37,Down,Scheduled Downtime,73
-Packaging,PKG04,17396,1002,94.55,48.32,Running,,0
-Packaging,PKG05,10346,1500,87.34,33.16,Running,,0
-Packaging,PKG06,17340,1503,92.02,55.93,Running,,0
-Packaging,PKG07,6495,694,90.35,27.06,Running,,0
-Packaging,PKG08,17069,1881,90.07,44.45,Down,Change Over - Line clearance,56
-Kitting,KIT03,15418,167,98.93,57.11,Running,,0
-Kitting,KIT04,20980,291,98.63,52.98,Down,Blocked - Downstream,8
-Kitting,KIT05,17321,505,97.17,49.77,Running,,0
-Kitting,KIT07,23285,110,99.53,64.68,Running,,0
-Kitting,KIT08,15149,188,98.77,44.43,Down,Scheduled Downtime,78
+Assembly,ASM01,29060,890,97.03,61.05,Down,Blocked - Downstream,4
+Assembly,ASM02,22646,952,95.97,53.92,Running,,0
+Assembly,ASM05,23418,621,97.42,56.29,Down,Scheduled Downtime,27
+Molding,MLD03,19307,494,97.51,49.25,Running,,0
+Molding,MLD04,23011,364,98.44,53.64,Down,Change Over - Line clearance,65
+Molding,MLD05,17395,1075,94.18,42.84,Running,,0
+Molding,MLD06,13346,636,95.45,41.19,Down,Scheduled Downtime,81
+Molding,MLD07,14437,543,96.38,42.72,Down,Quality Hold,18
+Coating,COT01,16019,534,96.77,47.67,Running,,0
+Coating,COT02,15311,409,97.4,47.84,Down,Jam,4
+Coating,COT03,17946,417,97.73,46.02,Running,,0
+Packaging,PKG04,19791,1146,94.53,47.12,Running,,0
+Packaging,PKG05,12743,1846,87.35,35.01,Running,,0
+Packaging,PKG06,21251,1888,91.84,57.12,Running,,0
+Packaging,PKG07,8448,913,90.25,29.34,Running,,0
+Packaging,PKG08,19888,2185,90.1,44.39,Running,,0
+Kitting,KIT03,17159,178,98.97,57.2,Down,Scheduled Downtime,66
+Kitting,KIT04,25110,381,98.51,54.35,Down,Jam,0
+Kitting,KIT05,21030,557,97.42,51.8,Running,,0
+Kitting,KIT07,27185,145,99.47,64.73,Down,No Operator,1
+Kitting,KIT08,17913,233,98.72,44.45,Running,,0
