@@ -1,22 +1,22 @@
 ts,factory,line,state,reason,duration_min
-2026-10-03T12:05:55Z,Assembly,ASM01,Running,,0
-2026-10-03T12:05:55Z,Assembly,ASM02,Running,,0
-2026-10-03T12:05:55Z,Assembly,ASM05,Down,Starved - Upstream,10
-2026-10-03T12:05:55Z,Molding,MLD03,Running,,0
-2026-10-03T12:05:55Z,Molding,MLD04,Running,,0
-2026-10-03T12:05:55Z,Molding,MLD05,Running,,0
-2026-10-03T12:05:55Z,Molding,MLD06,Running,,0
-2026-10-03T12:05:55Z,Molding,MLD07,Running,,0
-2026-10-03T12:05:55Z,Coating,COT01,Running,,0
-2026-10-03T12:05:55Z,Coating,COT02,Down,Change Over - Line clearance,26
-2026-10-03T12:05:55Z,Coating,COT03,Running,,0
-2026-10-03T12:05:55Z,Packaging,PKG04,Running,,0
-2026-10-03T12:05:55Z,Packaging,PKG05,Down,Starved - Upstream,7
-2026-10-03T12:05:55Z,Packaging,PKG06,Running,,0
-2026-10-03T12:05:55Z,Packaging,PKG07,Running,,0
-2026-10-03T12:05:55Z,Packaging,PKG08,Running,,0
-2026-10-03T12:05:55Z,Kitting,KIT03,Running,,0
-2026-10-03T12:05:55Z,Kitting,KIT04,Running,,0
-2026-10-03T12:05:55Z,Kitting,KIT05,Running,,0
-2026-10-03T12:05:55Z,Kitting,KIT07,Running,,0
-2026-10-03T12:05:55Z,Kitting,KIT08,Running,,0
+2026-10-03T16:12:01Z,Assembly,ASM01,Running,,0
+2026-10-03T16:12:01Z,Assembly,ASM02,Down,Jam,2
+2026-10-03T16:12:01Z,Assembly,ASM05,Down,Blocked - Downstream,9
+2026-10-03T16:12:01Z,Molding,MLD03,Running,,0
+2026-10-03T16:12:01Z,Molding,MLD04,Running,,0
+2026-10-03T16:12:01Z,Molding,MLD05,Running,,0
+2026-10-03T16:12:01Z,Molding,MLD06,Down,No Operator,4
+2026-10-03T16:12:01Z,Molding,MLD07,Down,Change Over - Line clearance,28
+2026-10-03T16:12:01Z,Coating,COT01,Running,,0
+2026-10-03T16:12:01Z,Coating,COT02,Running,,0
+2026-10-03T16:12:01Z,Coating,COT03,Down,Scheduled Downtime,80
+2026-10-03T16:12:01Z,Packaging,PKG04,Running,,0
+2026-10-03T16:12:01Z,Packaging,PKG05,Down,Change Over - Line clearance,44
+2026-10-03T16:12:01Z,Packaging,PKG06,Running,,0
+2026-10-03T16:12:01Z,Packaging,PKG07,Running,,0
+2026-10-03T16:12:01Z,Packaging,PKG08,Running,,0
+2026-10-03T16:12:01Z,Kitting,KIT03,Running,,0
+2026-10-03T16:12:01Z,Kitting,KIT04,Down,Scheduled Downtime,206
+2026-10-03T16:12:01Z,Kitting,KIT05,Running,,0
+2026-10-03T16:12:01Z,Kitting,KIT07,Running,,0
+2026-10-03T16:12:01Z,Kitting,KIT08,Down,Quality Hold,17
