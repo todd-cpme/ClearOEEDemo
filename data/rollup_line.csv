@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,30816,1216,96.2,60.42,Down,Outside production hours,429
-Assembly,ASM02,25418,1019,96.15,52.96,Down,Outside production hours,429
-Assembly,ASM05,24063,584,97.63,53.71,Down,Outside production hours,429
-Molding,MLD03,23831,766,96.89,53.19,Down,Outside production hours,429
-Molding,MLD04,27632,379,98.65,59.81,Down,Outside production hours,429
-Molding,MLD05,18265,1033,94.65,41.99,Down,Outside production hours,429
-Molding,MLD06,17119,834,95.35,39.63,Down,Outside production hours,429
-Molding,MLD07,15745,635,96.12,43.25,Down,Outside production hours,429
-Coating,COT01,17094,579,96.72,44.52,Down,Outside production hours,429
-Coating,COT02,27442,733,97.4,53.6,Down,Outside production hours,429
-Coating,COT03,17999,423,97.7,42.85,Down,Outside production hours,429
-Packaging,PKG04,24181,1374,94.62,50.37,Down,Outside production hours,429
-Packaging,PKG05,12046,1789,87.07,30.89,Down,Outside production hours,429
-Packaging,PKG06,21721,1898,91.96,46.72,Down,Outside production hours,429
-Packaging,PKG07,14404,1453,90.84,37.51,Down,Outside production hours,429
-Packaging,PKG08,27308,3018,90.05,53.34,Down,Outside production hours,429
-Kitting,KIT03,22418,344,98.49,57.48,Down,Outside production hours,429
-Kitting,KIT04,24512,366,98.53,57.14,Down,Outside production hours,429
-Kitting,KIT05,24038,546,97.78,51.8,Down,Outside production hours,429
-Kitting,KIT07,23161,200,99.14,51.47,Down,Outside production hours,429
-Kitting,KIT08,22611,371,98.39,52.1,Down,Outside production hours,429
+Assembly,ASM01,5165,153,97.12,75.97,Running,,0
+Assembly,ASM02,3372,134,96.18,56.21,Running,,0
+Assembly,ASM05,0,0,0.0,0.0,Down,Scheduled Downtime,80
+Molding,MLD03,1084,29,97.39,19.37,Running,,0
+Molding,MLD04,3718,51,98.65,56.34,Running,,0
+Molding,MLD05,2947,166,94.67,50.81,Running,,0
+Molding,MLD06,2814,151,94.91,52.12,Running,,0
+Molding,MLD07,1819,69,96.35,34.98,Down,Quality Hold,17
+Coating,COT01,2711,104,96.31,56.48,Running,,0
+Coating,COT02,4328,121,97.28,67.62,Running,,0
+Coating,COT03,1015,14,98.64,33.83,Down,Scheduled Downtime,88
+Packaging,PKG04,2826,186,93.82,47.11,Running,,0
+Packaging,PKG05,1979,283,87.49,38.06,Down,Starved - Upstream,11
+Packaging,PKG06,3673,335,91.64,59.25,Down,Blocked - Downstream,12
+Packaging,PKG07,605,60,90.98,25.22,Down,Scheduled Downtime,9
+Packaging,PKG08,1711,182,90.39,26.73,Running,,0
+Kitting,KIT03,2425,6,99.75,40.41,Down,Change Over - Line clearance,6
+Kitting,KIT04,3777,73,98.1,57.23,Running,,0
+Kitting,KIT05,3088,98,96.92,53.23,Running,,0
+Kitting,KIT07,4710,45,99.05,78.5,Down,Blocked - Downstream,2
+Kitting,KIT08,3327,37,98.9,53.66,Running,,0
