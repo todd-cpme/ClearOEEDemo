@@ -5980,6 +5980,28 @@ ts,factory,line,level,src,message
 2026-10-09T02:54:13Z,Coating,COT03,info,MES,QA sampling in progress - 32 pc AQL pull
 2026-10-09T02:54:44Z,Molding,MLD05,info,MES,Hourly production: pass=3168 fail=178 yield=98.7%
 2026-10-09T02:54:51Z,Packaging,PKG04,warn,VIS,Camera 2 calibration drift detected - contrast margin low
+2026-10-09T02:56:00Z,Packaging,PKG07,warn,PLC,Torque limit warning - infeed screw drive
+2026-10-09T02:57:05Z,Packaging,PKG07,warn,PLC,Infeed backlog high - accumulation table at 85%
 2026-10-09T02:57:08Z,Assembly,ASM05,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
 2026-10-09T02:57:18Z,Molding,MLD04,info,MES,Hourly production: pass=2781 fail=63 yield=97.9%
 2026-10-09T02:57:48Z,Packaging,PKG04,error,MES,QUALITY HOLD - lot paused pending QA disposition
+2026-10-09T02:58:42Z,Packaging,PKG07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-10-09T03:01:00Z,Molding,MLD06,info,MES,QA sampling in progress - 32 pc AQL pull
+2026-10-09T03:02:09Z,Packaging,PKG07,info,HMI,Alarm E201 acknowledged by operator
+2026-10-09T03:04:51Z,Molding,MLD03,info,PLC,Master reset - line restart
+2026-10-09T03:05:52Z,Assembly,ASM05,info,PLC,Master reset - line restart
+2026-10-09T03:07:21Z,Molding,MLD03,info,PLC,Ramp to rate complete (2800 uph)
+2026-10-09T03:08:22Z,Assembly,ASM05,info,PLC,Ramp to rate complete (3200 uph)
+2026-10-09T03:11:27Z,Kitting,KIT05,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-10-09T03:15:49Z,Coating,COT03,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
+2026-10-09T03:17:06Z,Packaging,PKG07,info,HMI,Jam cleared - guards closed
+2026-10-09T03:17:23Z,Packaging,PKG04,info,MES,QA sampling in progress - 32 pc AQL pull
+2026-10-09T03:21:42Z,Packaging,PKG07,info,PLC,Fault reset - line restart
+2026-10-09T03:23:13Z,Molding,MLD06,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
+2026-10-09T03:23:42Z,Packaging,PKG07,info,PLC,Ramp to rate complete (2400 uph)
+2026-10-09T03:24:44Z,Coating,COT01,info,PLC,LOTO removed
+2026-10-09T03:26:44Z,Coating,COT01,info,PLC,Master reset - line restart
+2026-10-09T03:33:27Z,Kitting,KIT05,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
+2026-10-09T03:36:57Z,Packaging,PKG04,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
+2026-10-09T03:48:08Z,Kitting,KIT05,info,PLC,Master reset - line restart
+2026-10-09T03:50:38Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
