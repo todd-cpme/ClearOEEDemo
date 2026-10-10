@@ -1,19 +1,4 @@
 ts,factory,line,level,src,message
-2026-10-06T10:59:12Z,Kitting,KIT08,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-10-06T11:00:45Z,Packaging,PKG08,warn,PLC,Infeed conveyor low - upstream supply degraded
-2026-10-06T11:00:58Z,Kitting,KIT08,warn,PLC,Torque limit warning - infeed screw drive
-2026-10-06T11:01:21Z,Molding,MLD06,warn,PLC,Infeed backlog high - accumulation table at 85%
-2026-10-06T11:03:11Z,Molding,MLD06,warn,PLC,Torque limit warning - infeed screw drive
-2026-10-06T11:04:25Z,Kitting,KIT08,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-10-06T11:04:35Z,Packaging,PKG08,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
-2026-10-06T11:05:37Z,Molding,MLD06,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
-2026-10-06T11:06:17Z,Molding,MLD06,info,HMI,Alarm E201 acknowledged by operator
-2026-10-06T11:07:36Z,Packaging,PKG08,info,HMI,Alarm E310 acknowledged by operator
-2026-10-06T11:08:09Z,Kitting,KIT08,info,HMI,Alarm E201 acknowledged by operator
-2026-10-06T11:09:09Z,Molding,MLD06,info,HMI,Jam cleared - guards closed
-2026-10-06T11:10:02Z,Molding,MLD06,info,PLC,Fault reset - line restart
-2026-10-06T11:12:01Z,Kitting,KIT07,info,MES,Hourly production: pass=2217 fail=80 yield=95.2%
-2026-10-06T11:12:02Z,Molding,MLD06,info,PLC,Ramp to rate complete (2700 uph)
 2026-10-06T11:15:01Z,Coating,COT02,info,MES,Hourly production: pass=2332 fail=203 yield=97.7%
 2026-10-06T11:16:16Z,Molding,MLD07,info,MES,Hourly production: pass=1996 fail=68 yield=92.4%
 2026-10-06T11:16:29Z,Molding,MLD05,info,MES,Hourly production: pass=2934 fail=128 yield=97.9%
@@ -6065,3 +6050,6 @@ ts,factory,line,level,src,message
 2026-10-10T06:06:20Z,Molding,MLD07,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
 2026-10-10T06:15:49Z,Molding,MLD03,info,PLC,LOTO removed
 2026-10-10T06:17:49Z,Molding,MLD03,info,PLC,Master reset - line restart
+2026-10-10T11:04:02Z,Coating,COT01,info,MES,Hourly production: pass=2868 fail=189 yield=92.8%
+2026-10-10T11:09:28Z,Kitting,KIT03,warn,PLC,Servo temperature high warning - capper axis (78 C)
+2026-10-10T11:13:41Z,Kitting,KIT05,info,MES,Hourly production: pass=1656 fail=217 yield=94.0%
