@@ -1,10 +1,4 @@
 ts,factory,line,level,src,message
-2026-10-09T03:36:57Z,Packaging,PKG04,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
-2026-10-09T03:48:08Z,Kitting,KIT05,info,PLC,Master reset - line restart
-2026-10-09T03:50:38Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
-2026-10-09T11:00:18Z,Molding,MLD07,info,MES,Hourly production: pass=2825 fail=253 yield=92.0%
-2026-10-09T11:00:57Z,Kitting,KIT04,info,MES,Hourly production: pass=2008 fail=70 yield=98.0%
-2026-10-09T11:02:49Z,Packaging,PKG06,info,MES,Recipe change queued: SKU-3007 -> SKU-2044
 2026-10-09T11:04:56Z,Molding,MLD04,info,MES,Operator R.Patel signed in at station 1
 2026-10-09T11:06:05Z,Kitting,KIT07,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-10-09T11:07:33Z,Molding,MLD03,warn,PLC,Servo temperature high warning - capper axis (78 C)
@@ -53,7 +47,7 @@ ts,factory,line,level,src,message
 2026-10-09T11:40:11Z,Molding,MLD06,info,HMI,Jam cleared - guards closed
 2026-10-09T11:42:14Z,Packaging,PKG07,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
 2026-10-09T11:42:50Z,Molding,MLD06,info,PLC,Fault reset - line restart
-2026-10-09T11:42:57Z,Packaging,PKG06,info,PLC,Recipe SKU-2311 downloaded to PLC - parameters verified
+2026-10-09T11:42:57Z,Packaging,PKG06,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
 2026-10-09T11:44:39Z,Packaging,PKG04,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
 2026-10-09T11:44:50Z,Molding,MLD06,info,PLC,Ramp to rate complete (2700 uph)
 2026-10-09T11:46:38Z,Coating,COT02,error,PLC,E001 E-STOP PRESSED - operator station 2 - safety circuit open
@@ -4729,3 +4723,13 @@ ts,factory,line,level,src,message
 2026-10-13T03:19:27Z,Kitting,KIT08,info,PLC,Ramp to rate complete (3100 uph)
 2026-10-13T03:23:40Z,Coating,COT03,info,PLC,Recipe SKU-3007 downloaded to PLC - parameters verified
 2026-10-13T03:34:55Z,Coating,COT03,info,PLC,Master reset - line restart
+2026-10-13T03:37:25Z,Coating,COT03,info,PLC,Ramp to rate complete (3000 uph)
+2026-10-13T10:57:32Z,Packaging,PKG06,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-10-13T10:59:49Z,Coating,COT03,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
+2026-10-13T11:00:07Z,Coating,COT01,warn,HMI,Operator sign-in timeout - line paused (break / shift relief)
+2026-10-13T11:00:21Z,Coating,COT03,info,MES,Hourly production: pass=3118 fail=232 yield=91.0%
+2026-10-13T11:01:41Z,Assembly,ASM05,info,MES,Hourly production: pass=2166 fail=238 yield=91.6%
+2026-10-13T11:02:02Z,Packaging,PKG06,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-10-13T11:02:26Z,Coating,COT03,error,PLC,"E311 BLOCKED - discharge full, line paused"
+2026-10-13T11:02:56Z,Packaging,PKG05,info,MES,Hourly production: pass=2864 fail=236 yield=94.9%
+2026-10-13T11:04:30Z,Packaging,PKG06,info,HMI,Alarm E310 acknowledged by operator
