@@ -1,22 +1,22 @@
 ts,factory,line,state,reason,duration_min
-2026-10-26T19:58:26Z,Assembly,ASM01,Down,No Operator,5
-2026-10-26T19:58:26Z,Assembly,ASM02,Down,Scheduled Downtime,49
-2026-10-26T19:58:26Z,Assembly,ASM05,Down,Scheduled Downtime,130
-2026-10-26T19:58:26Z,Molding,MLD03,Running,,0
-2026-10-26T19:58:26Z,Molding,MLD04,Down,Blocked - Downstream,4
-2026-10-26T19:58:26Z,Molding,MLD05,Running,,0
-2026-10-26T19:58:26Z,Molding,MLD06,Running,,0
-2026-10-26T19:58:26Z,Molding,MLD07,Down,Change Over - Line clearance,21
-2026-10-26T19:58:26Z,Coating,COT01,Down,Scheduled Downtime,132
-2026-10-26T19:58:26Z,Coating,COT02,Running,,0
-2026-10-26T19:58:26Z,Coating,COT03,Running,,0
-2026-10-26T19:58:26Z,Packaging,PKG04,Running,,0
-2026-10-26T19:58:26Z,Packaging,PKG05,Running,,0
-2026-10-26T19:58:26Z,Packaging,PKG06,Down,Scheduled Downtime,5
-2026-10-26T19:58:26Z,Packaging,PKG07,Down,Jam,2
-2026-10-26T19:58:26Z,Packaging,PKG08,Down,Blocked - Downstream,5
-2026-10-26T19:58:26Z,Kitting,KIT03,Running,,0
-2026-10-26T19:58:26Z,Kitting,KIT04,Running,,0
-2026-10-26T19:58:26Z,Kitting,KIT05,Running,,0
-2026-10-26T19:58:26Z,Kitting,KIT07,Running,,0
-2026-10-26T19:58:26Z,Kitting,KIT08,Running,,0
+2026-10-26T23:41:01Z,Assembly,ASM01,Down,No Operator,5
+2026-10-26T23:41:01Z,Assembly,ASM02,Running,,0
+2026-10-26T23:41:01Z,Assembly,ASM05,Running,,0
+2026-10-26T23:41:01Z,Molding,MLD03,Running,,0
+2026-10-26T23:41:01Z,Molding,MLD04,Running,,0
+2026-10-26T23:41:01Z,Molding,MLD05,Running,,0
+2026-10-26T23:41:01Z,Molding,MLD06,Running,,0
+2026-10-26T23:41:01Z,Molding,MLD07,Down,Starved - Upstream,112
+2026-10-26T23:41:01Z,Coating,COT01,Running,,0
+2026-10-26T23:41:01Z,Coating,COT02,Running,,0
+2026-10-26T23:41:01Z,Coating,COT03,Running,,0
+2026-10-26T23:41:01Z,Packaging,PKG04,Running,,0
+2026-10-26T23:41:01Z,Packaging,PKG05,Down,Starved - Upstream,4
+2026-10-26T23:41:01Z,Packaging,PKG06,Running,,0
+2026-10-26T23:41:01Z,Packaging,PKG07,Down,No Operator,2
+2026-10-26T23:41:01Z,Packaging,PKG08,Running,,0
+2026-10-26T23:41:01Z,Kitting,KIT03,Running,,0
+2026-10-26T23:41:01Z,Kitting,KIT04,Running,,0
+2026-10-26T23:41:01Z,Kitting,KIT05,Down,Change Over - Line clearance,15
+2026-10-26T23:41:01Z,Kitting,KIT07,Running,,0
+2026-10-26T23:41:01Z,Kitting,KIT08,Running,,0
