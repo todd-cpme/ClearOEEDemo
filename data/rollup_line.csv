@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,24908,752,97.07,52.33,Running,,0
-Assembly,ASM02,19164,752,96.22,58.07,Running,,0
-Assembly,ASM05,31110,847,97.35,60.76,Running,,0
-Molding,MLD03,15496,425,97.33,42.57,Running,,0
-Molding,MLD04,28349,275,99.04,57.27,Running,,0
-Molding,MLD05,16966,955,94.67,41.79,Running,,0
-Molding,MLD06,16857,876,95.06,41.62,Running,,0
-Molding,MLD07,12275,460,96.39,42.92,Running,,0
-Coating,COT01,11748,325,97.31,37.66,Running,,0
-Coating,COT02,28719,811,97.25,59.83,Running,,0
-Coating,COT03,21215,441,97.96,50.52,Running,,0
-Packaging,PKG04,21139,1298,94.21,50.33,Down,Change Over - Line clearance,32
-Packaging,PKG05,14249,2139,86.95,34.25,Running,,0
-Packaging,PKG06,25385,2226,91.94,58.5,Down,Blocked - Downstream,4
-Packaging,PKG07,10680,1102,90.65,31.79,Down,Scheduled Downtime,146
-Packaging,PKG08,22387,2560,89.74,46.65,Down,Change Over - Line clearance,16
-Kitting,KIT03,24525,302,98.78,54.5,Running,,0
-Kitting,KIT04,25760,450,98.28,65.05,Running,,0
-Kitting,KIT05,25106,608,97.64,54.1,Down,E-Stop,2
-Kitting,KIT07,27875,210,99.25,58.08,Running,,0
-Kitting,KIT08,25615,432,98.34,51.64,Down,Starved - Upstream,7
+Assembly,ASM01,24908,752,97.07,52.33,Down,Outside production hours,341
+Assembly,ASM02,19164,752,96.22,58.07,Down,Outside production hours,341
+Assembly,ASM05,31110,847,97.35,60.76,Down,Outside production hours,341
+Molding,MLD03,15496,425,97.33,42.57,Down,Outside production hours,341
+Molding,MLD04,28349,275,99.04,57.27,Down,Outside production hours,341
+Molding,MLD05,16966,955,94.67,41.79,Down,Outside production hours,341
+Molding,MLD06,16857,876,95.06,41.62,Down,Outside production hours,341
+Molding,MLD07,12275,460,96.39,42.92,Down,Outside production hours,341
+Coating,COT01,11748,325,97.31,37.66,Down,Outside production hours,341
+Coating,COT02,28719,811,97.25,59.83,Down,Outside production hours,341
+Coating,COT03,21215,441,97.96,50.52,Down,Outside production hours,341
+Packaging,PKG04,21139,1298,94.21,50.33,Down,Outside production hours,341
+Packaging,PKG05,14249,2139,86.95,34.25,Down,Outside production hours,341
+Packaging,PKG06,25385,2226,91.94,58.5,Down,Outside production hours,341
+Packaging,PKG07,10680,1102,90.65,31.79,Down,Outside production hours,341
+Packaging,PKG08,22387,2560,89.74,46.65,Down,Outside production hours,341
+Kitting,KIT03,24525,302,98.78,54.5,Down,Outside production hours,341
+Kitting,KIT04,25760,450,98.28,65.05,Down,Outside production hours,341
+Kitting,KIT05,25106,608,97.64,54.1,Down,Outside production hours,341
+Kitting,KIT07,27875,210,99.25,58.08,Down,Outside production hours,341
+Kitting,KIT08,25615,432,98.34,51.64,Down,Outside production hours,341
