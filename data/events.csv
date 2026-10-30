@@ -6121,3 +6121,73 @@ ts,factory,line,level,src,message
 2026-10-30T02:29:45Z,Kitting,KIT07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
 2026-10-30T02:31:38Z,Kitting,KIT07,info,HMI,Alarm E201 acknowledged by operator
 2026-10-30T02:33:07Z,Coating,COT03,info,PLC,Fault reset - line restart
+2026-10-30T02:33:39Z,Packaging,PKG05,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-10-30T02:33:44Z,Kitting,KIT08,info,PLC,Master reset - line restart
+2026-10-30T02:34:18Z,Kitting,KIT05,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-10-30T02:34:52Z,Molding,MLD05,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-10-30T02:35:03Z,Kitting,KIT05,warn,PLC,Torque limit warning - infeed screw drive
+2026-10-30T02:35:05Z,Molding,MLD05,warn,PLC,Torque limit warning - infeed screw drive
+2026-10-30T02:35:06Z,Packaging,PKG06,info,PLC,Product present at infeed - auto restart
+2026-10-30T02:35:07Z,Coating,COT03,info,PLC,Ramp to rate complete (3000 uph)
+2026-10-30T02:35:57Z,Assembly,ASM01,info,PLC,Master reset - line restart
+2026-10-30T02:36:14Z,Kitting,KIT08,info,PLC,Ramp to rate complete (3100 uph)
+2026-10-30T02:36:21Z,Packaging,PKG04,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-10-30T02:37:02Z,Packaging,PKG04,warn,PLC,Torque limit warning - infeed screw drive
+2026-10-30T02:38:27Z,Assembly,ASM01,info,PLC,Ramp to rate complete (3400 uph)
+2026-10-30T02:38:52Z,Molding,MLD05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-10-30T02:38:54Z,Kitting,KIT05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-10-30T02:39:01Z,Packaging,PKG05,warn,PLC,Torque limit warning - infeed screw drive
+2026-10-30T02:39:31Z,Coating,COT01,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-10-30T02:39:36Z,Packaging,PKG05,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-10-30T02:39:48Z,Kitting,KIT07,info,HMI,Jam cleared - guards closed
+2026-10-30T02:39:57Z,Packaging,PKG04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-10-30T02:40:17Z,Kitting,KIT04,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-10-30T02:40:33Z,Kitting,KIT05,info,HMI,Alarm E201 acknowledged by operator
+2026-10-30T02:40:38Z,Molding,MLD06,info,MES,Line clearance checklist item complete: infeed cleared
+2026-10-30T02:41:16Z,Molding,MLD05,info,HMI,Alarm E201 acknowledged by operator
+2026-10-30T02:41:27Z,Packaging,PKG04,info,HMI,Alarm E201 acknowledged by operator
+2026-10-30T02:41:49Z,Packaging,PKG07,warn,VIS,Vision reject burst: 5 consecutive rejects - self-cleared
+2026-10-30T02:41:58Z,Packaging,PKG05,info,HMI,Alarm E201 acknowledged by operator
+2026-10-30T02:42:19Z,Kitting,KIT07,info,PLC,Fault reset - line restart
+2026-10-30T02:44:02Z,Kitting,KIT04,warn,PLC,Torque limit warning - infeed screw drive
+2026-10-30T02:44:19Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
+2026-10-30T02:45:00Z,Kitting,KIT04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-10-30T02:46:19Z,Kitting,KIT03,info,MES,QA sampling in progress - 32 pc AQL pull
+2026-10-30T02:47:32Z,Packaging,PKG06,warn,VIS,Vision reject burst: 6 consecutive rejects - self-cleared
+2026-10-30T02:47:42Z,Kitting,KIT05,info,HMI,Jam cleared - guards closed
+2026-10-30T02:47:54Z,Packaging,PKG04,info,HMI,Jam cleared - guards closed
+2026-10-30T02:48:19Z,Kitting,KIT04,info,HMI,Alarm E201 acknowledged by operator
+2026-10-30T02:49:54Z,Packaging,PKG04,info,PLC,Fault reset - line restart
+2026-10-30T02:49:54Z,Kitting,KIT05,info,PLC,Fault reset - line restart
+2026-10-30T02:50:32Z,Packaging,PKG08,info,PLC,LOTO removed
+2026-10-30T02:51:36Z,Packaging,PKG06,info,MES,Hourly production: pass=2970 fail=122 yield=98.0%
+2026-10-30T02:51:37Z,Coating,COT03,warn,VIS,Vision reject burst: 5 consecutive rejects - self-cleared
+2026-10-30T02:51:41Z,Molding,MLD05,info,HMI,Jam cleared - guards closed
+2026-10-30T02:51:54Z,Packaging,PKG04,info,PLC,Ramp to rate complete (3000 uph)
+2026-10-30T02:51:54Z,Kitting,KIT05,info,PLC,Ramp to rate complete (2900 uph)
+2026-10-30T02:52:15Z,Packaging,PKG05,info,HMI,Jam cleared - guards closed
+2026-10-30T02:52:32Z,Packaging,PKG08,info,PLC,Master reset - line restart
+2026-10-30T02:53:22Z,Coating,COT02,info,MES,Hourly production: pass=1640 fail=160 yield=96.4%
+2026-10-30T02:54:53Z,Molding,MLD05,info,PLC,Fault reset - line restart
+2026-10-30T02:55:25Z,Packaging,PKG05,info,PLC,Fault reset - line restart
+2026-10-30T02:55:35Z,Packaging,PKG07,info,MES,Hourly production: pass=1864 fail=287 yield=92.1%
+2026-10-30T02:55:36Z,Coating,COT01,info,PLC,Master reset - line restart
+2026-10-30T02:55:40Z,Kitting,KIT05,info,MES,Hourly production: pass=2581 fail=231 yield=93.0%
+2026-10-30T02:55:41Z,Kitting,KIT07,info,MES,Operator D.Okafor signed in at station 1
+2026-10-30T02:56:07Z,Assembly,ASM01,info,MES,Hourly production: pass=2782 fail=293 yield=93.4%
+2026-10-30T02:56:40Z,Molding,MLD04,warn,PLC,Infeed conveyor low - upstream supply degraded
+2026-10-30T02:56:53Z,Molding,MLD05,info,PLC,Ramp to rate complete (2900 uph)
+2026-10-30T02:57:08Z,Kitting,KIT07,info,MES,Hourly production: pass=1690 fail=101 yield=95.1%
+2026-10-30T02:57:25Z,Packaging,PKG05,info,PLC,Ramp to rate complete (2600 uph)
+2026-10-30T02:57:43Z,Molding,MLD04,error,PLC,E310 STARVED - no product at infeed photo-eye for 60s
+2026-10-30T02:58:06Z,Coating,COT01,info,PLC,Ramp to rate complete (2400 uph)
+2026-10-30T02:59:18Z,Molding,MLD04,info,HMI,Alarm E310 acknowledged by operator
+2026-10-30T03:02:17Z,Molding,MLD06,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-10-30T03:02:39Z,Kitting,KIT04,info,HMI,Jam cleared - guards closed
+2026-10-30T03:05:27Z,Kitting,KIT03,info,MES,"QA disposition: RELEASE - hold lifted, line restart"
+2026-10-30T03:05:38Z,Molding,MLD04,info,PLC,Product present at infeed - auto restart
+2026-10-30T03:07:03Z,Kitting,KIT04,info,PLC,Fault reset - line restart
+2026-10-30T03:09:03Z,Kitting,KIT04,info,PLC,Ramp to rate complete (3300 uph)
+2026-10-30T03:23:56Z,Molding,MLD06,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
+2026-10-30T03:38:22Z,Molding,MLD06,info,PLC,Master reset - line restart
+2026-10-30T03:40:52Z,Molding,MLD06,info,PLC,Ramp to rate complete (2700 uph)
