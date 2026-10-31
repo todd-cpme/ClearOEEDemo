@@ -1,15 +1,11 @@
 ts,factory,line,level,src,message
-2026-10-27T10:43:27Z,Molding,MLD04,info,MES,PM work order WO-49908 scheduled - line will stop at end of current lot
-2026-10-27T10:49:47Z,Coating,COT01,info,MES,PM work order WO-49922 scheduled - line will stop at end of current lot
-2026-10-27T10:55:15Z,Molding,MLD05,warn,VIS,Vision reject rate high: rolling 15 min at 5.9% (limit 3.0%)
-2026-10-27T10:56:10Z,Packaging,PKG08,info,MES,PM work order WO-43335 scheduled - line will stop at end of current lot
-2026-10-27T10:59:15Z,Molding,MLD05,warn,VIS,Camera 2 calibration drift detected - contrast margin low
-2026-10-27T11:00:29Z,Coating,COT01,info,MES,Scheduled downtime started - PM work order WO-41421
+2026-10-27T11:00:29Z,Coating,COT01,info,MES,Scheduled downtime started - PM work order WO-49922
 2026-10-27T11:00:29Z,Coating,COT01,warn,PLC,LOTO applied - energy isolation verified
+2026-10-27T11:02:43Z,Molding,MLD05,warn,VIS,Camera 2 calibration drift detected - contrast margin low
 2026-10-27T11:04:11Z,Molding,MLD05,error,MES,QUALITY HOLD - lot paused pending QA disposition
-2026-10-27T11:05:58Z,Molding,MLD04,info,MES,Scheduled downtime started - PM work order WO-49856
+2026-10-27T11:05:58Z,Molding,MLD04,info,MES,Scheduled downtime started - PM work order WO-49908
 2026-10-27T11:05:58Z,Molding,MLD04,warn,PLC,LOTO applied - energy isolation verified
-2026-10-27T11:07:46Z,Packaging,PKG08,info,MES,Scheduled downtime started - PM work order WO-46770
+2026-10-27T11:07:46Z,Packaging,PKG08,info,MES,Scheduled downtime started - PM work order WO-43335
 2026-10-27T11:07:46Z,Packaging,PKG08,warn,PLC,LOTO applied - energy isolation verified
 2026-10-27T11:12:02Z,Assembly,ASM05,warn,PLC,Servo temperature high warning - capper axis (78 C)
 2026-10-27T11:13:01Z,Packaging,PKG07,warn,PLC,Infeed conveyor low - upstream supply degraded
