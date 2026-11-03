@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,2094,61,97.17,61.59,Down,Change Over - Line clearance,8
-Assembly,ASM02,2143,83,96.27,71.45,Running,,0
-Assembly,ASM05,2054,57,97.3,64.19,Running,,0
-Molding,MLD03,1107,32,97.19,39.53,Down,Change Over - Line clearance,11
-Molding,MLD04,1836,9,99.51,55.63,Down,Jam,12
-Molding,MLD05,1444,98,93.64,49.81,Running,,0
-Molding,MLD06,1364,81,94.39,50.54,Running,,0
-Molding,MLD07,1454,42,97.19,55.93,Running,,0
-Coating,COT01,759,30,96.2,31.62,Down,Change Over - Line clearance,19
-Coating,COT02,1648,33,98.04,51.51,Down,Jam,7
-Coating,COT03,756,12,98.44,25.19,Running,,0
-Packaging,PKG04,1668,92,94.77,55.6,Running,,0
-Packaging,PKG05,230,35,86.79,8.86,Down,Change Over - Line clearance,38
-Packaging,PKG06,1708,141,92.37,55.08,Running,,0
-Packaging,PKG07,836,81,91.17,34.83,Running,,0
-Packaging,PKG08,1442,162,89.9,45.08,Down,Blocked - Downstream,2
-Kitting,KIT03,1679,39,97.73,55.97,Running,,0
-Kitting,KIT04,1907,49,97.49,57.79,Down,Jam,0
-Kitting,KIT05,1838,59,96.89,63.39,Running,,0
-Kitting,KIT07,922,15,98.4,30.72,Down,Change Over - Line clearance,28
-Kitting,KIT08,0,0,0.0,0.0,Down,Scheduled Downtime,75
+Assembly,ASM01,10787,374,96.65,63.45,Running,,0
+Assembly,ASM02,8202,310,96.36,54.69,Running,,0
+Assembly,ASM05,9578,204,97.91,59.86,Running,,0
+Molding,MLD03,6427,134,97.96,45.91,Down,Quality Hold,1
+Molding,MLD04,9514,108,98.88,57.66,Down,Change Over - Line clearance,12
+Molding,MLD05,4844,274,94.65,41.77,Down,Scheduled Downtime,77
+Molding,MLD06,2542,142,94.71,31.39,Down,Starved - Upstream,17
+Molding,MLD07,6260,231,96.44,48.16,Running,,0
+Coating,COT01,4173,119,97.23,34.78,Running,,0
+Coating,COT02,10702,310,97.18,66.9,Running,,0
+Coating,COT03,6643,142,97.91,44.28,Running,,0
+Packaging,PKG04,8032,438,94.83,53.56,Running,,0
+Packaging,PKG05,3892,564,87.34,29.94,Running,,0
+Packaging,PKG06,9753,795,92.46,62.92,Running,,0
+Packaging,PKG07,3549,357,90.86,29.58,Running,,0
+Packaging,PKG08,7405,796,90.29,46.29,Down,Blocked - Downstream,3
+Kitting,KIT03,9707,185,98.13,64.72,Running,,0
+Kitting,KIT04,8663,145,98.35,52.51,Running,,0
+Kitting,KIT05,7027,182,97.48,48.46,Running,,0
+Kitting,KIT07,5311,50,99.07,35.4,Running,,0
+Kitting,KIT08,4087,41,99.01,32.96,Down,Starved - Upstream,10
