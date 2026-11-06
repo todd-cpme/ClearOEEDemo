@@ -6222,8 +6222,54 @@ ts,factory,line,level,src,message
 2026-11-06T03:32:29Z,Coating,COT01,info,PLC,Product present at infeed - auto restart
 2026-11-06T03:32:36Z,Assembly,ASM01,info,MES,Hourly production: pass=2103 fail=198 yield=95.3%
 2026-11-06T03:32:56Z,Packaging,PKG07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-11-06T03:33:22Z,Kitting,KIT07,warn,PLC,Infeed backlog high - accumulation table at 85%
 2026-11-06T03:34:26Z,Packaging,PKG04,info,MES,Line clearance checklist item complete: reject bin verified empty
 2026-11-06T03:35:08Z,Packaging,PKG07,info,HMI,Alarm E201 acknowledged by operator
 2026-11-06T03:35:35Z,Molding,MLD07,info,MES,Scheduled downtime started - PM work order WO-46988
 2026-11-06T03:35:35Z,Molding,MLD07,warn,PLC,LOTO applied - energy isolation verified
 2026-11-06T03:37:03Z,Kitting,KIT04,info,MES,Hourly production: pass=2633 fail=252 yield=97.8%
+2026-11-06T03:37:31Z,Kitting,KIT07,warn,PLC,Torque limit warning - infeed screw drive
+2026-11-06T03:39:18Z,Molding,MLD04,warn,PLC,Infeed backlog high - accumulation table at 85%
+2026-11-06T03:39:33Z,Kitting,KIT05,warn,PLC,Discharge back-pressure rising - downstream accumulation at 90%
+2026-11-06T03:39:53Z,Kitting,KIT07,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-11-06T03:41:11Z,Kitting,KIT05,error,PLC,"E311 BLOCKED - discharge full, line paused"
+2026-11-06T03:42:08Z,Kitting,KIT07,info,HMI,Alarm E201 acknowledged by operator
+2026-11-06T03:42:09Z,Packaging,PKG06,info,MES,Hourly production: pass=1778 fail=174 yield=89.9%
+2026-11-06T03:42:09Z,Assembly,ASM05,info,HMI,Operator R.Patel signed in - line restart
+2026-11-06T03:44:08Z,Molding,MLD04,warn,PLC,Torque limit warning - infeed screw drive
+2026-11-06T03:44:39Z,Packaging,PKG07,info,HMI,Jam cleared - guards closed
+2026-11-06T03:44:49Z,Molding,MLD04,error,PLC,E201 INFEED JAM - line stopped by PLC interlock
+2026-11-06T03:46:00Z,Packaging,PKG06,info,MES,Recipe change queued: SKU-2311 -> SKU-2044
+2026-11-06T03:46:44Z,Molding,MLD04,info,HMI,Alarm E201 acknowledged by operator
+2026-11-06T03:47:34Z,Packaging,PKG07,info,PLC,Fault reset - line restart
+2026-11-06T03:47:41Z,Assembly,ASM05,warn,VIS,Vision reject burst: 9 consecutive rejects - self-cleared
+2026-11-06T03:49:13Z,Packaging,PKG08,info,MES,Hourly production: pass=1683 fail=78 yield=88.2%
+2026-11-06T03:49:34Z,Packaging,PKG07,info,PLC,Ramp to rate complete (2400 uph)
+2026-11-06T03:50:47Z,Coating,COT02,info,MES,Hourly production: pass=3284 fail=189 yield=93.3%
+2026-11-06T03:51:46Z,Packaging,PKG06,info,MES,Change over started - line clearance in progress
+2026-11-06T03:51:46Z,Packaging,PKG06,info,PLC,Guard door opened - operator station 1
+2026-11-06T03:51:52Z,Kitting,KIT07,info,HMI,Jam cleared - guards closed
+2026-11-06T03:54:30Z,Packaging,PKG04,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-11-06T03:54:52Z,Kitting,KIT07,info,PLC,Fault reset - line restart
+2026-11-06T03:55:00Z,Molding,MLD04,info,HMI,Jam cleared - guards closed
+2026-11-06T03:55:56Z,Kitting,KIT05,info,PLC,Downstream cleared - auto restart
+2026-11-06T03:56:16Z,Molding,MLD06,info,MES,Hourly production: pass=2460 fail=35 yield=93.6%
+2026-11-06T03:56:52Z,Kitting,KIT07,info,PLC,Ramp to rate complete (3000 uph)
+2026-11-06T03:57:33Z,Molding,MLD04,info,PLC,Fault reset - line restart
+2026-11-06T03:59:33Z,Molding,MLD04,info,PLC,Ramp to rate complete (3300 uph)
+2026-11-06T04:03:42Z,Packaging,PKG06,info,MES,Line clearance checklist item complete: infeed cleared
+2026-11-06T04:07:00Z,Molding,MLD05,info,MES,PM task complete: lubrication / inspection checklist
+2026-11-06T04:07:03Z,Packaging,PKG05,info,MES,PM task complete: lubrication / inspection checklist
+2026-11-06T04:07:53Z,Packaging,PKG04,info,PLC,Master reset - line restart
+2026-11-06T04:10:23Z,Packaging,PKG04,info,PLC,Ramp to rate complete (3000 uph)
+2026-11-06T04:21:37Z,Packaging,PKG06,info,MES,Line clearance checklist item complete: reject bin verified empty
+2026-11-06T04:39:32Z,Packaging,PKG06,info,PLC,Recipe SKU-2044 downloaded to PLC - parameters verified
+2026-11-06T04:43:42Z,Molding,MLD07,info,MES,PM task complete: lubrication / inspection checklist
+2026-11-06T04:51:29Z,Packaging,PKG06,info,PLC,Master reset - line restart
+2026-11-06T04:51:38Z,Packaging,PKG05,info,PLC,LOTO removed
+2026-11-06T04:53:38Z,Packaging,PKG05,info,PLC,Master reset - line restart
+2026-11-06T04:53:59Z,Packaging,PKG06,info,PLC,Ramp to rate complete (3100 uph)
+2026-11-06T05:04:17Z,Molding,MLD05,info,PLC,LOTO removed
+2026-11-06T05:06:17Z,Molding,MLD05,info,PLC,Master reset - line restart
+2026-11-06T05:49:49Z,Molding,MLD07,info,PLC,LOTO removed
+2026-11-06T05:51:49Z,Molding,MLD07,info,PLC,Master reset - line restart
