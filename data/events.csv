@@ -1,11 +1,9 @@
 ts,factory,line,level,src,message
-2026-11-04T11:54:27Z,Assembly,ASM01,info,MES,Recipe change queued: SKU-2311 -> SKU-1179
-2026-11-04T11:59:10Z,Assembly,ASM05,warn,VIS,Vision reject rate high: rolling 15 min at 3.5% (limit 3.0%)
+2026-11-04T11:59:52Z,Assembly,ASM05,warn,VIS,Camera 2 calibration drift detected - contrast margin low
 2026-11-04T12:00:04Z,Molding,MLD04,error,PLC,E001 E-STOP PRESSED - operator station 2 - safety circuit open
 2026-11-04T12:00:41Z,Assembly,ASM01,info,MES,Change over started - line clearance in progress
 2026-11-04T12:00:41Z,Assembly,ASM01,info,PLC,Guard door opened - operator station 1
 2026-11-04T12:01:57Z,Kitting,KIT04,info,MES,Operator J.Alvarez signed in at station 1
-2026-11-04T12:02:57Z,Assembly,ASM05,warn,VIS,Camera 2 calibration drift detected - contrast margin low
 2026-11-04T12:04:19Z,Assembly,ASM05,error,MES,QUALITY HOLD - lot paused pending QA disposition
 2026-11-04T12:05:16Z,Molding,MLD04,info,HMI,E-stop reset - safety circuit closed
 2026-11-04T12:05:34Z,Kitting,KIT07,info,MES,Hourly production: pass=2572 fail=292 yield=88.9%
@@ -34,7 +32,7 @@ ts,factory,line,level,src,message
 2026-11-04T12:28:56Z,Coating,COT02,info,HMI,Alarm E201 acknowledged by operator
 2026-11-04T12:29:31Z,Packaging,PKG05,info,HMI,Alarm E201 acknowledged by operator
 2026-11-04T12:30:29Z,Packaging,PKG06,info,MES,Hourly production: pass=1808 fail=236 yield=92.7%
-2026-11-04T12:31:25Z,Assembly,ASM01,info,PLC,Recipe SKU-1179 downloaded to PLC - parameters verified
+2026-11-04T12:31:25Z,Assembly,ASM01,info,PLC,Recipe SKU-1042 downloaded to PLC - parameters verified
 2026-11-04T12:31:32Z,Kitting,KIT05,info,PLC,Product present at infeed - auto restart
 2026-11-04T12:32:59Z,Coating,COT02,info,HMI,Jam cleared - guards closed
 2026-11-04T12:33:45Z,Kitting,KIT07,info,MES,Operator J.Alvarez signed in at station 1
