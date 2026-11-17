@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,6577,214,96.85,64.47,Down,Starved - Upstream,10
-Assembly,ASM02,5832,226,96.27,64.8,Running,,0
-Assembly,ASM05,5797,151,97.46,60.39,Running,,0
-Molding,MLD03,2947,72,97.62,35.08,Down,Change Over - Line clearance,17
-Molding,MLD04,6700,105,98.46,67.68,Running,,0
-Molding,MLD05,4040,195,95.4,46.43,Running,,0
-Molding,MLD06,2906,153,95.0,53.81,Down,Change Over - Line clearance,43
-Molding,MLD07,2785,103,96.43,35.71,Running,,0
-Coating,COT01,3690,107,97.18,51.24,Running,,0
-Coating,COT02,4900,132,97.38,51.03,Down,Quality Hold,25
-Coating,COT03,4388,88,98.03,48.77,Running,,0
-Packaging,PKG04,4499,235,95.04,49.98,Running,,0
-Packaging,PKG05,2791,419,86.95,35.78,Running,,0
-Packaging,PKG06,5009,472,91.39,53.86,Running,,0
-Packaging,PKG07,2990,333,89.98,41.52,Running,,0
-Packaging,PKG08,5556,595,90.33,57.88,Running,,0
-Kitting,KIT03,5303,90,98.33,58.92,Running,,0
-Kitting,KIT04,6367,73,98.87,64.32,Running,,0
-Kitting,KIT05,2361,48,98.01,27.14,Down,Change Over - Line clearance,51
-Kitting,KIT07,5577,41,99.27,61.96,Running,,0
-Kitting,KIT08,5236,55,98.96,56.3,Down,Jam,11
+Assembly,ASM01,17701,563,96.92,65.07,Running,,0
+Assembly,ASM02,9061,379,95.99,50.34,Down,Scheduled Downtime,181
+Assembly,ASM05,16467,444,97.37,64.33,Running,,0
+Molding,MLD03,9072,192,97.93,40.5,Running,,0
+Molding,MLD04,17414,252,98.57,65.96,Running,,0
+Molding,MLD05,9916,554,94.71,42.74,Down,Starved - Upstream,2
+Molding,MLD06,9149,516,94.66,48.41,Running,,0
+Molding,MLD07,3206,124,96.28,30.83,Down,Jam,263
+Coating,COT01,8654,246,97.24,45.07,Down,Change Over - Line clearance,21
+Coating,COT02,13313,355,97.4,52.0,Down,Quality Hold,4
+Coating,COT03,11830,320,97.37,49.3,Running,,0
+Packaging,PKG04,10890,632,94.51,45.38,Down,Starved - Upstream,2
+Packaging,PKG05,6943,1026,87.13,38.15,Down,No Operator,7
+Packaging,PKG06,11560,1030,91.82,46.61,Down,Change Over - Line clearance,61
+Packaging,PKG07,5682,618,90.19,33.82,Down,Scheduled Downtime,103
+Packaging,PKG08,14787,1640,90.02,57.76,Running,,0
+Kitting,KIT03,12209,207,98.33,58.14,Running,,0
+Kitting,KIT04,17558,294,98.35,66.51,Running,,0
+Kitting,KIT05,8541,291,96.71,42.08,Running,,0
+Kitting,KIT07,9569,82,99.15,53.16,Running,,0
+Kitting,KIT08,13692,184,98.67,55.21,Running,,0
