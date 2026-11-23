@@ -1,22 +1,22 @@
 ts,factory,line,state,reason,duration_min
-2026-11-23T03:03:43Z,Assembly,ASM01,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Assembly,ASM02,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Assembly,ASM05,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Molding,MLD03,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Molding,MLD04,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Molding,MLD05,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Molding,MLD06,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Molding,MLD07,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Coating,COT01,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Coating,COT02,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Coating,COT03,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Packaging,PKG04,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Packaging,PKG05,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Packaging,PKG06,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Packaging,PKG07,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Packaging,PKG08,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Kitting,KIT03,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Kitting,KIT04,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Kitting,KIT05,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Kitting,KIT07,Down,Outside production hours,1384
-2026-11-23T03:03:43Z,Kitting,KIT08,Down,Outside production hours,1384
+2026-11-23T12:19:46Z,Assembly,ASM01,Running,,0
+2026-11-23T12:19:46Z,Assembly,ASM02,Running,,0
+2026-11-23T12:19:46Z,Assembly,ASM05,Running,,0
+2026-11-23T12:19:46Z,Molding,MLD03,Running,,0
+2026-11-23T12:19:46Z,Molding,MLD04,Down,Quality Hold,12
+2026-11-23T12:19:46Z,Molding,MLD05,Down,Jam,8
+2026-11-23T12:19:46Z,Molding,MLD06,Running,,0
+2026-11-23T12:19:46Z,Molding,MLD07,Down,Scheduled Downtime,43
+2026-11-23T12:19:46Z,Coating,COT01,Running,,0
+2026-11-23T12:19:46Z,Coating,COT02,Running,,0
+2026-11-23T12:19:46Z,Coating,COT03,Running,,0
+2026-11-23T12:19:46Z,Packaging,PKG04,Down,Blocked - Downstream,6
+2026-11-23T12:19:46Z,Packaging,PKG05,Down,Quality Hold,14
+2026-11-23T12:19:46Z,Packaging,PKG06,Running,,0
+2026-11-23T12:19:46Z,Packaging,PKG07,Running,,0
+2026-11-23T12:19:46Z,Packaging,PKG08,Running,,0
+2026-11-23T12:19:46Z,Kitting,KIT03,Running,,0
+2026-11-23T12:19:46Z,Kitting,KIT04,Down,Jam,4
+2026-11-23T12:19:46Z,Kitting,KIT05,Running,,0
+2026-11-23T12:19:46Z,Kitting,KIT07,Down,Scheduled Downtime,1
+2026-11-23T12:19:46Z,Kitting,KIT08,Down,No Operator,8
