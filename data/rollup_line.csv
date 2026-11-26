@@ -1,22 +1,22 @@
 factory,line,pass,fail,yield_pct,oee_pct,state,reason,duration_min
-Assembly,ASM01,4431,130,97.15,43.44,Down,Change Over - Line clearance,62
-Assembly,ASM02,5816,181,96.98,64.62,Running,,0
-Assembly,ASM05,5694,141,97.58,59.31,Running,,0
-Molding,MLD03,4490,118,97.44,53.46,Running,,0
-Molding,MLD04,5166,21,99.6,52.18,Running,,0
-Molding,MLD05,2659,175,93.82,30.56,Down,Scheduled Downtime,13
-Molding,MLD06,3608,180,95.25,44.54,Down,Jam,17
-Molding,MLD07,1314,55,95.98,50.52,Down,Quality Hold,83
-Coating,COT01,2227,78,96.62,30.93,Down,Blocked - Downstream,8
-Coating,COT02,4853,115,97.69,50.55,Down,Change Over - Line clearance,4
-Coating,COT03,5361,118,97.85,59.57,Running,,0
-Packaging,PKG04,4176,228,94.82,46.4,Running,,0
-Packaging,PKG05,2001,300,86.96,25.65,Running,,0
-Packaging,PKG06,4699,437,91.49,50.54,Running,,0
-Packaging,PKG07,1708,179,90.51,23.71,Running,,0
-Packaging,PKG08,5404,615,89.78,56.29,Running,,0
-Kitting,KIT03,5834,117,98.03,64.83,Running,,0
-Kitting,KIT04,6467,111,98.31,65.33,Running,,0
-Kitting,KIT05,1488,20,98.67,25.65,Down,Scheduled Downtime,19
-Kitting,KIT07,6049,46,99.25,67.21,Running,,0
-Kitting,KIT08,4963,93,98.16,53.37,Down,No Operator,5
+Assembly,ASM01,6590,223,96.73,48.46,Running,,0
+Assembly,ASM02,6558,208,96.93,54.65,Down,Scheduled Downtime,10
+Assembly,ASM05,5694,141,97.58,59.31,Down,Scheduled Downtime,37
+Molding,MLD03,5079,135,97.41,45.35,Down,Change Over - Line clearance,57
+Molding,MLD04,5668,33,99.42,42.94,Down,Change Over - Line clearance,64
+Molding,MLD05,2767,182,93.83,23.85,Down,Scheduled Downtime,84
+Molding,MLD06,4910,232,95.49,45.46,Running,,0
+Molding,MLD07,1314,55,95.98,50.52,Down,Quality Hold,154
+Coating,COT01,3223,108,96.76,33.57,Running,,0
+Coating,COT02,6379,173,97.36,49.83,Running,,0
+Coating,COT03,6641,159,97.66,55.34,Down,Quality Hold,17
+Packaging,PKG04,5508,302,94.8,45.9,Down,Jam,8
+Packaging,PKG05,3002,450,86.96,28.86,Running,,0
+Packaging,PKG06,4699,437,91.49,50.54,Down,Scheduled Downtime,57
+Packaging,PKG07,2438,246,90.83,25.39,Down,No Operator,1
+Packaging,PKG08,7533,853,89.83,58.85,Running,,0
+Kitting,KIT03,8036,151,98.16,66.97,Running,,0
+Kitting,KIT04,8630,149,98.3,65.39,Running,,0
+Kitting,KIT05,1904,32,98.35,21.88,Down,Scheduled Downtime,90
+Kitting,KIT07,6049,46,99.25,67.21,Down,Scheduled Downtime,29
+Kitting,KIT08,7064,136,98.11,56.98,Running,,0
